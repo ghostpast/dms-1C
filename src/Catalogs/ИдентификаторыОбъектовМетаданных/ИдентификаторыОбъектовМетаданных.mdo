@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9fb8a22c-9dbb-46ae-9f06-cab805b011b2">
+  <producedTypes>
+    <objectType typeId="6c121fe9-1d35-48df-bc9d-05e2c70d228c" valueTypeId="d485cf92-1214-46c1-b5ba-c040c45a5f05"/>
+    <refType typeId="24c9d683-2c25-4358-8f1a-3c9946d57dd0" valueTypeId="97bbab05-c775-435b-94b2-549b34401a30"/>
+    <selectionType typeId="a61de46d-46b3-4274-b974-163c569c8ac0" valueTypeId="ae44a300-25a5-40a5-acda-46a7f1a64ac2"/>
+    <listType typeId="74c9d9dd-a925-498b-bea5-3555f2951500" valueTypeId="2a0e32df-291e-481a-b2d1-95fc9ff94814"/>
+    <managerType typeId="3222a777-2c1a-481a-9d69-a05af68dfb2f" valueTypeId="3dce1989-4e8e-4ebd-b679-ec8b16401b8f"/>
+  </producedTypes>
+  <name>ИдентификаторыОбъектовМетаданных</name>
+  <synonym>
+    <key>ru</key>
+    <value>Идентификаторы объектов метаданных</value>
+  </synonym>
+  <inputByString>Catalog.ИдентификаторыОбъектовМетаданных.StandardAttribute.Description</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>Use</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Идентификатор объекта метаданных</value>
+  </objectPresentation>
+  <explanation>
+    <key>ru</key>
+    <value>Идентификаторы объектов метаданных для использования в информационной базе.</value>
+  </explanation>
+  <hierarchical>true</hierarchical>
+  <hierarchyType>HierarchyOfItems</hierarchyType>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <descriptionLength>150</descriptionLength>
+  <codeType>String</codeType>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <predefinedDataUpdate>DontAutoUpdate</predefinedDataUpdate>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+</mdclass:Catalog>

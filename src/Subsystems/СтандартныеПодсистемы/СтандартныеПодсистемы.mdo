@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e126d6d7-9ef7-4944-82b5-d8ed2b44a838">
+  <name>СтандартныеПодсистемы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Стандартные подсистемы</value>
+  </synonym>
+  <subsystems>БазоваяПодсистема</subsystems>
+</mdclass:Subsystem>

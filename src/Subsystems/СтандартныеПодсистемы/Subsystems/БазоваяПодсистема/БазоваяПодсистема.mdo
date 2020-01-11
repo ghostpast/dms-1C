@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b31699ad-f7ab-4861-b455-6f1f79a7feed">
+  <name>БазоваяПодсистема</name>
+  <synonym>
+    <key>ru</key>
+    <value>Базовая подсистема</value>
+  </synonym>
+  <content>CommonModule.БазоваяПодсистемаКлиент</content>
+  <content>CommonModule.БазоваяПодсистемаКлиентСервер</content>
+  <content>CommonModule.БазоваяПодсистемаВызовСервера</content>
+  <content>SessionParameter.ПараметрыКлиентаНаСервере</content>
+  <content>CommonModule.БазоваяПодсистемаСервер</content>
+  <content>CommonForm.ПустойРабочийСтол</content>
+  <content>CommonPicture.Ошибка32</content>
+  <content>InformationRegister.БезопасноеХранилищеДанных</content>
+  <content>CommonModule.БазоваяПодсистемаКлиентГлобальный</content>
+  <content>CommonPicture.Предупреждение32</content>
+  <content>CommonPicture.Вопрос32</content>
+  <content>CommonForm.Вопрос</content>
+  <content>CommonModule.ИнтеграцияПодсистемКлиент</content>
+  <content>Catalog.ИдентификаторыОбъектовМетаданных</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

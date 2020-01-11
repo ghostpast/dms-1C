@@ -30,4 +30,19 @@
     </synonym>
     <languageCode>ru</languageCode>
   </languages>
+  <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
+  <commonPictures>CommonPicture.Вопрос32</commonPictures>
+  <commonPictures>CommonPicture.Ошибка32</commonPictures>
+  <commonPictures>CommonPicture.Предупреждение32</commonPictures>
+  <sessionParameters>SessionParameter.ПараметрыКлиентаНаСервере</sessionParameters>
+  <commonModules>CommonModule.БазоваяПодсистемаВызовСервера</commonModules>
+  <commonModules>CommonModule.БазоваяПодсистемаКлиент</commonModules>
+  <commonModules>CommonModule.БазоваяПодсистемаКлиентГлобальный</commonModules>
+  <commonModules>CommonModule.БазоваяПодсистемаКлиентСервер</commonModules>
+  <commonModules>CommonModule.БазоваяПодсистемаСервер</commonModules>
+  <commonModules>CommonModule.ИнтеграцияПодсистемКлиент</commonModules>
+  <commonForms>CommonForm.Вопрос</commonForms>
+  <commonForms>CommonForm.ПустойРабочийСтол</commonForms>
+  <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
+  <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
 </mdclass:Configuration>
