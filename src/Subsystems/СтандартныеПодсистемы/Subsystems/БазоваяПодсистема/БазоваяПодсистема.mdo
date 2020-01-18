@@ -30,5 +30,8 @@
   <content>CommonPicture.ЗавершитьРаботу</content>
   <content>CommonCommand.ПредупрежденияПриЗавершенииРаботы</content>
   <content>CommonForm.ПредупрежденияПриЗавершенииРаботы</content>
+  <content>SessionParameter.КлючДанныхПовторногоИспользования</content>
+  <content>SessionParameter.БуферОбмена</content>
+  <content>Catalog.ВерсииРасширений</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

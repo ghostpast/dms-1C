@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b14c780c-a930-4f97-ba86-ad62f4fdf6c8">
+  <name>КлючДанныхПовторногоИспользования</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ключ данных повторного использования</value>
+  </synonym>
+  <type>
+    <types>UUID</types>
+  </type>
+</mdclass:SessionParameter>

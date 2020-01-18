@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Catalog xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1448da1d-f213-4b5f-b59b-f83f6c76fa76">
+  <producedTypes>
+    <objectType typeId="a6b78bba-eecf-4dda-8ffb-e97c135b2619" valueTypeId="2c1a8518-73ff-41d3-850e-aa7b3c853d8e"/>
+    <refType typeId="fb2945d8-80df-4885-9f82-446eaac4d2f9" valueTypeId="cb33b016-def4-4d60-b3d6-8ade998375f5"/>
+    <selectionType typeId="9e71e8a0-07c2-4e13-b59a-8b5e7a75692d" valueTypeId="93b4a1b6-0f8b-4b8a-a407-8f3a61ae8573"/>
+    <listType typeId="1ea95828-f627-4d90-9e1a-52c441e643ad" valueTypeId="57c4e428-0dfd-482a-af9a-70aa292614bb"/>
+    <managerType typeId="fbef7e88-1434-44ae-83a7-c65ef8a2f40b" valueTypeId="013d05cc-8bc0-4d07-9726-4c9fcb805f8c"/>
+  </producedTypes>
+  <name>ВерсииРасширений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версии расширений</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <inputByString>Catalog.ВерсииРасширений.StandardAttribute.Code</inputByString>
+  <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
+  <createOnInput>DontUse</createOnInput>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <fullTextSearch>Use</fullTextSearch>
+  <objectPresentation>
+    <key>ru</key>
+    <value>Версия расширений</value>
+  </objectPresentation>
+  <levelCount>2</levelCount>
+  <foldersOnTop>true</foldersOnTop>
+  <codeLength>9</codeLength>
+  <codeAllowedLength>Variable</codeAllowedLength>
+  <checkUnique>true</checkUnique>
+  <autonumbering>true</autonumbering>
+  <defaultPresentation>AsDescription</defaultPresentation>
+  <editType>InDialog</editType>
+  <choiceMode>BothWays</choiceMode>
+  <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
+</mdclass:Catalog>
