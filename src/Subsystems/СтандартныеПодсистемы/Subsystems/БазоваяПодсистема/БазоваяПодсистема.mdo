@@ -27,5 +27,8 @@
   <content>Constant.ОсновнойЯзык</content>
   <content>CommonModule.ИнтеграцияПодсистемСервер</content>
   <content>DataProcessor.РекомендацияПоПовышениюСкоростиРаботы</content>
+  <content>CommonPicture.ЗавершитьРаботу</content>
+  <content>CommonCommand.ПредупрежденияПриЗавершенииРаботы</content>
+  <content>CommonForm.ПредупрежденияПриЗавершенииРаботы</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

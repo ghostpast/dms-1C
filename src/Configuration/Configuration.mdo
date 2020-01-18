@@ -32,6 +32,7 @@
   </languages>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
   <commonPictures>CommonPicture.Вопрос32</commonPictures>
+  <commonPictures>CommonPicture.ЗавершитьРаботу</commonPictures>
   <commonPictures>CommonPicture.Ошибка32</commonPictures>
   <commonPictures>CommonPicture.Предупреждение32</commonPictures>
   <sessionParameters>SessionParameter.ОсновнойЯзык</sessionParameters>
@@ -45,10 +46,12 @@
   <commonModules>CommonModule.БазоваяПодсистемаСерверПовтИсп</commonModules>
   <commonModules>CommonModule.ИнтеграцияПодсистемКлиент</commonModules>
   <commonModules>CommonModule.ИнтеграцияПодсистемСервер</commonModules>
+  <commonCommands>CommonCommand.ПредупрежденияПриЗавершенииРаботы</commonCommands>
   <constants>Constant.ГлавныйУзел</constants>
   <constants>Constant.ЗаголовокСистемы</constants>
   <constants>Constant.ОсновнойЯзык</constants>
   <commonForms>CommonForm.Вопрос</commonForms>
+  <commonForms>CommonForm.ПредупрежденияПриЗавершенииРаботы</commonForms>
   <commonForms>CommonForm.ПустойРабочийСтол</commonForms>
   <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
   <dataProcessors>DataProcessor.РекомендацияПоПовышениюСкоростиРаботы</dataProcessors>
