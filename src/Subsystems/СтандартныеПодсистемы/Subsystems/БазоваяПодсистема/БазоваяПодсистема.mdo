@@ -19,5 +19,13 @@
   <content>CommonForm.Вопрос</content>
   <content>CommonModule.ИнтеграцияПодсистемКлиент</content>
   <content>Catalog.ИдентификаторыОбъектовМетаданных</content>
+  <content>CommonModule.БазоваяПодсистемаКлиентПовтИсп</content>
+  <content>CommonModule.БазоваяПодсистемаСерверПовтИсп</content>
+  <content>Constant.ГлавныйУзел</content>
+  <content>SessionParameter.ОсновнойЯзык</content>
+  <content>Constant.ЗаголовокСистемы</content>
+  <content>Constant.ОсновнойЯзык</content>
+  <content>CommonModule.ИнтеграцияПодсистемСервер</content>
+  <content>DataProcessor.РекомендацияПоПовышениюСкоростиРаботы</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

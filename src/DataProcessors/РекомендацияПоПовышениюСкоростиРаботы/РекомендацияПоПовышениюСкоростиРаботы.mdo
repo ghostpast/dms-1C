@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="77edb6ea-aa04-469d-ac9c-deee868285d4">
+  <producedTypes>
+    <objectType typeId="4b5f655e-c8bc-4a8f-ac05-55937a6d8ef4" valueTypeId="b52db20c-8e65-4e7c-b82f-231cac90861d"/>
+    <managerType typeId="140cad1e-1f66-49d2-9d38-ed78327294c6" valueTypeId="c8d9cf3e-9fc1-467a-aabc-65cca27167b1"/>
+  </producedTypes>
+  <name>РекомендацияПоПовышениюСкоростиРаботы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Рекомендация по повышению скорости работы</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+</mdclass:DataProcessor>

@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="de462579-e6ce-4f37-bfd8-2b301364165d">
+  <producedTypes>
+    <managerType typeId="d1eff069-a307-47a5-83ce-213518f39cdd" valueTypeId="af82ff7e-2125-44bf-963b-91eab9bc48b4"/>
+    <valueManagerType typeId="521dea09-510e-48ab-a3b3-eeacfebf7722" valueTypeId="52328c2d-9e16-45c5-b05e-06a0c9e79958"/>
+    <valueKeyType typeId="8daf0c15-9fca-4e38-8665-bafd10e84c4a" valueTypeId="24474ea1-6618-4b32-ba50-bb82babcd2de"/>
+  </producedTypes>
+  <name>ОсновнойЯзык</name>
+  <synonym>
+    <key>ru</key>
+    <value>Основной язык</value>
+  </synonym>
+  <type>
+    <types>String</types>
+    <stringQualifiers>
+      <length>10</length>
+    </stringQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

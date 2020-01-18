@@ -34,15 +34,23 @@
   <commonPictures>CommonPicture.Вопрос32</commonPictures>
   <commonPictures>CommonPicture.Ошибка32</commonPictures>
   <commonPictures>CommonPicture.Предупреждение32</commonPictures>
+  <sessionParameters>SessionParameter.ОсновнойЯзык</sessionParameters>
   <sessionParameters>SessionParameter.ПараметрыКлиентаНаСервере</sessionParameters>
   <commonModules>CommonModule.БазоваяПодсистемаВызовСервера</commonModules>
   <commonModules>CommonModule.БазоваяПодсистемаКлиент</commonModules>
   <commonModules>CommonModule.БазоваяПодсистемаКлиентГлобальный</commonModules>
+  <commonModules>CommonModule.БазоваяПодсистемаКлиентПовтИсп</commonModules>
   <commonModules>CommonModule.БазоваяПодсистемаКлиентСервер</commonModules>
   <commonModules>CommonModule.БазоваяПодсистемаСервер</commonModules>
+  <commonModules>CommonModule.БазоваяПодсистемаСерверПовтИсп</commonModules>
   <commonModules>CommonModule.ИнтеграцияПодсистемКлиент</commonModules>
+  <commonModules>CommonModule.ИнтеграцияПодсистемСервер</commonModules>
+  <constants>Constant.ГлавныйУзел</constants>
+  <constants>Constant.ЗаголовокСистемы</constants>
+  <constants>Constant.ОсновнойЯзык</constants>
   <commonForms>CommonForm.Вопрос</commonForms>
   <commonForms>CommonForm.ПустойРабочийСтол</commonForms>
   <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
+  <dataProcessors>DataProcessor.РекомендацияПоПовышениюСкоростиРаботы</dataProcessors>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
 </mdclass:Configuration>
