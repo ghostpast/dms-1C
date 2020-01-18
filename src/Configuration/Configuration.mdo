@@ -36,9 +36,12 @@
   <commonPictures>CommonPicture.Ошибка32</commonPictures>
   <commonPictures>CommonPicture.Предупреждение32</commonPictures>
   <sessionParameters>SessionParameter.БуферОбмена</sessionParameters>
+  <sessionParameters>SessionParameter.ВерсияРасширений</sessionParameters>
+  <sessionParameters>SessionParameter.ПодключенныеРасширения</sessionParameters>
   <sessionParameters>SessionParameter.КлючДанныхПовторногоИспользования</sessionParameters>
   <sessionParameters>SessionParameter.ОсновнойЯзык</sessionParameters>
   <sessionParameters>SessionParameter.ПараметрыКлиентаНаСервере</sessionParameters>
+  <sessionParameters>SessionParameter.УстановленныеРасширения</sessionParameters>
   <commonModules>CommonModule.БазоваяПодсистемаВызовСервера</commonModules>
   <commonModules>CommonModule.БазоваяПодсистемаКлиент</commonModules>
   <commonModules>CommonModule.БазоваяПодсистемаКлиентГлобальный</commonModules>
@@ -59,4 +62,6 @@
   <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
   <dataProcessors>DataProcessor.РекомендацияПоПовышениюСкоростиРаботы</dataProcessors>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
+  <informationRegisters>InformationRegister.СеансыВерсийРасширений</informationRegisters>
+  <informationRegisters>InformationRegister.ПараметрыРаботыПрограммы</informationRegisters>
 </mdclass:Configuration>

@@ -33,5 +33,10 @@
   <content>SessionParameter.КлючДанныхПовторногоИспользования</content>
   <content>SessionParameter.БуферОбмена</content>
   <content>Catalog.ВерсииРасширений</content>
+  <content>SessionParameter.УстановленныеРасширения</content>
+  <content>SessionParameter.ПодключенныеРасширения</content>
+  <content>SessionParameter.ВерсияРасширений</content>
+  <content>InformationRegister.СеансыВерсийРасширений</content>
+  <content>InformationRegister.ПараметрыРаботыПрограммы</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

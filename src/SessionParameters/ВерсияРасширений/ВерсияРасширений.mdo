@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="82303c7a-e833-4c5b-b523-5d2fe3413dc7">
+  <name>ВерсияРасширений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Версия расширений</value>
+  </synonym>
+  <type>
+    <types>CatalogRef.ВерсииРасширений</types>
+  </type>
+</mdclass:SessionParameter>
