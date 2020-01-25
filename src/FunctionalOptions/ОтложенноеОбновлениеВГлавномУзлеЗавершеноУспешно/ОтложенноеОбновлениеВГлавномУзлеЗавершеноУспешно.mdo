@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="254a0b91-e9e0-4d32-94e6-dcc2b5cb6de8">
+  <name>ОтложенноеОбновлениеВГлавномУзлеЗавершеноУспешно</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отложенное обновление в главном узле завершено успешно</value>
+  </synonym>
+  <location>Constant.ОтложенноеОбновлениеВГлавномУзлеЗавершеноУспешно</location>
+  <privilegedGetMode>true</privilegedGetMode>
+</mdclass:FunctionalOption>

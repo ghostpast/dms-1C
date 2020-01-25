@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SessionParameter xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b83b2d56-8146-418e-9a35-0f685ab397f2">
+  <name>ПараметрыОбработчикаОбновления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Параметры обработчика обновления</value>
+  </synonym>
+  <type>
+    <types>FixedStructure</types>
+  </type>
+</mdclass:SessionParameter>

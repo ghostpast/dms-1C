@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1329ba0-5bfd-453e-9975-eb204cefaf69">
+  <producedTypes>
+    <managerType typeId="183d8f58-095e-40b3-aba3-62e360ccf2ee" valueTypeId="13c2bdc9-a982-4c1d-beba-ca3dabe45c30"/>
+    <valueManagerType typeId="3d68f767-a854-4e44-ba00-614c531fbc5c" valueTypeId="86b3ad3a-d51f-4854-a3ab-af3b7f4578b1"/>
+    <valueKeyType typeId="c1d640c5-2b17-486b-b7f9-116c12b277d7" valueTypeId="be58b630-34c0-46bb-afc4-529399a59c26"/>
+  </producedTypes>
+  <name>СведенияОбОбновленииИБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сведения об обновлении информационной базы</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <toolTip>
+    <key>ru</key>
+    <value>Содержит информацию об основном и отложенном циклах обновления.</value>
+  </toolTip>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

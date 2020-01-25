@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="12ec53de-7cfb-4b78-988f-98e52d86277f">
+  <producedTypes>
+    <managerType typeId="d4e4fe52-0ae6-42c5-99d5-9d381772a8ad" valueTypeId="6105aa9f-fecc-4903-83b5-905c00383b05"/>
+    <valueManagerType typeId="a85eb442-1ad3-425a-8ba7-bc10e8fb42c3" valueTypeId="528c0059-db73-4f6b-8717-cc1bd2ea5507"/>
+    <valueKeyType typeId="e8f28bb5-960b-4947-833a-276ec0e6a4f8" valueTypeId="19b21268-181f-4398-bbd9-479e8e86c3af"/>
+  </producedTypes>
+  <name>РаботаВМоделиСервиса</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа в модели сервиса</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

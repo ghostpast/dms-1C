@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2c3a1ace-8027-48b1-94af-33e0dbdea4a4">
+  <producedTypes>
+    <managerType typeId="ff6a431c-ae90-483f-bf17-e76890c2cc70" valueTypeId="391c25c6-6622-4f47-89ee-02621a87a38a"/>
+    <valueManagerType typeId="11a0d7ad-51c9-49a6-be71-45c8209462b6" valueTypeId="ca5e7a02-5f71-41e1-a524-79e7a47d3db2"/>
+    <valueKeyType typeId="d6199b06-5df2-4def-b960-c15dbb5c713a" valueTypeId="9c6cf87d-7741-4161-845a-294a1456cb62"/>
+  </producedTypes>
+  <name>РаботаВАвтономномРежиме</name>
+  <synonym>
+    <key>ru</key>
+    <value>Работа в автономном режиме</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

@@ -6,4 +6,5 @@
     <value>Стандартные подсистемы</value>
   </synonym>
   <subsystems>БазоваяПодсистема</subsystems>
+  <subsystems>ОбновлениеВерсииИБ</subsystems>
 </mdclass:Subsystem>

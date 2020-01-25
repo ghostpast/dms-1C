@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b19fc723-3503-4c3c-8c3c-48837ad616ae">
+  <producedTypes>
+    <managerType typeId="a7da2459-26ff-4587-b6a5-c02e0377f046" valueTypeId="2b88c2d8-8efa-4abe-a2d9-fbafca860040"/>
+    <valueManagerType typeId="c850690b-78f3-49d9-83da-2e741a3e9688" valueTypeId="817923cd-2d72-46b0-aa7e-c142df5fc0c7"/>
+    <valueKeyType typeId="a93dc94e-2444-4c44-b8ff-2f2c4b808871" valueTypeId="1bb7dc89-163d-48a0-af18-7acc8d7c4c0d"/>
+  </producedTypes>
+  <name>СведенияОБлокируемыхОбъектах</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сведения о блокируемых объектах</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

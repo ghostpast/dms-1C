@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f20e2b07-56f5-4696-9bcd-c0ebe69531a6">
+  <name>ОбновлениеВерсииИБ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновление версии информационной базы</value>
+  </synonym>
+  <content>CommonModule.ОбновлениеВерсииИБКлиент</content>
+  <content>CommonModule.ОбновлениеВерсииИБКлиентГлобальный</content>
+  <content>DataProcessor.РезультатыОбновленияПрограммы</content>
+  <content>CommonModule.ОбновлениеВерсииИБСервер</content>
+  <content>Constant.СведенияОбОбновленииИБ</content>
+  <content>ExchangePlan.ОбновлениеИнформационнойБазы</content>
+  <content>InformationRegister.ДанныеОбработанныеВЦентральномУзлеРИБ</content>
+  <content>Constant.КоличествоПотоковОбновленияИнформационнойБазы</content>
+  <content>Constant.ОтложенноеОбновлениеВГлавномУзлеЗавершеноУспешно</content>
+  <content>Constant.СведенияОБлокируемыхОбъектах</content>
+  <content>Constant.ОтложенноеОбновлениеЗавершеноУспешно</content>
+  <content>Constant.ДетализироватьОбновлениеИБВЖурналеРегистрации</content>
+  <content>FunctionalOption.ОтложенноеОбновлениеЗавершеноУспешно</content>
+  <content>FunctionalOption.ОтложенноеОбновлениеВГлавномУзлеЗавершеноУспешно</content>
+  <content>SessionParameter.ПараметрыОбработчикаОбновления</content>
+  <content>CommonModule.ОбновлениеВерсииИБСерверПовтИсп</content>
+  <content>InformationRegister.ВерсииПодсистем</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

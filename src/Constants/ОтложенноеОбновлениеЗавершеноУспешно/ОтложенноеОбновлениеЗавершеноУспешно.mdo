@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3e2c00e4-0fad-4237-9262-973b96c8feba">
+  <producedTypes>
+    <managerType typeId="bffdb39f-20ff-4daa-9d78-f109d6590076" valueTypeId="d94be758-ff0f-4dbf-ab21-7fa30db71c4f"/>
+    <valueManagerType typeId="35f194df-5e6a-4507-9848-de10d5ee0660" valueTypeId="7c5ab6a8-f48e-4979-9b9c-a58b904b2dbf"/>
+    <valueKeyType typeId="5fe13ffb-5b6b-43b5-9c0e-b66fa4085ac8" valueTypeId="087c75bf-f7c4-4eb3-bbb7-ad17b751c1e9"/>
+  </producedTypes>
+  <name>ОтложенноеОбновлениеЗавершеноУспешно</name>
+  <synonym>
+    <key>ru</key>
+    <value>Отложенное обновление завершено успешно</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

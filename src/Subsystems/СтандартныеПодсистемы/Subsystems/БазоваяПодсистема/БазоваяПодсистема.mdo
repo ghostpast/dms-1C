@@ -38,5 +38,11 @@
   <content>SessionParameter.ВерсияРасширений</content>
   <content>InformationRegister.СеансыВерсийРасширений</content>
   <content>InformationRegister.ПараметрыРаботыПрограммы</content>
+  <content>CommonPicture.Успешно32</content>
+  <content>CommonPicture.ДлительнаяОперация48</content>
+  <content>CommonForm.ВопросОбУстановкеРасширенияРаботыСФайлами</content>
+  <content>Constant.РаботаВМоделиСервиса</content>
+  <content>Constant.РаботаВЛокальномРежиме</content>
+  <content>Constant.РаботаВАвтономномРежиме</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="698bea93-d40c-4f44-bc62-7a873d185d6b">
+  <producedTypes>
+    <managerType typeId="3a4c45ff-7a02-420a-add9-2c2112914f03" valueTypeId="02dc0c40-cd10-42fe-9897-881025d77320"/>
+    <valueManagerType typeId="763356dc-0043-41a8-b623-f458c033f644" valueTypeId="c7fcd9db-ee8b-4fa1-9595-0559eea54be8"/>
+    <valueKeyType typeId="58d2091c-4d8d-4309-9672-21b028c8aad4" valueTypeId="83866080-08ec-4d3d-bd91-29375e715fcc"/>
+  </producedTypes>
+  <name>КоличествоПотоковОбновленияИнформационнойБазы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Количество потоков обновления информационной базы</value>
+  </synonym>
+  <type>
+    <types>Number</types>
+    <numberQualifiers>
+      <precision>5</precision>
+      <nonNegative>true</nonNegative>
+    </numberQualifiers>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
