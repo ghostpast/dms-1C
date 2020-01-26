@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a6617cac-2693-41af-8a03-9c266196b277">
+  <producedTypes>
+    <managerType typeId="3fc1794c-7c32-4fc5-b097-b2f8be3baf0d" valueTypeId="1fe483c2-5091-43d3-8b67-62a563f23a47"/>
+    <valueManagerType typeId="11488419-0cc8-4a33-bcb1-62667b3bb402" valueTypeId="10ac26a9-4086-4367-9394-7af1072839d5"/>
+    <valueKeyType typeId="1b9c897b-7a54-4260-b8b4-5eed3ac2de3a" valueTypeId="61c7f6d9-3adf-47be-8daa-10a8e261cb1e"/>
+  </producedTypes>
+  <name>НастройкиВходаПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки входа пользователей</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>

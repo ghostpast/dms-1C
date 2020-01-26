@@ -6,4 +6,6 @@
     <value>Обновление версии информационной базы сервер повт исп</value>
   </synonym>
   <server>true</server>
+  <externalConnection>true</externalConnection>
+  <returnValuesReuse>DuringSession</returnValuesReuse>
 </mdclass:CommonModule>

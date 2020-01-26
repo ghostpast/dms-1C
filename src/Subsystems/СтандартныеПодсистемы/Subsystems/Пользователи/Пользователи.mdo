@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="18111abc-79cc-45ab-87fb-bbf7caa2b0b9">
+  <name>Пользователи</name>
+  <synonym>
+    <key>ru</key>
+    <value>Пользователи</value>
+  </synonym>
+  <content>CommonModule.ПользователиСервер</content>
+  <content>CommonModule.ПользователиСерверПовтИсп</content>
+  <content>Constant.НастройкиВходаПользователей</content>
+  <content>CommonModule.ПользователиКлиент</content>
+  <content>CommonForm.ВходВПрограммуЗапрещен</content>
+  <content>CommonForm.ПредупреждениеБезопасности</content>
+  <content>Constant.ИспользоватьВнешнихПользователей</content>
+  <content>FunctionalOption.ИспользоватьВнешнихПользователей</content>
+  <content>FunctionalOption.РаботаВАвтономномРежиме</content>
+  <content>FunctionalOption.РаботаВЛокальномРежиме</content>
+  <content>FunctionalOption.РаботаВМоделиСервиса</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

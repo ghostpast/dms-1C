@@ -7,4 +7,5 @@
   </synonym>
   <subsystems>БазоваяПодсистема</subsystems>
   <subsystems>ОбновлениеВерсииИБ</subsystems>
+  <subsystems>Пользователи</subsystems>
 </mdclass:Subsystem>

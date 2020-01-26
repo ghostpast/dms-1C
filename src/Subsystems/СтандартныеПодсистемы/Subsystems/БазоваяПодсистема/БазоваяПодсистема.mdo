@@ -44,5 +44,6 @@
   <content>Constant.РаботаВМоделиСервиса</content>
   <content>Constant.РаботаВЛокальномРежиме</content>
   <content>Constant.РаботаВАвтономномРежиме</content>
+  <content>Constant.ПараметрыАдминистрированияИБ</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

@@ -58,24 +58,36 @@
   <commonModules>CommonModule.ОбновлениеВерсииИБКлиентГлобальный</commonModules>
   <commonModules>CommonModule.ОбновлениеВерсииИБСервер</commonModules>
   <commonModules>CommonModule.ОбновлениеВерсииИБСерверПовтИсп</commonModules>
+  <commonModules>CommonModule.ПользователиКлиент</commonModules>
+  <commonModules>CommonModule.ПользователиСервер</commonModules>
+  <commonModules>CommonModule.ПользователиСерверПовтИсп</commonModules>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
+  <functionalOptions>FunctionalOption.ИспользоватьВнешнихПользователей</functionalOptions>
   <functionalOptions>FunctionalOption.ОтложенноеОбновлениеВГлавномУзлеЗавершеноУспешно</functionalOptions>
   <functionalOptions>FunctionalOption.ОтложенноеОбновлениеЗавершеноУспешно</functionalOptions>
+  <functionalOptions>FunctionalOption.РаботаВАвтономномРежиме</functionalOptions>
+  <functionalOptions>FunctionalOption.РаботаВЛокальномРежиме</functionalOptions>
+  <functionalOptions>FunctionalOption.РаботаВМоделиСервиса</functionalOptions>
   <commonCommands>CommonCommand.ПредупрежденияПриЗавершенииРаботы</commonCommands>
   <constants>Constant.ГлавныйУзел</constants>
   <constants>Constant.ДетализироватьОбновлениеИБВЖурналеРегистрации</constants>
   <constants>Constant.ЗаголовокСистемы</constants>
   <constants>Constant.КоличествоПотоковОбновленияИнформационнойБазы</constants>
+  <constants>Constant.НастройкиВходаПользователей</constants>
+  <constants>Constant.РаботаВАвтономномРежиме</constants>
   <constants>Constant.ОсновнойЯзык</constants>
   <constants>Constant.ОтложенноеОбновлениеВГлавномУзлеЗавершеноУспешно</constants>
   <constants>Constant.ОтложенноеОбновлениеЗавершеноУспешно</constants>
-  <constants>Constant.РаботаВАвтономномРежиме</constants>
-  <constants>Constant.РаботаВМоделиСервиса</constants>
+  <constants>Constant.ПараметрыАдминистрированияИБ</constants>
   <constants>Constant.РаботаВЛокальномРежиме</constants>
+  <constants>Constant.РаботаВМоделиСервиса</constants>
   <constants>Constant.СведенияОБлокируемыхОбъектах</constants>
   <constants>Constant.СведенияОбОбновленииИБ</constants>
+  <constants>Constant.ИспользоватьВнешнихПользователей</constants>
   <commonForms>CommonForm.Вопрос</commonForms>
   <commonForms>CommonForm.ВопросОбУстановкеРасширенияРаботыСФайлами</commonForms>
+  <commonForms>CommonForm.ВходВПрограммуЗапрещен</commonForms>
+  <commonForms>CommonForm.ПредупреждениеБезопасности</commonForms>
   <commonForms>CommonForm.ПредупрежденияПриЗавершенииРаботы</commonForms>
   <commonForms>CommonForm.ПустойРабочийСтол</commonForms>
   <catalogs>Catalog.ВерсииРасширений</catalogs>
