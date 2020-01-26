@@ -34,10 +34,13 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
+  <styleItems>StyleItem.ПоясняющийТекст</styleItems>
   <commonPictures>CommonPicture.Вопрос32</commonPictures>
   <commonPictures>CommonPicture.ДлительнаяОперация48</commonPictures>
   <commonPictures>CommonPicture.ЗавершитьРаботу</commonPictures>
+  <commonPictures>CommonPicture.Информация</commonPictures>
   <commonPictures>CommonPicture.Ошибка32</commonPictures>
+  <commonPictures>CommonPicture.Предупреждение</commonPictures>
   <commonPictures>CommonPicture.Предупреждение32</commonPictures>
   <commonPictures>CommonPicture.Успешно32</commonPictures>
   <sessionParameters>SessionParameter.БуферОбмена</sessionParameters>
@@ -63,8 +66,10 @@
   <roles>Role.ОбновлениеКонфигурацииБазыДанных</roles>
   <roles>Role.ПолныеПрава</roles>
   <roles>Role.ПросмотрЖурналаРегистрации</roles>
+  <roles>Role.ПросмотрОписанияИзмененийПрограммы</roles>
   <roles>Role.РежимВсеФункции</roles>
   <roles>Role.СохранениеДанныхПользователя</roles>
+  <commonTemplates>CommonTemplate.ОписаниеИзмененийСистемы</commonTemplates>
   <commonModules>CommonModule.БазоваяПодсистемаВызовСервера</commonModules>
   <commonModules>CommonModule.БазоваяПодсистемаКлиент</commonModules>
   <commonModules>CommonModule.БазоваяПодсистемаКлиентГлобальный</commonModules>
@@ -107,6 +112,7 @@
   <commonForms>CommonForm.Вопрос</commonForms>
   <commonForms>CommonForm.ВопросОбУстановкеРасширенияРаботыСФайлами</commonForms>
   <commonForms>CommonForm.ВходВПрограммуЗапрещен</commonForms>
+  <commonForms>CommonForm.ОписаниеИзмененийПрограммы</commonForms>
   <commonForms>CommonForm.ПредупреждениеБезопасности</commonForms>
   <commonForms>CommonForm.ПредупрежденияПриЗавершенииРаботы</commonForms>
   <commonForms>CommonForm.ПустойРабочийСтол</commonForms>

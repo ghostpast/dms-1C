@@ -22,5 +22,6 @@
   <content>SessionParameter.ПараметрыОбработчикаОбновления</content>
   <content>CommonModule.ОбновлениеВерсииИБСерверПовтИсп</content>
   <content>InformationRegister.ВерсииПодсистем</content>
+  <content>Role.ПросмотрОписанияИзмененийПрограммы</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

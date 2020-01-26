@@ -62,5 +62,9 @@
   <content>Role.Администрирование</content>
   <content>Role.БазовыеПрава</content>
   <content>Role.БазовыеПраваВнешнихПользователей</content>
+  <content>CommonPicture.Предупреждение</content>
+  <content>CommonPicture.Информация</content>
+  <content>StyleItem.ПоясняющийТекст</content>
+  <content>CommonForm.ОписаниеИзмененийПрограммы</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>
