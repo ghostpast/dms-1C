@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="11b920d3-438a-43db-92fe-5562a1fa77fe">
+  <name>ВыводНаПринтерФайлБуферОбмена</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вывод на принтер, в файл, в буфер обмена</value>
+  </synonym>
+</mdclass:Role>

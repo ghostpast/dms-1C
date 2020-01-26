@@ -45,5 +45,22 @@
   <content>Constant.РаботаВЛокальномРежиме</content>
   <content>Constant.РаботаВАвтономномРежиме</content>
   <content>Constant.ПараметрыАдминистрированияИБ</content>
+  <content>Role.АдминистраторСистемы</content>
+  <content>Role.ПолныеПрава</content>
+  <content>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</content>
+  <content>Role.ЗапускAutomation</content>
+  <content>Role.ВыводНаПринтерФайлБуферОбмена</content>
+  <content>Role.ЗапускВебКлиента</content>
+  <content>Role.ЗапускВнешнегоСоединения</content>
+  <content>Role.ЗапускМобильногоКлиента</content>
+  <content>Role.ЗапускТолстогоКлиента</content>
+  <content>Role.ЗапускТонкогоКлиента</content>
+  <content>Role.ОбновлениеКонфигурацииБазыДанных</content>
+  <content>Role.ПросмотрЖурналаРегистрации</content>
+  <content>Role.РежимВсеФункции</content>
+  <content>Role.СохранениеДанныхПользователя</content>
+  <content>Role.Администрирование</content>
+  <content>Role.БазовыеПрава</content>
+  <content>Role.БазовыеПраваВнешнихПользователей</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

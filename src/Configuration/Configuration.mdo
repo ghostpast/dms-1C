@@ -15,6 +15,9 @@
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
+  <defaultRoles>Role.АдминистраторСистемы</defaultRoles>
+  <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
+  <defaultRoles>Role.ПолныеПрава</defaultRoles>
   <version>1.0.0.1</version>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -45,6 +48,23 @@
   <sessionParameters>SessionParameter.ПараметрыОбработчикаОбновления</sessionParameters>
   <sessionParameters>SessionParameter.ПодключенныеРасширения</sessionParameters>
   <sessionParameters>SessionParameter.УстановленныеРасширения</sessionParameters>
+  <roles>Role.АдминистраторСистемы</roles>
+  <roles>Role.Администрирование</roles>
+  <roles>Role.БазовыеПрава</roles>
+  <roles>Role.БазовыеПраваВнешнихПользователей</roles>
+  <roles>Role.ВыводНаПринтерФайлБуферОбмена</roles>
+  <roles>Role.ЗапускAutomation</roles>
+  <roles>Role.ЗапускВебКлиента</roles>
+  <roles>Role.ЗапускВнешнегоСоединения</roles>
+  <roles>Role.ЗапускМобильногоКлиента</roles>
+  <roles>Role.ЗапускТолстогоКлиента</roles>
+  <roles>Role.ЗапускТонкогоКлиента</roles>
+  <roles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</roles>
+  <roles>Role.ОбновлениеКонфигурацииБазыДанных</roles>
+  <roles>Role.ПолныеПрава</roles>
+  <roles>Role.ПросмотрЖурналаРегистрации</roles>
+  <roles>Role.РежимВсеФункции</roles>
+  <roles>Role.СохранениеДанныхПользователя</roles>
   <commonModules>CommonModule.БазоваяПодсистемаВызовСервера</commonModules>
   <commonModules>CommonModule.БазоваяПодсистемаКлиент</commonModules>
   <commonModules>CommonModule.БазоваяПодсистемаКлиентГлобальный</commonModules>
@@ -72,18 +92,18 @@
   <constants>Constant.ГлавныйУзел</constants>
   <constants>Constant.ДетализироватьОбновлениеИБВЖурналеРегистрации</constants>
   <constants>Constant.ЗаголовокСистемы</constants>
+  <constants>Constant.ИспользоватьВнешнихПользователей</constants>
+  <constants>Constant.ОсновнойЯзык</constants>
   <constants>Constant.КоличествоПотоковОбновленияИнформационнойБазы</constants>
   <constants>Constant.НастройкиВходаПользователей</constants>
-  <constants>Constant.РаботаВАвтономномРежиме</constants>
-  <constants>Constant.ОсновнойЯзык</constants>
   <constants>Constant.ОтложенноеОбновлениеВГлавномУзлеЗавершеноУспешно</constants>
   <constants>Constant.ОтложенноеОбновлениеЗавершеноУспешно</constants>
   <constants>Constant.ПараметрыАдминистрированияИБ</constants>
+  <constants>Constant.РаботаВАвтономномРежиме</constants>
   <constants>Constant.РаботаВЛокальномРежиме</constants>
   <constants>Constant.РаботаВМоделиСервиса</constants>
   <constants>Constant.СведенияОБлокируемыхОбъектах</constants>
   <constants>Constant.СведенияОбОбновленииИБ</constants>
-  <constants>Constant.ИспользоватьВнешнихПользователей</constants>
   <commonForms>CommonForm.Вопрос</commonForms>
   <commonForms>CommonForm.ВопросОбУстановкеРасширенияРаботыСФайлами</commonForms>
   <commonForms>CommonForm.ВходВПрограммуЗапрещен</commonForms>
