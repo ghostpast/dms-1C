@@ -35,5 +35,6 @@
   <content>SessionParameter.АвторизованныйПользователь</content>
   <content>SessionParameter.ТекущийВнешнийПользователь</content>
   <content>SessionParameter.ТекущийПользователь</content>
+  <content>CommonForm.ГруппыПользователей</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>
