@@ -66,5 +66,9 @@
   <content>CommonPicture.Информация</content>
   <content>StyleItem.ПоясняющийТекст</content>
   <content>CommonForm.ОписаниеИзмененийПрограммы</content>
+  <content>StyleItem.ТекстЗапрещеннойЯчейкиЦвет</content>
+  <content>StyleItem.ПоясняющийОшибкуТекст</content>
+  <content>StyleItem.ФонУправляющегоПоля</content>
+  <content>CommonPicture.Информация32</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

@@ -7,4 +7,5 @@
   </synonym>
   <location>Constant.ИспользоватьВнешнихПользователей</location>
   <privilegedGetMode>true</privilegedGetMode>
+  <content>Catalog.ВнешниеПользователи</content>
 </mdclass:FunctionalOption>

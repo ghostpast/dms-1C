@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e0bbe063-7d47-405c-a2f9-6ea7e2fdd6b1">
+  <name>ФонУправляющегоПоля</name>
+  <synonym>
+    <key>ru</key>
+    <value>Фон управляющего поля</value>
+  </synonym>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorDef">
+      <red>255</red>
+      <green>232</green>
+      <blue>179</blue>
+    </value>
+  </value>
+</mdclass:StyleItem>

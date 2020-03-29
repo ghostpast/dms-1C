@@ -16,5 +16,24 @@
   <content>FunctionalOption.РаботаВАвтономномРежиме</content>
   <content>FunctionalOption.РаботаВЛокальномРежиме</content>
   <content>FunctionalOption.РаботаВМоделиСервиса</content>
+  <content>CommonPicture.СостояниеПользователя08</content>
+  <content>Catalog.ВнешниеПользователи</content>
+  <content>CommonModule.ПользователиКлиентСервер</content>
+  <content>DefinedType.ВнешнийПользователь</content>
+  <content>Catalog.ГруппыВнешнихПользователей</content>
+  <content>Catalog.Пользователи</content>
+  <content>Catalog.ГруппыПользователей</content>
+  <content>InformationRegister.СоставыГруппПользователей</content>
+  <content>Role.ЧтениеВнешнихПользователей</content>
+  <content>InformationRegister.СведенияОПользователях</content>
+  <content>Role.ДобавлениеИзменениеВнешнихПользователей</content>
+  <content>Role.ДобавлениеИзменениеПользователей</content>
+  <content>CommonForm.НастройкиВходаПользователей</content>
+  <content>CommonForm.СменаПароля</content>
+  <content>CommonForm.НовыйПароль</content>
+  <content>CommonForm.ВыборТиповПользователей</content>
+  <content>SessionParameter.АвторизованныйПользователь</content>
+  <content>SessionParameter.ТекущийВнешнийПользователь</content>
+  <content>SessionParameter.ТекущийПользователь</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

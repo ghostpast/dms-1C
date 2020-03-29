@@ -34,15 +34,21 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
+  <styleItems>StyleItem.ПоясняющийОшибкуТекст</styleItems>
   <styleItems>StyleItem.ПоясняющийТекст</styleItems>
+  <styleItems>StyleItem.ТекстЗапрещеннойЯчейкиЦвет</styleItems>
+  <styleItems>StyleItem.ФонУправляющегоПоля</styleItems>
   <commonPictures>CommonPicture.Вопрос32</commonPictures>
   <commonPictures>CommonPicture.ДлительнаяОперация48</commonPictures>
   <commonPictures>CommonPicture.ЗавершитьРаботу</commonPictures>
   <commonPictures>CommonPicture.Информация</commonPictures>
+  <commonPictures>CommonPicture.Информация32</commonPictures>
   <commonPictures>CommonPicture.Ошибка32</commonPictures>
   <commonPictures>CommonPicture.Предупреждение</commonPictures>
   <commonPictures>CommonPicture.Предупреждение32</commonPictures>
+  <commonPictures>CommonPicture.СостояниеПользователя08</commonPictures>
   <commonPictures>CommonPicture.Успешно32</commonPictures>
+  <sessionParameters>SessionParameter.АвторизованныйПользователь</sessionParameters>
   <sessionParameters>SessionParameter.БуферОбмена</sessionParameters>
   <sessionParameters>SessionParameter.ВерсияРасширений</sessionParameters>
   <sessionParameters>SessionParameter.КлючДанныхПовторногоИспользования</sessionParameters>
@@ -50,12 +56,16 @@
   <sessionParameters>SessionParameter.ПараметрыКлиентаНаСервере</sessionParameters>
   <sessionParameters>SessionParameter.ПараметрыОбработчикаОбновления</sessionParameters>
   <sessionParameters>SessionParameter.ПодключенныеРасширения</sessionParameters>
+  <sessionParameters>SessionParameter.ТекущийВнешнийПользователь</sessionParameters>
+  <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <sessionParameters>SessionParameter.УстановленныеРасширения</sessionParameters>
   <roles>Role.АдминистраторСистемы</roles>
   <roles>Role.Администрирование</roles>
   <roles>Role.БазовыеПрава</roles>
   <roles>Role.БазовыеПраваВнешнихПользователей</roles>
   <roles>Role.ВыводНаПринтерФайлБуферОбмена</roles>
+  <roles>Role.ДобавлениеИзменениеВнешнихПользователей</roles>
+  <roles>Role.ДобавлениеИзменениеПользователей</roles>
   <roles>Role.ЗапускAutomation</roles>
   <roles>Role.ЗапускВебКлиента</roles>
   <roles>Role.ЗапускВнешнегоСоединения</roles>
@@ -69,6 +79,7 @@
   <roles>Role.ПросмотрОписанияИзмененийПрограммы</roles>
   <roles>Role.РежимВсеФункции</roles>
   <roles>Role.СохранениеДанныхПользователя</roles>
+  <roles>Role.ЧтениеВнешнихПользователей</roles>
   <commonTemplates>CommonTemplate.ОписаниеИзмененийСистемы</commonTemplates>
   <commonModules>CommonModule.БазоваяПодсистемаВызовСервера</commonModules>
   <commonModules>CommonModule.БазоваяПодсистемаКлиент</commonModules>
@@ -84,23 +95,27 @@
   <commonModules>CommonModule.ОбновлениеВерсииИБСервер</commonModules>
   <commonModules>CommonModule.ОбновлениеВерсииИБСерверПовтИсп</commonModules>
   <commonModules>CommonModule.ПользователиКлиент</commonModules>
+  <commonModules>CommonModule.ПользователиКлиентСервер</commonModules>
   <commonModules>CommonModule.ПользователиСервер</commonModules>
   <commonModules>CommonModule.ПользователиСерверПовтИсп</commonModules>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <functionalOptions>FunctionalOption.ИспользоватьВнешнихПользователей</functionalOptions>
+  <functionalOptions>FunctionalOption.ИспользоватьГруппыПользователей</functionalOptions>
   <functionalOptions>FunctionalOption.ОтложенноеОбновлениеВГлавномУзлеЗавершеноУспешно</functionalOptions>
   <functionalOptions>FunctionalOption.ОтложенноеОбновлениеЗавершеноУспешно</functionalOptions>
   <functionalOptions>FunctionalOption.РаботаВАвтономномРежиме</functionalOptions>
   <functionalOptions>FunctionalOption.РаботаВЛокальномРежиме</functionalOptions>
   <functionalOptions>FunctionalOption.РаботаВМоделиСервиса</functionalOptions>
+  <definedTypes>DefinedType.ВнешнийПользователь</definedTypes>
   <commonCommands>CommonCommand.ПредупрежденияПриЗавершенииРаботы</commonCommands>
   <constants>Constant.ГлавныйУзел</constants>
   <constants>Constant.ДетализироватьОбновлениеИБВЖурналеРегистрации</constants>
   <constants>Constant.ЗаголовокСистемы</constants>
   <constants>Constant.ИспользоватьВнешнихПользователей</constants>
-  <constants>Constant.ОсновнойЯзык</constants>
+  <constants>Constant.ИспользоватьГруппыПользователей</constants>
   <constants>Constant.КоличествоПотоковОбновленияИнформационнойБазы</constants>
   <constants>Constant.НастройкиВходаПользователей</constants>
+  <constants>Constant.ОсновнойЯзык</constants>
   <constants>Constant.ОтложенноеОбновлениеВГлавномУзлеЗавершеноУспешно</constants>
   <constants>Constant.ОтложенноеОбновлениеЗавершеноУспешно</constants>
   <constants>Constant.ПараметрыАдминистрированияИБ</constants>
@@ -112,17 +127,27 @@
   <commonForms>CommonForm.Вопрос</commonForms>
   <commonForms>CommonForm.ВопросОбУстановкеРасширенияРаботыСФайлами</commonForms>
   <commonForms>CommonForm.ВходВПрограммуЗапрещен</commonForms>
+  <commonForms>CommonForm.ВыборТиповПользователей</commonForms>
+  <commonForms>CommonForm.НастройкиВходаПользователей</commonForms>
+  <commonForms>CommonForm.НовыйПароль</commonForms>
   <commonForms>CommonForm.ОписаниеИзмененийПрограммы</commonForms>
   <commonForms>CommonForm.ПредупреждениеБезопасности</commonForms>
   <commonForms>CommonForm.ПредупрежденияПриЗавершенииРаботы</commonForms>
   <commonForms>CommonForm.ПустойРабочийСтол</commonForms>
+  <commonForms>CommonForm.СменаПароля</commonForms>
   <catalogs>Catalog.ВерсииРасширений</catalogs>
+  <catalogs>Catalog.ВнешниеПользователи</catalogs>
+  <catalogs>Catalog.ГруппыВнешнихПользователей</catalogs>
+  <catalogs>Catalog.ГруппыПользователей</catalogs>
   <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
+  <catalogs>Catalog.Пользователи</catalogs>
   <dataProcessors>DataProcessor.РекомендацияПоПовышениюСкоростиРаботы</dataProcessors>
   <dataProcessors>DataProcessor.РезультатыОбновленияПрограммы</dataProcessors>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
   <informationRegisters>InformationRegister.ВерсииПодсистем</informationRegisters>
   <informationRegisters>InformationRegister.ДанныеОбработанныеВЦентральномУзлеРИБ</informationRegisters>
   <informationRegisters>InformationRegister.ПараметрыРаботыПрограммы</informationRegisters>
+  <informationRegisters>InformationRegister.СведенияОПользователях</informationRegisters>
   <informationRegisters>InformationRegister.СеансыВерсийРасширений</informationRegisters>
+  <informationRegisters>InformationRegister.СоставыГруппПользователей</informationRegisters>
 </mdclass:Configuration>

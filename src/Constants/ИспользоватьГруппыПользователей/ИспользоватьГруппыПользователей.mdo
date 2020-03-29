@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="63ea2085-086c-40a1-ad6c-b022e98e96d3">
+  <producedTypes>
+    <managerType typeId="db6e278e-7e80-42e4-8f69-61de7f058b5d" valueTypeId="ac1f4b1a-40a6-4a2b-936e-03a0aab44bd9"/>
+    <valueManagerType typeId="ff3b2417-d14c-4a68-a19c-08b82dfd9638" valueTypeId="6cfe890e-6416-4aef-8435-d3d6db595652"/>
+    <valueKeyType typeId="533dbea9-0901-4352-b4aa-f25ca5971196" valueTypeId="9c97ef41-a71f-4e61-8566-b18894d89414"/>
+  </producedTypes>
+  <name>ИспользоватьГруппыПользователей</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использовать группы пользователей</value>
+  </synonym>
+  <type>
+    <types>Boolean</types>
+  </type>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+  <dataLockControlMode>Managed</dataLockControlMode>
+</mdclass:Constant>
