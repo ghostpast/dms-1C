@@ -11,22 +11,12 @@
   </synonym>
   <defaultForm>DataProcessor.РезультатыОбновленияПрограммы.Form.ИндикацияХодаОтложенногоОбновленияИБ</defaultForm>
   <includeHelpInContents>true</includeHelpInContents>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
   <forms uuid="4aea08e5-02a8-40c4-98ed-f5e64b2311b2">
     <name>ИндикацияХодаОтложенногоОбновленияИБ</name>
     <synonym>
       <key>ru</key>
       <value>Индикация хода отложенного обновления ИБ</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>

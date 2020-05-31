@@ -3269,14 +3269,7 @@
   </parameters>
   <commandInterface>
     <navigationPanel/>
-    <commandBar>
-      <cmiFragmentRecord>
-        <command>CommonCommand.ДополнительныеСведенияКоманднаяПанель</command>
-        <group>FormCommandBarImportant</group>
-        <index>0</index>
-        <userVisible/>
-      </cmiFragmentRecord>
-    </commandBar>
+    <commandBar/>
   </commandInterface>
   <extInfo xsi:type="form:DynamicListFormExtInfo"/>
 </form:Form>

@@ -122,49 +122,8 @@
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
-  <characteristics>
-    <characteristicTypes>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеРеквизиты</characteristicTypes>
-    <keyField>Catalog.Пользователи.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство</keyField>
-    <typesFilterField>Catalog.Пользователи.TabularSection.ДополнительныеРеквизиты.Attribute.ИмяПредопределенногоНабора</typesFilterField>
-    <typesFilterValue xsi:type="core:StringValue">
-      <value>Справочник_Пользователи</value>
-    </typesFilterValue>
-    <characteristicValues>Catalog.Пользователи.TabularSection.ДополнительныеРеквизиты</characteristicValues>
-    <objectField>Catalog.Пользователи.TabularSection.ДополнительныеРеквизиты.StandardAttribute.Ref</objectField>
-    <typeField>Catalog.Пользователи.TabularSection.ДополнительныеРеквизиты.Attribute.Свойство</typeField>
-    <valueField>Catalog.Пользователи.TabularSection.ДополнительныеРеквизиты.Attribute.Значение</valueField>
-  </characteristics>
-  <characteristics>
-    <characteristicTypes>Catalog.НаборыДополнительныхРеквизитовИСведений.TabularSection.ДополнительныеСведения</characteristicTypes>
-    <keyField>Catalog.Пользователи.TabularSection.ДополнительныеСведения.Attribute.Свойство</keyField>
-    <typesFilterField>Catalog.Пользователи.TabularSection.ДополнительныеСведения.Attribute.ИмяПредопределенногоНабора</typesFilterField>
-    <typesFilterValue xsi:type="core:StringValue">
-      <value>Справочник_Пользователи</value>
-    </typesFilterValue>
-    <characteristicValues>InformationRegister.ДополнительныеСведения</characteristicValues>
-    <objectField>Catalog.Пользователи.Dimension.Объект</objectField>
-    <typeField>Catalog.Пользователи.Dimension.Свойство</typeField>
-    <valueField>Catalog.Пользователи.Resource.Значение</valueField>
-  </characteristics>
-  <characteristics>
-    <characteristicTypes>Catalog.ВидыКонтактнойИнформации</characteristicTypes>
-    <keyField>Catalog.Пользователи.StandardAttribute.Ref</keyField>
-    <typesFilterField>Catalog.Пользователи.StandardAttribute.Parent</typesFilterField>
-    <typesFilterValue xsi:type="core:ReferenceValue">
-      <value>Catalog.ВидыКонтактнойИнформации.СправочникПользователи</value>
-    </typesFilterValue>
-    <characteristicValues>Catalog.Пользователи.TabularSection.КонтактнаяИнформация</characteristicValues>
-    <objectField>Catalog.Пользователи.TabularSection.КонтактнаяИнформация.StandardAttribute.Ref</objectField>
-    <typeField>Catalog.Пользователи.TabularSection.КонтактнаяИнформация.Attribute.ВидДляСписка</typeField>
-    <valueField>Catalog.Пользователи.TabularSection.КонтактнаяИнформация.Attribute.Представление</valueField>
-  </characteristics>
   <createOnInput>Use</createOnInput>
   <includeHelpInContents>true</includeHelpInContents>
-  <help>
-    <pages>
-      <lang>ru</lang>
-    </pages>
-  </help>
   <dataLockFields>Catalog.Пользователи.StandardAttribute.Description</dataLockFields>
   <dataLockFields>Catalog.Пользователи.Attribute.ИдентификаторПользователяИБ</dataLockFields>
   <dataLockControlMode>Managed</dataLockControlMode>
@@ -310,11 +269,6 @@
       <key>ru</key>
       <value>Форма элемента</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -333,11 +287,6 @@
       <key>ru</key>
       <value>Пользователи информационной базы</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -347,11 +296,6 @@
       <key>ru</key>
       <value>Выбор пользователя операционной системы</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
@@ -361,11 +305,6 @@
       <key>ru</key>
       <value>Ограничение на вход в программу</value>
     </synonym>
-    <help>
-      <pages>
-        <lang>ru</lang>
-      </pages>
-    </help>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
