@@ -20,4 +20,13 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="79904594-40d8-4741-ab8b-e91f16797146">
+    <name>ОтложенныеОбработчики</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отложенные обработчики</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:DataProcessor>
