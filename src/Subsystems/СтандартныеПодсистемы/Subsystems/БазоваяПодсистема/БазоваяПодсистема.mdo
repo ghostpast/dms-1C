@@ -70,5 +70,6 @@
   <content>StyleItem.ПоясняющийОшибкуТекст</content>
   <content>StyleItem.ФонУправляющегоПоля</content>
   <content>CommonPicture.Информация32</content>
+  <content>InformationRegister.ПараметрыРаботыВерсийРасширений</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>
