@@ -21,6 +21,33 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="6d481d12-15c1-4618-b557-67560b47adc9">
+    <name>ОтборЖурналаРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отбор журнала регистрации</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b6f118bc-911f-4a76-bdc2-49027cb32823">
+    <name>РедакторСоставаСвойства</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактор состава свойства</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f6769c64-e23a-47e5-8d3c-a39953e70816">
+    <name>Событие</name>
+    <synonym>
+      <key>ru</key>
+      <value>Событие</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <commands uuid="ce666b21-cb0a-4dc7-9325-2b0cf9e72012">
     <name>ЖурналРегистрации</name>
     <synonym>
