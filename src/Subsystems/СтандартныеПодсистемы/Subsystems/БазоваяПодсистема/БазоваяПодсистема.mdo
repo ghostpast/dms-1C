@@ -71,5 +71,8 @@
   <content>StyleItem.ФонУправляющегоПоля</content>
   <content>CommonPicture.Информация32</content>
   <content>InformationRegister.ПараметрыРаботыВерсийРасширений</content>
+  <content>DataProcessor.ЖурналРегистрации</content>
+  <content>SessionParameter.ОтмененныеДлительныеОперации</content>
+  <content>CommonForm.ДлительнаяОперация</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

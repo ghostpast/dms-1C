@@ -53,6 +53,7 @@
   <sessionParameters>SessionParameter.ВерсияРасширений</sessionParameters>
   <sessionParameters>SessionParameter.КлючДанныхПовторногоИспользования</sessionParameters>
   <sessionParameters>SessionParameter.ОсновнойЯзык</sessionParameters>
+  <sessionParameters>SessionParameter.ОтмененныеДлительныеОперации</sessionParameters>
   <sessionParameters>SessionParameter.ПараметрыКлиентаНаСервере</sessionParameters>
   <sessionParameters>SessionParameter.ПараметрыОбработчикаОбновления</sessionParameters>
   <sessionParameters>SessionParameter.ПодключенныеРасширения</sessionParameters>
@@ -129,6 +130,7 @@
   <commonForms>CommonForm.ВходВПрограммуЗапрещен</commonForms>
   <commonForms>CommonForm.ВыборТиповПользователей</commonForms>
   <commonForms>CommonForm.ГруппыПользователей</commonForms>
+  <commonForms>CommonForm.ДлительнаяОперация</commonForms>
   <commonForms>CommonForm.НастройкиВходаПользователей</commonForms>
   <commonForms>CommonForm.НовыйПароль</commonForms>
   <commonForms>CommonForm.ОписаниеИзмененийПрограммы</commonForms>
@@ -142,8 +144,9 @@
   <catalogs>Catalog.ГруппыПользователей</catalogs>
   <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
-  <dataProcessors>DataProcessor.РекомендацияПоПовышениюСкоростиРаботы</dataProcessors>
+  <dataProcessors>DataProcessor.ЖурналРегистрации</dataProcessors>
   <dataProcessors>DataProcessor.РезультатыОбновленияПрограммы</dataProcessors>
+  <dataProcessors>DataProcessor.РекомендацияПоПовышениюСкоростиРаботы</dataProcessors>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
   <informationRegisters>InformationRegister.ВерсииПодсистем</informationRegisters>
   <informationRegisters>InformationRegister.ДанныеОбработанныеВЦентральномУзлеРИБ</informationRegisters>

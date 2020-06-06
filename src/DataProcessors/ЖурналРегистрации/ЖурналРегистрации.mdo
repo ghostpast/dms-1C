@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2507571d-4a20-4601-8029-fccf72cfc78c">
+  <producedTypes>
+    <objectType typeId="8fb6931a-bd39-4168-bbac-24c2c758fce8" valueTypeId="d0dc4263-c7f3-4cb3-97c1-907675bdcf6e"/>
+    <managerType typeId="8b39e3f2-b816-4982-8b3f-f39c937192e4" valueTypeId="1bd14ff8-061d-4e2e-8001-00f30248f1f7"/>
+  </producedTypes>
+  <name>ЖурналРегистрации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Журнал регистрации</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЖурналРегистрации.Form.ЖурналРегистрации</defaultForm>
+  <includeHelpInContents>true</includeHelpInContents>
+  <forms uuid="4f7a8044-7985-49e1-bac0-2cfb19f85ded">
+    <name>ЖурналРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Журнал регистрации</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <commands uuid="ce666b21-cb0a-4dc7-9325-2b0cf9e72012">
+    <name>ЖурналРегистрации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Журнал регистрации</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>
