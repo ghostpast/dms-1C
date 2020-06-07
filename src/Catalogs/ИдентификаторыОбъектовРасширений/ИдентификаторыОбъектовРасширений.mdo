@@ -1,18 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4062674a-4a81-494d-82bc-4984cd7c7903">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f8ce4d5-42cb-4760-8454-50ab9c7c5b51">
   <producedTypes>
-    <objectType typeId="db719ff3-91c0-4d23-8d18-afa5fc3221cf" valueTypeId="1b87e869-2347-4964-b9e8-ff93eca2444f"/>
-    <refType typeId="f6b1de62-9422-4ed0-8d1c-7a9ec4ab1ffe" valueTypeId="323205dc-757e-4135-b06d-d53b33a06a73"/>
-    <selectionType typeId="b1ee6d3e-76e5-418b-a48c-16b6e63a54c7" valueTypeId="69c3e919-1f11-432e-aa88-b6e7f84d1478"/>
-    <listType typeId="c1afec59-cdf1-4fb3-bfc2-9fd8a1ff32d6" valueTypeId="023002fa-6793-4fb0-8db4-180a81794dfc"/>
-    <managerType typeId="d6212e33-a4c3-4be1-ab62-ce29d9f78ada" valueTypeId="6154d83c-c2b9-4489-9654-6b5582d382b3"/>
+    <objectType typeId="b59d9ea0-238f-43fc-8f02-23aa83dea230" valueTypeId="acb6cf26-1657-4bcd-ba1c-4886b54f4c1c"/>
+    <refType typeId="4b978704-8a46-4f6e-bdf4-975ada79661b" valueTypeId="c6bbfaee-8e8c-450e-bea5-05b947bbed8f"/>
+    <selectionType typeId="23f6f070-7500-4a94-a1cb-007b5860fcbf" valueTypeId="ff78c080-0365-42ce-bff4-6cb36a70cb3c"/>
+    <listType typeId="15229775-171d-4ddb-b116-abf9d88b14a2" valueTypeId="e976d0cf-3ff1-45d4-905d-f449a5d6c4f5"/>
+    <managerType typeId="d4bd50df-8a0c-4b23-be14-d4de6d950696" valueTypeId="7b4c4bb7-12df-4ba7-bfbc-ac30a9120a76"/>
   </producedTypes>
-  <name>ИдентификаторыОбъектовМетаданных</name>
+  <name>ИдентификаторыОбъектовРасширений</name>
   <synonym>
     <key>ru</key>
-    <value>Идентификаторы объектов метаданных</value>
+    <value>Идентификаторы объектов расширений</value>
   </synonym>
-  <inputByString>Catalog.ИдентификаторыОбъектовМетаданных.StandardAttribute.Description</inputByString>
+  <comment>АПК:304 - №697.1.2 Обновление предопределенных данных вместо Авто требуется установить Не обновлять автоматически, так как предопределенные элементы сопоставляются с данными программно</comment>
+  <inputByString>Catalog.ИдентификаторыОбъектовРасширений.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
@@ -96,7 +97,7 @@
     </synonym>
     <toolTip>
       <key>ru</key>
-      <value>Сохраняемое представление идентификатора объекта метаданных</value>
+      <value>Сохраняемое представление идентификатора объекта расширений</value>
     </toolTip>
     <fillValue xsi:type="core:UndefinedValue"/>
     <fillChecking>ShowError</fillChecking>
@@ -116,11 +117,11 @@
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectPresentation>
     <key>ru</key>
-    <value>Идентификатор объекта метаданных</value>
+    <value>Идентификатор объекта метаданных расширения</value>
   </objectPresentation>
   <explanation>
     <key>ru</key>
-    <value>Идентификаторы объектов метаданных для использования в информационной базе.</value>
+    <value>Идентификаторы объектов метаданных расширений для использования в информационной базе.</value>
   </explanation>
   <hierarchical>true</hierarchical>
   <hierarchyType>HierarchyOfItems</hierarchyType>
@@ -130,69 +131,13 @@
   <codeType>String</codeType>
   <codeAllowedLength>Variable</codeAllowedLength>
   <defaultPresentation>AsDescription</defaultPresentation>
-  <predefined>
-    <items id="a43f3c43-54fe-4274-98c5-b8d43734ae2a">
-      <name>РегистрСведенийБезопасноеХранилищеДанных</name>
-      <code xsi:type="core:StringValue">
-        <value></value>
-      </code>
-    </items>
-    <items id="0b67eba7-4c4f-441c-9c62-a1c13b8a3e25">
-      <name>РегистрСведенийВерсииПодсистем</name>
-      <code xsi:type="core:StringValue">
-        <value></value>
-      </code>
-    </items>
-    <items id="2206c4fc-3a73-45e0-8141-dd564b04c72b">
-      <name>РегистрСведенийДанныеОбработанныеВЦентральномУзлеРИБ</name>
-      <code xsi:type="core:StringValue">
-        <value></value>
-      </code>
-    </items>
-    <items id="63369f0b-2768-4611-9624-689ad83c685f">
-      <name>РегистрСведенийПараметрыРаботыВерсийРасширений</name>
-      <code xsi:type="core:StringValue">
-        <value></value>
-      </code>
-    </items>
-    <items id="5ada59c9-aac4-4444-9b62-35a0513f1cf3">
-      <name>РегистрСведенийПараметрыРаботыПрограммы</name>
-      <code xsi:type="core:StringValue">
-        <value></value>
-      </code>
-    </items>
-    <items id="768a15ed-3bd1-49ee-89bb-04a26383f7a0">
-      <name>РегистрСведенийСведенияОПользователях</name>
-      <code xsi:type="core:StringValue">
-        <value></value>
-      </code>
-    </items>
-    <items id="99bea354-6232-457e-b220-658557eea1db">
-      <name>РегистрСведенийСеансыВерсийРасширений</name>
-      <code xsi:type="core:StringValue">
-        <value></value>
-      </code>
-    </items>
-    <items id="cf3e5179-ec8f-41c3-8b88-460f9fb4d05f">
-      <name>РегистрСведенийСоставыГруппПользователей</name>
-      <code xsi:type="core:StringValue">
-        <value></value>
-      </code>
-    </items>
-    <items id="10487c7e-affa-4974-aaa8-f83bce68ce46">
-      <name>РегистрСведенийИдентификаторыОбъектовВерсийРасширений</name>
-      <code xsi:type="core:StringValue">
-        <value></value>
-      </code>
-    </items>
-  </predefined>
   <predefinedDataUpdate>DontAutoUpdate</predefinedDataUpdate>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
-  <defaultObjectForm>Catalog.ИдентификаторыОбъектовМетаданных.Form.ФормаЭлемента</defaultObjectForm>
-  <defaultListForm>Catalog.ИдентификаторыОбъектовМетаданных.Form.ФормаСписка</defaultListForm>
-  <defaultChoiceForm>Catalog.ИдентификаторыОбъектовМетаданных.Form.ФормаСписка</defaultChoiceForm>
-  <attributes uuid="782a8801-06ca-4d63-bf8b-63d2320766d8">
+  <defaultObjectForm>Catalog.ИдентификаторыОбъектовРасширений.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ИдентификаторыОбъектовРасширений.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ИдентификаторыОбъектовРасширений.Form.ФормаСписка</defaultChoiceForm>
+  <attributes uuid="d3ad2516-c732-4f82-ac3c-6a364a3255cd">
     <name>ПорядокКоллекции</name>
     <synonym>
       <key>ru</key>
@@ -218,12 +163,13 @@
     <indexing>IndexWithAdditionalOrder</indexing>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="93a73123-d98c-4286-9269-7bfcedd115e8">
+  <attributes uuid="4106e60e-aca7-4c3d-be6e-fbee5671208a">
     <name>Имя</name>
     <synonym>
       <key>ru</key>
       <value>Имя</value>
     </synonym>
+    <comment>Например, &quot;ОбъектыАдресацииЗадач&quot;</comment>
     <type>
       <types>String</types>
       <stringQualifiers>
@@ -242,7 +188,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="c5985c02-1824-4ce9-b415-1621dd2ee864">
+  <attributes uuid="5f4a4c07-2831-469f-af11-235f4d0ba3dc">
     <name>Синоним</name>
     <synonym>
       <key>ru</key>
@@ -267,12 +213,13 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="993ce747-cdc9-445f-ad7d-daf53cd5f7e9">
+  <attributes uuid="b712a56a-1da2-48c8-9a13-3f09036fdb86">
     <name>ПолноеИмя</name>
     <synonym>
       <key>ru</key>
       <value>Полное имя</value>
     </synonym>
+    <comment>Например, &quot;ПланВидовХарактеристик.ОбъектыАдресацииЗадач&quot;</comment>
     <type>
       <types>String</types>
       <stringQualifiers>
@@ -292,7 +239,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="e819aaf6-3dfb-492a-8a4a-50a7c6854790">
+  <attributes uuid="19d6e100-9a53-42eb-8087-fc7daee91798">
     <name>ПолныйСиноним</name>
     <synonym>
       <key>ru</key>
@@ -317,7 +264,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="62b95ba1-f213-42fb-90f3-a03e8094bc9e">
+  <attributes uuid="e97fc138-e592-4abc-85ec-e563bfd81456">
     <name>БезДанных</name>
     <synonym>
       <key>ru</key>
@@ -335,12 +282,13 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="619b534d-5605-40d3-9b8c-4443a21d7795">
+  <attributes uuid="b5beb691-5a56-4ff7-9f00-282c268fd5fe">
     <name>ЗначениеПустойСсылки</name>
     <synonym>
       <key>ru</key>
       <value>Значение пустой ссылки</value>
     </synonym>
+    <comment>АПК:1330 - №728.2.1 Допустимо использование универсального ссылочного типа, так как это универсальный механизм и мало данных</comment>
     <type>
       <types>ExchangePlanRef</types>
       <types>BusinessProcessRef</types>
@@ -365,7 +313,7 @@
     <indexing>Index</indexing>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="a010bbf4-d547-4576-9797-28e3096ffed3">
+  <attributes uuid="ded4f52d-d1ef-4866-9d0e-1bdb52ed8a97">
     <name>КлючОбъектаМетаданных</name>
     <synonym>
       <key>ru</key>
@@ -383,14 +331,14 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="a44c3eb2-1054-41ca-82e8-fc35336e7009">
+  <attributes uuid="4ff75c80-03b1-4d38-88b6-13c473b0b1ba">
     <name>НоваяСсылка</name>
     <synonym>
       <key>ru</key>
       <value>Новая ссылка</value>
     </synonym>
     <type>
-      <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
+      <types>CatalogRef.ИдентификаторыОбъектовРасширений</types>
     </type>
     <toolTip>
       <key>ru</key>
@@ -401,16 +349,61 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="0bb9e9db-ebff-4669-8103-a259bb9de6cb">
+  <attributes uuid="0012d998-ebd9-4949-bc99-04873f6750df">
+    <name>ИмяРасширения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Имя расширения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>128</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Имя расширения, которому принадлежит объект метаданных, соответствующий идентификатору</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="118df861-797a-448e-b156-b40b0242b59f">
+    <name>ХешСуммаРасширения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Хеш сумма расширения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>30</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <forms uuid="30638ec4-b636-4835-a8f0-0c753526fe32">
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>
       <value>Форма списка</value>
     </synonym>
+    <comment>АПК:149 - #std702,1 Поле Ссылка используется вместо поля Наименование для динамического представления на разных языках</comment>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="b9bdc6cd-6af4-41f9-bd00-c1687d498aaf">
+  <forms uuid="37cf957e-23de-414e-a2ca-c016e67cb9f8">
     <name>ФормаЭлемента</name>
     <synonym>
       <key>ru</key>

@@ -74,5 +74,7 @@
   <content>DataProcessor.ЖурналРегистрации</content>
   <content>SessionParameter.ОтмененныеДлительныеОперации</content>
   <content>CommonForm.ДлительнаяОперация</content>
+  <content>Catalog.ИдентификаторыОбъектовРасширений</content>
+  <content>InformationRegister.ИдентификаторыОбъектовВерсийРасширений</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>
