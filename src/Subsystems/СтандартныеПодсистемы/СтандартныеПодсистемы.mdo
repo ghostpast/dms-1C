@@ -8,4 +8,5 @@
   <subsystems>БазоваяПодсистема</subsystems>
   <subsystems>ОбновлениеВерсииИБ</subsystems>
   <subsystems>Пользователи</subsystems>
+  <subsystems>РегламентныеЗадания</subsystems>
 </mdclass:Subsystem>
