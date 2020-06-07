@@ -183,6 +183,9 @@
   <predefinedDataUpdate>DontAutoUpdate</predefinedDataUpdate>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>
+  <defaultObjectForm>Catalog.ИдентификаторыОбъектовМетаданных.Form.ФормаЭлемента</defaultObjectForm>
+  <defaultListForm>Catalog.ИдентификаторыОбъектовМетаданных.Form.ФормаСписка</defaultListForm>
+  <defaultChoiceForm>Catalog.ИдентификаторыОбъектовМетаданных.Form.ФормаСписка</defaultChoiceForm>
   <attributes uuid="782a8801-06ca-4d63-bf8b-63d2320766d8">
     <name>ПорядокКоллекции</name>
     <synonym>
@@ -392,4 +395,22 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <forms uuid="0bb9e9db-ebff-4669-8103-a259bb9de6cb">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b9bdc6cd-6af4-41f9-bd00-c1687d498aaf">
+    <name>ФормаЭлемента</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма элемента</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:Catalog>
