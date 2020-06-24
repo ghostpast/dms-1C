@@ -6,5 +6,8 @@
     <value>Регламентные задания</value>
   </synonym>
   <content>CommonModule.РегламентныеЗаданияСервер</content>
+  <content>SessionParameter.РаботаСВнешнимиРесурсамиЗаблокирована</content>
+  <content>Constant.ПараметрыБлокировкиРаботыСВнешнимиРесурсами</content>
+  <content>CommonForm.БлокировкаРаботыСВнешнимиРесурсами</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

@@ -23,5 +23,6 @@
   <content>CommonModule.ОбновлениеВерсииИБСерверПовтИсп</content>
   <content>InformationRegister.ВерсииПодсистем</content>
   <content>Role.ПросмотрОписанияИзмененийПрограммы</content>
+  <content>ScheduledJob.ОтложенноеОбновлениеИБ</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

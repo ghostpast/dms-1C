@@ -36,5 +36,6 @@
   <content>SessionParameter.ТекущийВнешнийПользователь</content>
   <content>SessionParameter.ТекущийПользователь</content>
   <content>CommonForm.ГруппыПользователей</content>
+  <content>ScheduledJob.КонтрольАктивностиПользователей</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

@@ -57,6 +57,7 @@
   <sessionParameters>SessionParameter.ПараметрыКлиентаНаСервере</sessionParameters>
   <sessionParameters>SessionParameter.ПараметрыОбработчикаОбновления</sessionParameters>
   <sessionParameters>SessionParameter.ПодключенныеРасширения</sessionParameters>
+  <sessionParameters>SessionParameter.РаботаСВнешнимиРесурсамиЗаблокирована</sessionParameters>
   <sessionParameters>SessionParameter.ТекущийВнешнийПользователь</sessionParameters>
   <sessionParameters>SessionParameter.ТекущийПользователь</sessionParameters>
   <sessionParameters>SessionParameter.УстановленныеРасширения</sessionParameters>
@@ -101,6 +102,9 @@
   <commonModules>CommonModule.ПользователиСерверПовтИсп</commonModules>
   <commonModules>CommonModule.РегламентныеЗаданияСервер</commonModules>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
+  <scheduledJobs>ScheduledJob.КонтрольАктивностиПользователей</scheduledJobs>
+  <scheduledJobs>ScheduledJob.ОтложенноеОбновлениеИБ</scheduledJobs>
+  <scheduledJobs>ScheduledJob.УдалениеУстаревшихПараметровРаботыВерсийРасширений</scheduledJobs>
   <functionalOptions>FunctionalOption.ИспользоватьВнешнихПользователей</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьГруппыПользователей</functionalOptions>
   <functionalOptions>FunctionalOption.ОтложенноеОбновлениеВГлавномУзлеЗавершеноУспешно</functionalOptions>
@@ -113,6 +117,7 @@
   <constants>Constant.ГлавныйУзел</constants>
   <constants>Constant.ДетализироватьОбновлениеИБВЖурналеРегистрации</constants>
   <constants>Constant.ЗаголовокСистемы</constants>
+  <constants>Constant.ИдентификаторИнформационнойБазы</constants>
   <constants>Constant.ИспользоватьВнешнихПользователей</constants>
   <constants>Constant.ИспользоватьГруппыПользователей</constants>
   <constants>Constant.КоличествоПотоковОбновленияИнформационнойБазы</constants>
@@ -121,11 +126,13 @@
   <constants>Constant.ОтложенноеОбновлениеВГлавномУзлеЗавершеноУспешно</constants>
   <constants>Constant.ОтложенноеОбновлениеЗавершеноУспешно</constants>
   <constants>Constant.ПараметрыАдминистрированияИБ</constants>
+  <constants>Constant.ПараметрыБлокировкиРаботыСВнешнимиРесурсами</constants>
   <constants>Constant.РаботаВАвтономномРежиме</constants>
   <constants>Constant.РаботаВЛокальномРежиме</constants>
   <constants>Constant.РаботаВМоделиСервиса</constants>
   <constants>Constant.СведенияОБлокируемыхОбъектах</constants>
   <constants>Constant.СведенияОбОбновленииИБ</constants>
+  <commonForms>CommonForm.БлокировкаРаботыСВнешнимиРесурсами</commonForms>
   <commonForms>CommonForm.Вопрос</commonForms>
   <commonForms>CommonForm.ВопросОбУстановкеРасширенияРаботыСФайлами</commonForms>
   <commonForms>CommonForm.ВходВПрограммуЗапрещен</commonForms>

@@ -76,5 +76,7 @@
   <content>CommonForm.ДлительнаяОперация</content>
   <content>Catalog.ИдентификаторыОбъектовРасширений</content>
   <content>InformationRegister.ИдентификаторыОбъектовВерсийРасширений</content>
+  <content>Constant.ИдентификаторИнформационнойБазы</content>
+  <content>ScheduledJob.УдалениеУстаревшихПараметровРаботыВерсийРасширений</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>
