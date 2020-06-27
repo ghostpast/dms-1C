@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a1b8c0e1-f620-492b-93d8-57f49436f01a">
+  <producedTypes>
+    <objectType typeId="e2c8c593-f49d-4954-83b0-2f0c0747e396" valueTypeId="ec5e915a-08c9-4d38-9ff8-8efd31b8694d"/>
+    <managerType typeId="8ec76337-7c4e-40d9-ab08-2072fc317f76" valueTypeId="c8ffc60d-d3b4-47cd-8e33-8dd5f9716c65"/>
+  </producedTypes>
+  <name>НерекомендуемаяВерсияПлатформы</name>
+  <synonym>
+    <key>ru</key>
+    <value>Нерекомендуемая версия платформы</value>
+  </synonym>
+  <forms uuid="f9ef1b18-b55f-45ca-8588-b1ba0d89dc41">
+    <name>НерекомендуемаяВерсияПлатформы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Нерекомендуемая версия платформы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="c9660282-268f-4c18-b806-783329698728">
+    <name>ПорядокОбновленияПлатформы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок обновления платформы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="eaf5d63a-6d32-4faa-888f-b809787a15b0">
+    <name>ПорядокОбновленияДляФайловойБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок обновления для файловой базы</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+  <templates uuid="c2e60b0d-64bf-4ae0-b441-59cf54fb2176">
+    <name>ПорядокОбновленияДляКлиентСервернойБазы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Порядок обновления для клиент серверной базы</value>
+    </synonym>
+    <templateType>HTMLDocument</templateType>
+  </templates>
+</mdclass:DataProcessor>

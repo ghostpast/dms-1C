@@ -77,5 +77,6 @@
   <content>InformationRegister.ИдентификаторыОбъектовВерсийРасширений</content>
   <content>Constant.ИдентификаторИнформационнойБазы</content>
   <content>ScheduledJob.УдалениеУстаревшихПараметровРаботыВерсийРасширений</content>
+  <content>DataProcessor.НерекомендуемаяВерсияПлатформы</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

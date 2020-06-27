@@ -29,4 +29,13 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
+  <forms uuid="9c59852d-3475-4977-8da6-4aa5d87757de">
+    <name>ОтложенноеОбновлениеНеЗавершено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отложенное обновление не завершено</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:DataProcessor>
