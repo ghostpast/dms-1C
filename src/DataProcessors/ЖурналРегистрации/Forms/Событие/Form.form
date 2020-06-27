@@ -3506,6 +3506,20 @@
       <stringQualifiers/>
     </valueType>
   </parameters>
+  <parameters>
+    <name>Уровень</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ХранилищеДанных</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

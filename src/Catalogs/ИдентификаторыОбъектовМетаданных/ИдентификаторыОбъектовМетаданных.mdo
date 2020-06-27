@@ -167,12 +167,6 @@
         <value></value>
       </code>
     </items>
-    <items id="99bea354-6232-457e-b220-658557eea1db">
-      <name>РегистрСведенийСеансыВерсийРасширений</name>
-      <code xsi:type="core:StringValue">
-        <value></value>
-      </code>
-    </items>
     <items id="cf3e5179-ec8f-41c3-8b88-460f9fb4d05f">
       <name>РегистрСведенийСоставыГруппПользователей</name>
       <code xsi:type="core:StringValue">
@@ -181,6 +175,18 @@
     </items>
     <items id="10487c7e-affa-4974-aaa8-f83bce68ce46">
       <name>РегистрСведенийИдентификаторыОбъектовВерсийРасширений</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="96a0f161-8380-4ac1-bf46-a0e749d8601f">
+      <name>РегистрСведенийОбработчикиОбновления</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="9cf48e1f-3f7d-4990-829c-6c75ef61f93b">
+      <name>РегистрСведенийПотокиОбновления</name>
       <code xsi:type="core:StringValue">
         <value></value>
       </code>

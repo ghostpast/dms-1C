@@ -263,6 +263,18 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
+  <attributes uuid="e66af79f-11a7-4db4-9ab1-09bdb9345b0b">
+    <name>Фотография</name>
+    <synonym>
+      <key>ru</key>
+      <value>Фотография</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
   <forms uuid="c8e38572-331b-4b45-8dc9-3b53e9b7e40d">
     <name>ФормаЭлемента</name>
     <synonym>

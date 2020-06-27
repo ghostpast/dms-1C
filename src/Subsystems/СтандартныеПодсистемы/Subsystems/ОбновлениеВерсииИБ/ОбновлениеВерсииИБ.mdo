@@ -24,5 +24,10 @@
   <content>InformationRegister.ВерсииПодсистем</content>
   <content>Role.ПросмотрОписанияИзмененийПрограммы</content>
   <content>ScheduledJob.ОтложенноеОбновлениеИБ</content>
+  <content>Enum.СтатусыОбработчиковОбновления</content>
+  <content>Enum.РежимыВыполненияОбработчиков</content>
+  <content>Enum.РежимыВыполненияОтложенныхОбработчиков</content>
+  <content>InformationRegister.ОбработчикиОбновления</content>
+  <content>InformationRegister.ПотокиОбновления</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

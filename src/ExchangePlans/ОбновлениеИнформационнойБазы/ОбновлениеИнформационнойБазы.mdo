@@ -80,11 +80,11 @@
   <fullTextSearch>Use</fullTextSearch>
   <objectPresentation>
     <key>ru</key>
-    <value>Обрабатываемый объект</value>
+    <value>Очередь отложенной обработки данных</value>
   </objectPresentation>
   <listPresentation>
     <key>ru</key>
-    <value>Обрабатываемые объекты</value>
+    <value>Очереди отложенной обработки данных</value>
   </listPresentation>
   <codeLength>9</codeLength>
   <codeAllowedLength>Variable</codeAllowedLength>
@@ -151,9 +151,6 @@
   </content>
   <content>
     <mdObject>InformationRegister.ПараметрыРаботыПрограммы</mdObject>
-  </content>
-  <content>
-    <mdObject>InformationRegister.СеансыВерсийРасширений</mdObject>
   </content>
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>

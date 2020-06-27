@@ -37,5 +37,6 @@
   <content>SessionParameter.ТекущийПользователь</content>
   <content>CommonForm.ГруппыПользователей</content>
   <content>ScheduledJob.КонтрольАктивностиПользователей</content>
+  <content>CommonPicture.ПользовательБезФотографии</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

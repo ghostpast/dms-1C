@@ -1904,11 +1904,11 @@
                   </extendedTooltip>
                   <commandName>Form.Command.ГруппировкаРолейПоПодсистемам</commandName>
                   <representation>Auto</representation>
-                  <onlyInAllActions>true</onlyInAllActions>
                   <autoMaxWidth>true</autoMaxWidth>
                   <autoMaxHeight>true</autoMaxHeight>
                   <placementArea>UserCmds</placementArea>
                   <representationInContextMenu>Auto</representationInContextMenu>
+                  <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
                 </items>
                 <items xsi:type="form:FormGroup">
                   <name>РолиСтандартныеКоманды</name>
@@ -2516,10 +2516,6 @@
   </handlers>
   <handlers>
     <event>BeforeLoadDataFromSettingsAtServer</event>
-    <name>ПриЗагрузкеДанныхИзНастроекНаСервере</name>
-  </handlers>
-  <handlers>
-    <event>OnLoadDataFromSettingsAtServer</event>
     <name>ПриЗагрузкеДанныхИзНастроекНаСервере</name>
   </handlers>
   <excludedCommands>WriteAndClose</excludedCommands>

@@ -548,11 +548,11 @@
       </extendedTooltip>
       <commandName>Form.Item.ОписаниеОбновлений.StandardCommand.Find</commandName>
       <representation>Auto</representation>
-      <onlyInAllActions>false</onlyInAllActions>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
+      <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
     </items>
     <items xsi:type="form:Button">
       <name>РазвернутьВсеГруппы</name>
@@ -579,11 +579,11 @@
       </extendedTooltip>
       <commandName>Form.Item.ОписаниеОбновлений.StandardCommand.ExpandAllGroups</commandName>
       <representation>Auto</representation>
-      <onlyInAllActions>false</onlyInAllActions>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
+      <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
     </items>
     <items xsi:type="form:Button">
       <name>ОписаниеОбновленийСвернутьВсеГруппы</name>
@@ -647,11 +647,11 @@
         </extendedTooltip>
         <commandName>Form.Item.ОписаниеОбновлений.StandardCommand.Save</commandName>
         <representation>Auto</representation>
-        <onlyInAllActions>false</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
       </items>
       <items xsi:type="form:Button">
         <name>Печать</name>
@@ -678,7 +678,6 @@
         </extendedTooltip>
         <commandName>Form.Item.ОписаниеОбновлений.StandardCommand.Print</commandName>
         <representation>Auto</representation>
-        <onlyInAllActions>false</onlyInAllActions>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
@@ -686,6 +685,7 @@
           <picture>StdPicture.Print</picture>
         </picture>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
       </items>
       <items xsi:type="form:Button">
         <name>ОписаниеОбновленийПредварительныйПросмотр</name>

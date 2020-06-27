@@ -3122,6 +3122,17 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>ХранилищеДанных</name>
+    <id>10</id>
+    <valueType/>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>ПросмотрТекущегоСобытияВОтдельномОкне</name>
     <title>

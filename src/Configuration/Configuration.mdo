@@ -44,6 +44,7 @@
   <commonPictures>CommonPicture.Информация</commonPictures>
   <commonPictures>CommonPicture.Информация32</commonPictures>
   <commonPictures>CommonPicture.Ошибка32</commonPictures>
+  <commonPictures>CommonPicture.ПользовательБезФотографии</commonPictures>
   <commonPictures>CommonPicture.Предупреждение</commonPictures>
   <commonPictures>CommonPicture.Предупреждение32</commonPictures>
   <commonPictures>CommonPicture.СостояниеПользователя08</commonPictures>
@@ -153,6 +154,9 @@
   <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
   <catalogs>Catalog.ИдентификаторыОбъектовРасширений</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
+  <enums>Enum.РежимыВыполненияОбработчиков</enums>
+  <enums>Enum.РежимыВыполненияОтложенныхОбработчиков</enums>
+  <enums>Enum.СтатусыОбработчиковОбновления</enums>
   <dataProcessors>DataProcessor.ЖурналРегистрации</dataProcessors>
   <dataProcessors>DataProcessor.РезультатыОбновленияПрограммы</dataProcessors>
   <dataProcessors>DataProcessor.РекомендацияПоПовышениюСкоростиРаботы</dataProcessors>
@@ -160,9 +164,10 @@
   <informationRegisters>InformationRegister.ВерсииПодсистем</informationRegisters>
   <informationRegisters>InformationRegister.ДанныеОбработанныеВЦентральномУзлеРИБ</informationRegisters>
   <informationRegisters>InformationRegister.ИдентификаторыОбъектовВерсийРасширений</informationRegisters>
+  <informationRegisters>InformationRegister.ОбработчикиОбновления</informationRegisters>
   <informationRegisters>InformationRegister.ПараметрыРаботыВерсийРасширений</informationRegisters>
   <informationRegisters>InformationRegister.ПараметрыРаботыПрограммы</informationRegisters>
+  <informationRegisters>InformationRegister.ПотокиОбновления</informationRegisters>
   <informationRegisters>InformationRegister.СведенияОПользователях</informationRegisters>
-  <informationRegisters>InformationRegister.СеансыВерсийРасширений</informationRegisters>
   <informationRegisters>InformationRegister.СоставыГруппПользователей</informationRegisters>
 </mdclass:Configuration>

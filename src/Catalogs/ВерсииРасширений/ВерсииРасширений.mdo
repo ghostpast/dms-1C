@@ -42,25 +42,6 @@
   <defaultObjectForm>Catalog.ВерсииРасширений.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.ВерсииРасширений.Form.ФормаСписка</defaultListForm>
   <choiceHistoryOnInput>DontUse</choiceHistoryOnInput>
-  <attributes uuid="240750e5-64fb-4899-909c-411038f71ece">
-    <name>ДатаПервогоВходаПослеУдаленияВсехРасширений</name>
-    <synonym>
-      <key>ru</key>
-      <value>Дата первого входа после удаления всех расширений</value>
-    </synonym>
-    <type>
-      <types>Date</types>
-      <dateQualifiers/>
-    </type>
-    <toolTip>
-      <key>ru</key>
-      <value>Устанавливается при первом входе после удаления всех расширений.
-Используется в задании удаления устаревших версий для определения сеансов,
-запущенных до момента удаления всех расширений без использования процедуры регистрации.</value>
-    </toolTip>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
   <attributes uuid="f5fde5de-24f1-4aef-9ccc-b9c561ebf42c">
     <name>ОписаниеМетаданных</name>
     <synonym>
@@ -81,10 +62,10 @@
     <dataHistory>Use</dataHistory>
   </attributes>
   <attributes uuid="0f441e1d-5fba-46a9-bd36-d90c2b60bb49">
-    <name>ПоследняяДатаДобавленияВторойВерсии</name>
+    <name>ДатаПоследнегоИспользования</name>
     <synonym>
       <key>ru</key>
-      <value>Последняя дата добавления второй версии</value>
+      <value>Дата последнего использования</value>
     </synonym>
     <type>
       <types>Date</types>
@@ -92,9 +73,8 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Устанавливается в первую версию, когда в справочник добавляется вторая версия.
-Используется в задании удаления устаревших версий для определения сеансов,
-запущенных до момента добавления без использования процедуры регистрации.</value>
+      <value>Обновляется при входе, если меньше даты начала сеанса округленной до часа.
+Используется в задании удаления устаревших версий расширений, у которых дата последнего использования меньше минимальной даты начала активных сеансов, округленной до часа.</value>
     </toolTip>
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
