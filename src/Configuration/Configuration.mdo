@@ -34,6 +34,7 @@
     <languageCode>ru</languageCode>
   </languages>
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
+  <subsystems>Subsystem.УправлениеАвтоцентром</subsystems>
   <styleItems>StyleItem.ПоясняющийОшибкуТекст</styleItems>
   <styleItems>StyleItem.ПоясняющийТекст</styleItems>
   <styleItems>StyleItem.ТекстЗапрещеннойЯчейкиЦвет</styleItems>
@@ -102,6 +103,7 @@
   <commonModules>CommonModule.ПользователиСервер</commonModules>
   <commonModules>CommonModule.ПользователиСерверПовтИсп</commonModules>
   <commonModules>CommonModule.РегламентныеЗаданияСервер</commonModules>
+  <commonModules>CommonModule.УправлениеАвтоцентромСервер</commonModules>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <scheduledJobs>ScheduledJob.КонтрольАктивностиПользователей</scheduledJobs>
   <scheduledJobs>ScheduledJob.ОтложенноеОбновлениеИБ</scheduledJobs>
