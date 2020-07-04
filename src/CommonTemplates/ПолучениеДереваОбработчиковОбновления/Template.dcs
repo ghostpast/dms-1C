@@ -72,19 +72,6 @@
 			</valueType>
 		</field>
 		<field xsi:type="DataSetFieldField">
-			<dataPath>УправлениеОбработчиками</dataPath>
-			<field>УправлениеОбработчиками</field>
-			<title xsi:type="v8:LocalStringType">
-				<v8:item>
-					<v8:lang>ru</v8:lang>
-					<v8:content>Управление обработчиками</v8:content>
-				</v8:item>
-			</title>
-			<valueType>
-				<v8:Type>xs:boolean</v8:Type>
-			</valueType>
-		</field>
-		<field xsi:type="DataSetFieldField">
 			<dataPath>ВыполнятьВГруппеОбязательных</dataPath>
 			<field>ВыполнятьВГруппеОбязательных</field>
 			<title xsi:type="v8:LocalStringType">
@@ -332,7 +319,7 @@
 		<dataPath>ВесВерсии</dataPath>
 		<expression>ВЫРАЗИТЬ(ВЫБОР 
 	КОГДА Версия = "*" ТОГДА -1
-	ИНАЧЕ ОбновлениеИнформационнойБазыСлужебный.ВесВерсии(Версия)
+	ИНАЧЕ ОбновлениеВерсииИБСервер.сОИБ_ВесВерсии(Версия)
 КОНЕЦ, "Число(12, 0)")</expression>
 		<title xsi:type="v8:LocalStringType">
 			<v8:item>
@@ -364,7 +351,7 @@
 		<orderExpression>
 			<dcscom:expression>ВЫРАЗИТЬ(ВЫБОР 
 	КОГДА Версия = "*" ИЛИ ВыполнятьВГруппеОбязательных ТОГДА -1
-	ИНАЧЕ ОбновлениеИнформационнойБазыСлужебный.ВесВерсии(Версия)
+	ИНАЧЕ ОбновлениеВерсииИБСервер.сОИБ_ВесВерсии(Версия)
 КОНЕЦ, "Число(12, 0)") возр</dcscom:expression>
 			<dcscom:orderType>Asc</dcscom:orderType>
 			<dcscom:autoOrder>false</dcscom:autoOrder>
@@ -466,7 +453,7 @@
 		</valueType>
 		<value xsi:type="xs:decimal">0</value>
 		<useRestriction>true</useRestriction>
-		<expression>ОбновлениеИнформационнойБазыСлужебный.ВесВерсии(&amp;ВерсияОт)</expression>
+		<expression>ОбновлениеВерсииИБСервер.сОИБ_ВесВерсии(&amp;ВерсияОт)</expression>
 		<use>Always</use>
 	</parameter>
 	<parameter>
@@ -487,7 +474,7 @@
 		</valueType>
 		<value xsi:type="xs:decimal">0</value>
 		<useRestriction>true</useRestriction>
-		<expression>ОбновлениеИнформационнойБазыСлужебный.ВесВерсии(&amp;ВерсияДо)</expression>
+		<expression>ОбновлениеВерсииИБСервер.сОИБ_ВесВерсии(&amp;ВерсияДо)</expression>
 		<use>Always</use>
 	</parameter>
 	<parameter>
@@ -584,9 +571,6 @@
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>Процедура</dcsset:field>
-				</dcsset:item>
-				<dcsset:item xsi:type="dcsset:SelectedItemField">
-					<dcsset:field>УправлениеОбработчиками</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>МонопольныйРежим</dcsset:field>
