@@ -1817,4 +1817,15 @@
 			<value>true</value>
 		</right>
 	</object>
+	<object>
+		<name>SessionParameter.ВыполняетсяОбновлениеИБ</name>
+		<right>
+			<name>Set</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Get</name>
+			<value>true</value>
+		</right>
+	</object>
 </Rights>

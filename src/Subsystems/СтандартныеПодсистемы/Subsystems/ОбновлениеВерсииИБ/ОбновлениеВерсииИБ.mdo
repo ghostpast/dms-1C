@@ -33,5 +33,6 @@
   <content>InformationRegister.ОбработчикиОбновленияОбщихДанных</content>
   <content>CommonTemplate.ПолучениеДереваОбработчиковОбновления</content>
   <content>DataProcessor.ОписаниеОбработчиковОбновления</content>
+  <content>SessionParameter.ВыполняетсяОбновлениеИБ</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>
