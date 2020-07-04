@@ -85,6 +85,7 @@
   <roles>Role.СохранениеДанныхПользователя</roles>
   <roles>Role.ЧтениеВнешнихПользователей</roles>
   <commonTemplates>CommonTemplate.ОписаниеИзмененийСистемы</commonTemplates>
+  <commonTemplates>CommonTemplate.ПолучениеДереваОбработчиковОбновления</commonTemplates>
   <commonModules>CommonModule.БазоваяПодсистемаВызовСервера</commonModules>
   <commonModules>CommonModule.БазоваяПодсистемаКлиент</commonModules>
   <commonModules>CommonModule.БазоваяПодсистемаКлиентГлобальный</commonModules>
@@ -94,6 +95,7 @@
   <commonModules>CommonModule.БазоваяПодсистемаСерверПовтИсп</commonModules>
   <commonModules>CommonModule.ИнтеграцияПодсистемКлиент</commonModules>
   <commonModules>CommonModule.ИнтеграцияПодсистемСервер</commonModules>
+  <commonModules>CommonModule.ОбновлениеВерсииИБВызовСервера</commonModules>
   <commonModules>CommonModule.ОбновлениеВерсииИБКлиент</commonModules>
   <commonModules>CommonModule.ОбновлениеВерсииИБКлиентГлобальный</commonModules>
   <commonModules>CommonModule.ОбновлениеВерсииИБСервер</commonModules>
@@ -116,13 +118,18 @@
   <functionalOptions>FunctionalOption.РаботаВЛокальномРежиме</functionalOptions>
   <functionalOptions>FunctionalOption.РаботаВМоделиСервиса</functionalOptions>
   <definedTypes>DefinedType.ВнешнийПользователь</definedTypes>
+  <commonCommands>CommonCommand.ВремяТекущегоСеанса</commonCommands>
   <commonCommands>CommonCommand.ПредупрежденияПриЗавершенииРаботы</commonCommands>
   <constants>Constant.ГлавныйУзел</constants>
   <constants>Constant.ДетализироватьОбновлениеИБВЖурналеРегистрации</constants>
+  <constants>Constant.ДополнительныйЯзык1</constants>
+  <constants>Constant.ДополнительныйЯзык2</constants>
   <constants>Constant.ЗаголовокСистемы</constants>
   <constants>Constant.ИдентификаторИнформационнойБазы</constants>
   <constants>Constant.ИспользоватьВнешнихПользователей</constants>
   <constants>Constant.ИспользоватьГруппыПользователей</constants>
+  <constants>Constant.ИспользоватьДополнительныйЯзык1</constants>
+  <constants>Constant.ИспользоватьДополнительныйЯзык2</constants>
   <constants>Constant.КоличествоПотоковОбновленияИнформационнойБазы</constants>
   <constants>Constant.НастройкиВходаПользователей</constants>
   <constants>Constant.ОсновнойЯзык</constants>
@@ -149,6 +156,7 @@
   <commonForms>CommonForm.ПредупреждениеБезопасности</commonForms>
   <commonForms>CommonForm.ПредупрежденияПриЗавершенииРаботы</commonForms>
   <commonForms>CommonForm.ПустойРабочийСтол</commonForms>
+  <commonForms>CommonForm.РегиональныеНастройки</commonForms>
   <commonForms>CommonForm.СменаПароля</commonForms>
   <catalogs>Catalog.ВерсииРасширений</catalogs>
   <catalogs>Catalog.ВнешниеПользователи</catalogs>
@@ -162,6 +170,7 @@
   <enums>Enum.СтатусыОбработчиковОбновления</enums>
   <dataProcessors>DataProcessor.ЖурналРегистрации</dataProcessors>
   <dataProcessors>DataProcessor.НерекомендуемаяВерсияПлатформы</dataProcessors>
+  <dataProcessors>DataProcessor.ОписаниеОбработчиковОбновления</dataProcessors>
   <dataProcessors>DataProcessor.РезультатыОбновленияПрограммы</dataProcessors>
   <dataProcessors>DataProcessor.РекомендацияПоПовышениюСкоростиРаботы</dataProcessors>
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
@@ -169,6 +178,7 @@
   <informationRegisters>InformationRegister.ДанныеОбработанныеВЦентральномУзлеРИБ</informationRegisters>
   <informationRegisters>InformationRegister.ИдентификаторыОбъектовВерсийРасширений</informationRegisters>
   <informationRegisters>InformationRegister.ОбработчикиОбновления</informationRegisters>
+  <informationRegisters>InformationRegister.ОбработчикиОбновленияОбщихДанных</informationRegisters>
   <informationRegisters>InformationRegister.ПараметрыРаботыВерсийРасширений</informationRegisters>
   <informationRegisters>InformationRegister.ПараметрыРаботыПрограммы</informationRegisters>
   <informationRegisters>InformationRegister.ПотокиОбновления</informationRegisters>

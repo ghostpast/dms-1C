@@ -11,11 +11,29 @@
   </synonym>
   <defaultForm>DataProcessor.РезультатыОбновленияПрограммы.Form.ИндикацияХодаОтложенногоОбновленияИБ</defaultForm>
   <includeHelpInContents>true</includeHelpInContents>
+  <forms uuid="f52043cc-7cb2-4f85-a3e5-5a55f16a9198">
+    <name>ИндикацияХодаОбновленияИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Индикация хода обновления ИБ</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <forms uuid="4aea08e5-02a8-40c4-98ed-f5e64b2311b2">
     <name>ИндикацияХодаОтложенногоОбновленияИБ</name>
     <synonym>
       <key>ru</key>
       <value>Индикация хода отложенного обновления ИБ</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="9c59852d-3475-4977-8da6-4aa5d87757de">
+    <name>ОтложенноеОбновлениеНеЗавершено</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отложенное обновление не завершено</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
@@ -29,11 +47,20 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="9c59852d-3475-4977-8da6-4aa5d87757de">
-    <name>ОтложенноеОбновлениеНеЗавершено</name>
+  <forms uuid="41103054-4abe-48ea-85cc-201e5467698e">
+    <name>ПредупреждениеБезопасности</name>
     <synonym>
       <key>ru</key>
-      <value>Отложенное обновление не завершено</value>
+      <value>Предупреждение безопасности</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="95a1c9e0-dd64-4ad5-8c4b-044c0f7b2345">
+    <name>СообщениеОНеудачномОбновлении</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сообщение о неудачном обновлении</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

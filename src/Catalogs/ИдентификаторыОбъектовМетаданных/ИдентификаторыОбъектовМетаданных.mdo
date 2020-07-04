@@ -191,6 +191,12 @@
         <value></value>
       </code>
     </items>
+    <items id="8157eab1-6ae5-4b29-99f3-70e3312fba0c">
+      <name>РегистрСведенийОбработчикиОбновленияОбщихДанных</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
   </predefined>
   <predefinedDataUpdate>DontAutoUpdate</predefinedDataUpdate>
   <editType>InDialog</editType>

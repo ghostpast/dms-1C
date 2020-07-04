@@ -29,5 +29,9 @@
   <content>Enum.РежимыВыполненияОтложенныхОбработчиков</content>
   <content>InformationRegister.ОбработчикиОбновления</content>
   <content>InformationRegister.ПотокиОбновления</content>
+  <content>CommonModule.ОбновлениеВерсииИБВызовСервера</content>
+  <content>InformationRegister.ОбработчикиОбновленияОбщихДанных</content>
+  <content>CommonTemplate.ПолучениеДереваОбработчиковОбновления</content>
+  <content>DataProcessor.ОписаниеОбработчиковОбновления</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>
