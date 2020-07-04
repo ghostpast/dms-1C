@@ -85,5 +85,7 @@
   <content>Constant.ДополнительныйЯзык1</content>
   <content>Constant.ДополнительныйЯзык2</content>
   <content>CommonCommand.ВремяТекущегоСеанса</content>
+  <content>InformationRegister.КэшПрограммныхИнтерфейсов</content>
+  <content>Enum.ТипыДанныхКэшаПрограммныхИнтерфейсов</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>
