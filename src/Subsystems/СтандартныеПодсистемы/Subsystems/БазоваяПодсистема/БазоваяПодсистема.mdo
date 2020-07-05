@@ -87,5 +87,8 @@
   <content>CommonCommand.ВремяТекущегоСеанса</content>
   <content>InformationRegister.КэшПрограммныхИнтерфейсов</content>
   <content>Enum.ТипыДанныхКэшаПрограммныхИнтерфейсов</content>
+  <content>CommonCommand.УстановитьРасширениеДляРаботыС1СПредприятием</content>
+  <content>CommonPicture.Подсистема</content>
+  <content>CommonPicture.Успешно</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

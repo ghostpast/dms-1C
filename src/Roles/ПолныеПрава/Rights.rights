@@ -1828,4 +1828,18 @@
 			<value>true</value>
 		</right>
 	</object>
+	<object>
+		<name>CommonCommand.СведенияОПользователе</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonCommand.УстановитьРасширениеДляРаботыС1СПредприятием</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
 </Rights>

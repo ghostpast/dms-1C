@@ -38,5 +38,6 @@
   <content>CommonForm.ГруппыПользователей</content>
   <content>ScheduledJob.КонтрольАктивностиПользователей</content>
   <content>CommonPicture.ПользовательБезФотографии</content>
+  <content>CommonCommand.СведенияОПользователе</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

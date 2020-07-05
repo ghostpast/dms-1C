@@ -2808,6 +2808,39 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormGroup">
+      <name>КонтактнаяИнформация</name>
+      <id>358</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Адреса, телефоны</value>
+      </title>
+      <extendedTooltip>
+        <name>КонтактнаяИнформацияРасширеннаяПодсказка</name>
+        <id>359</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <type>Page</type>
+      <extInfo xsi:type="form:PageGroupExtInfo">
+        <group>Vertical</group>
+        <showTitle>true</showTitle>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormGroup">
       <name>СтраницаКомментарий</name>
       <id>279</id>
       <items xsi:type="form:FormField">
