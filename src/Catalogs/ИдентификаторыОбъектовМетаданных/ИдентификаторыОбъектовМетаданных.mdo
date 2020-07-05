@@ -197,6 +197,12 @@
         <value></value>
       </code>
     </items>
+    <items id="2be9f6a2-c07f-4ea6-ae3b-fb723b79d54a">
+      <name>РегистрСведенийКэшПрограммныхИнтерфейсов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
   </predefined>
   <predefinedDataUpdate>DontAutoUpdate</predefinedDataUpdate>
   <editType>InDialog</editType>

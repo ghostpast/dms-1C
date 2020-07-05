@@ -105,6 +105,7 @@
   <commonModules>CommonModule.ПользователиКлиентСервер</commonModules>
   <commonModules>CommonModule.ПользователиСервер</commonModules>
   <commonModules>CommonModule.ПользователиСерверПовтИсп</commonModules>
+  <commonModules>CommonModule.РегламентныеЗаданияКлиент</commonModules>
   <commonModules>CommonModule.РегламентныеЗаданияСервер</commonModules>
   <commonModules>CommonModule.УправлениеАвтоцентромСервер</commonModules>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>

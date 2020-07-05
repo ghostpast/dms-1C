@@ -9,5 +9,6 @@
   <content>SessionParameter.РаботаСВнешнимиРесурсамиЗаблокирована</content>
   <content>Constant.ПараметрыБлокировкиРаботыСВнешнимиРесурсами</content>
   <content>CommonForm.БлокировкаРаботыСВнешнимиРесурсами</content>
+  <content>CommonModule.РегламентныеЗаданияКлиент</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>
