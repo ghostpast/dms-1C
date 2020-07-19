@@ -96,6 +96,10 @@
   <commonModules>CommonModule.БазоваяПодсистемаКлиентСервер</commonModules>
   <commonModules>CommonModule.БазоваяПодсистемаСервер</commonModules>
   <commonModules>CommonModule.БазоваяПодсистемаСерверПовтИсп</commonModules>
+  <commonModules>CommonModule.ВариантыОтчетовКлиент</commonModules>
+  <commonModules>CommonModule.ВариантыОтчетовКлиентСервер</commonModules>
+  <commonModules>CommonModule.ВариантыОтчетовСервер</commonModules>
+  <commonModules>CommonModule.ВариантыОтчетовСерверПовтИсп</commonModules>
   <commonModules>CommonModule.ИнтеграцияПодсистемКлиент</commonModules>
   <commonModules>CommonModule.ИнтеграцияПодсистемСервер</commonModules>
   <commonModules>CommonModule.ОбновлениеВерсииИБВызовСервера</commonModules>

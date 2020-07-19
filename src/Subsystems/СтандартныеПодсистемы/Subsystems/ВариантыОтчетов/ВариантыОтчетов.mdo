@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ef5f01fa-72f6-4da2-810f-19f8ba6d1293">
+  <name>ВариантыОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты отчетов</value>
+  </synonym>
+  <content>CommonModule.ВариантыОтчетовКлиент</content>
+  <content>CommonModule.ВариантыОтчетовСервер</content>
+  <content>CommonModule.ВариантыОтчетовСерверПовтИсп</content>
+  <content>CommonModule.ВариантыОтчетовКлиентСервер</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

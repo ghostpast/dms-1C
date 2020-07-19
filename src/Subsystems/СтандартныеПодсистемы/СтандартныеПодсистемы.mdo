@@ -6,6 +6,7 @@
     <value>Стандартные подсистемы</value>
   </synonym>
   <subsystems>БазоваяПодсистема</subsystems>
+  <subsystems>ВариантыОтчетов</subsystems>
   <subsystems>ОбновлениеВерсииИБ</subsystems>
   <subsystems>Пользователи</subsystems>
   <subsystems>РегламентныеЗадания</subsystems>
