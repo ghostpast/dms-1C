@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e5d9edd7-6864-4e3a-8b96-0a1c674c83ca">
+  <producedTypes>
+    <refType typeId="e0eb0f43-ba12-42cc-b6b3-e865cc20b925" valueTypeId="e72d7e44-a9db-4644-9c40-103866298150"/>
+    <listType typeId="840dbcc0-9521-491e-9d46-fea254e54e06" valueTypeId="27cc9a4e-c939-4750-87dd-de1b1d3cfd6d"/>
+    <managerType typeId="68a3705d-2f00-4db6-8103-318a97742ef0" valueTypeId="639c4bb4-8306-43e9-8c92-722150290557"/>
+  </producedTypes>
+  <name>ТипыОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Типы отчетов</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="c20f2091-4ece-419e-8971-3ab5abe4f8ca">
+    <name>Внутренний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внутренний</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c5c3c783-bb2d-44be-abdb-1eb088e09edd">
+    <name>Дополнительный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Дополнительный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="bbd2e49d-8c68-425e-8557-49ec3a1cfec2">
+    <name>Расширение</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширение</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="7129b4db-6c5c-4f09-a78b-d0718eb5df82">
+    <name>Внешний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Внешний</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

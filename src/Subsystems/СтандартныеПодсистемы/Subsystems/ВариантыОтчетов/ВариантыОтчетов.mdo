@@ -9,5 +9,8 @@
   <content>CommonModule.ВариантыОтчетовСервер</content>
   <content>CommonModule.ВариантыОтчетовСерверПовтИсп</content>
   <content>CommonModule.ВариантыОтчетовКлиентСервер</content>
+  <content>Enum.ТипыОтчетов</content>
+  <content>Catalog.ПредопределенныеВариантыОтчетов</content>
+  <content>Catalog.ПредопределенныеВариантыОтчетовРасширений</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>
