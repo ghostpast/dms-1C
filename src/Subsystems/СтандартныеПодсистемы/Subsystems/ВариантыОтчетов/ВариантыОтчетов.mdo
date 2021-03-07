@@ -12,5 +12,8 @@
   <content>Enum.ТипыОтчетов</content>
   <content>Catalog.ПредопределенныеВариантыОтчетов</content>
   <content>Catalog.ПредопределенныеВариантыОтчетовРасширений</content>
+  <content>Catalog.ВариантыОтчетов</content>
+  <content>CommonPicture.ВариантыОтчетовДоступныеВсемПользователям</content>
+  <content>CommonModule.ВариантыОтчетовВызовСервера</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

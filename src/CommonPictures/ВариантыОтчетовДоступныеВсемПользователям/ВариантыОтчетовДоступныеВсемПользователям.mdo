@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ceb2d933-b8fb-48dc-b39f-fe2381227f2f">
+  <name>ВариантыОтчетовДоступныеВсемПользователям</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты отчетов доступные всем пользователям</value>
+  </synonym>
+</mdclass:CommonPicture>

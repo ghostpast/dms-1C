@@ -39,6 +39,7 @@
   <styleItems>StyleItem.ПоясняющийТекст</styleItems>
   <styleItems>StyleItem.ТекстЗапрещеннойЯчейкиЦвет</styleItems>
   <styleItems>StyleItem.ФонУправляющегоПоля</styleItems>
+  <commonPictures>CommonPicture.ВариантыОтчетовДоступныеВсемПользователям</commonPictures>
   <commonPictures>CommonPicture.Вопрос32</commonPictures>
   <commonPictures>CommonPicture.ДлительнаяОперация48</commonPictures>
   <commonPictures>CommonPicture.ЗавершитьРаботу</commonPictures>
@@ -49,7 +50,10 @@
   <commonPictures>CommonPicture.ПользовательБезФотографии</commonPictures>
   <commonPictures>CommonPicture.Предупреждение</commonPictures>
   <commonPictures>CommonPicture.Предупреждение32</commonPictures>
+  <commonPictures>CommonPicture.СостояниеПользователя02</commonPictures>
+  <commonPictures>CommonPicture.СостояниеПользователя04</commonPictures>
   <commonPictures>CommonPicture.СостояниеПользователя08</commonPictures>
+  <commonPictures>CommonPicture.СостояниеПользователя10</commonPictures>
   <commonPictures>CommonPicture.Успешно</commonPictures>
   <commonPictures>CommonPicture.Успешно32</commonPictures>
   <sessionParameters>SessionParameter.АвторизованныйПользователь</sessionParameters>
@@ -96,6 +100,7 @@
   <commonModules>CommonModule.БазоваяПодсистемаКлиентСервер</commonModules>
   <commonModules>CommonModule.БазоваяПодсистемаСервер</commonModules>
   <commonModules>CommonModule.БазоваяПодсистемаСерверПовтИсп</commonModules>
+  <commonModules>CommonModule.ВариантыОтчетовВызовСервера</commonModules>
   <commonModules>CommonModule.ВариантыОтчетовКлиент</commonModules>
   <commonModules>CommonModule.ВариантыОтчетовКлиентСервер</commonModules>
   <commonModules>CommonModule.ВариантыОтчетовСервер</commonModules>
@@ -168,6 +173,7 @@
   <commonForms>CommonForm.ПустойРабочийСтол</commonForms>
   <commonForms>CommonForm.РегиональныеНастройки</commonForms>
   <commonForms>CommonForm.СменаПароля</commonForms>
+  <catalogs>Catalog.ВариантыОтчетов</catalogs>
   <catalogs>Catalog.ВерсииРасширений</catalogs>
   <catalogs>Catalog.ВнешниеПользователи</catalogs>
   <catalogs>Catalog.ГруппыВнешнихПользователей</catalogs>

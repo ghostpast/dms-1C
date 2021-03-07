@@ -39,5 +39,8 @@
   <content>ScheduledJob.КонтрольАктивностиПользователей</content>
   <content>CommonPicture.ПользовательБезФотографии</content>
   <content>CommonCommand.СведенияОПользователе</content>
+  <content>CommonPicture.СостояниеПользователя02</content>
+  <content>CommonPicture.СостояниеПользователя04</content>
+  <content>CommonPicture.СостояниеПользователя10</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>
