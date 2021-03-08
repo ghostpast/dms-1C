@@ -100,7 +100,6 @@
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
         <extInfo xsi:type="form:InputFieldExtInfo">
-          <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <verticalStretch>true</verticalStretch>
           <wrap>true</wrap>
@@ -164,10 +163,6 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <title>
-        <key>ru</key>
-        <value>Строки</value>
-      </title>
       <width>35</width>
       <extendedTooltip>
         <name>СтрокиExtendedTooltip</name>
@@ -198,10 +193,6 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <title>
-      <key>ru</key>
-      <value>Колонки</value>
-    </title>
     <extendedTooltip>
       <name>КолонкиExtendedTooltip</name>
       <id>17</id>

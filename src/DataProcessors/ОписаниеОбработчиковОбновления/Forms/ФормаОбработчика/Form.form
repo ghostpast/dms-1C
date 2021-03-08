@@ -221,6 +221,10 @@
                   <segments>Объект.ОбработчикиОбновления[0].ПроцедураЗаполненияДанныхОбновления</segments>
                 </paths>
               </dataPath>
+              <handlers>
+                <event>OnChange</event>
+                <name>ПроцедураЗаполненияДанныхОбновленияПриИзменении</name>
+              </handlers>
               <extendedTooltip>
                 <name>ПроцедураЗаполненияДанныхОбновленияРасширеннаяПодсказка</name>
                 <id>32</id>
@@ -3711,6 +3715,36 @@
         <contextMenu>
           <name>БлокируемыеОбъектыКонтекстноеМеню</name>
           <id>182</id>
+          <items xsi:type="form:Button">
+            <name>БлокируемыеОбъектыДобавитьТипыРеквизита</name>
+            <id>799</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>БлокируемыеОбъектыДобавитьТипыРеквизитаРасширеннаяПодсказка</name>
+              <id>800</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Command.ДобавитьТипыРеквизитаВБлокируемыеОбъекты</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -4267,7 +4301,7 @@
           <id>715</id>
           <title>
             <key>ru</key>
-            <value>Приоритет</value>
+            <value>Сначала выполнить</value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -6128,6 +6162,35 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>ОбщиеМодули</name>
+    <id>19</id>
+    <valueType>
+      <types>ValueTable</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <columns>
+      <name>Имя</name>
+      <id>1</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers>
+          <length>500</length>
+        </stringQualifiers>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+  </attributes>
   <formCommands>
     <name>ЗаписатьИЗакрыть</name>
     <title>
@@ -6179,7 +6242,7 @@
     <id>3</id>
     <toolTip>
       <key>ru</key>
-      <value>Заполнить обработчик1</value>
+      <value>Заполнить Текущий</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -6201,7 +6264,7 @@
     <id>4</id>
     <toolTip>
       <key>ru</key>
-      <value>Заполнить обработчик1</value>
+      <value>Заполнить Конфликтующий</value>
     </toolTip>
     <use>
       <common>true</common>
@@ -6377,6 +6440,28 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ПриоритетПоУмолчанию</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ДобавитьТипыРеквизитаВБлокируемыеОбъекты</name>
+    <title>
+      <key>ru</key>
+      <value>Добавить типы реквизита</value>
+    </title>
+    <id>13</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Добавить типы реквизита в блокируемые объекты</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <shortcut>Shift+R</shortcut>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ДобавитьТипыРеквизитаВБлокируемыеОбъекты</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

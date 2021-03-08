@@ -9,6 +9,7 @@
     <key>ru</key>
     <value>Описание обработчиков обновления</value>
   </synonym>
+  <comment>АПК:566 АПК:574  работа в мобильном и веб-клиенте не предусмотрена</comment>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.ОписаниеОбработчиковОбновления.Form.ФормаСпискаОбработчиков</defaultForm>
   <attributes uuid="f401c5be-2698-452d-8908-08faad120a47">
@@ -602,6 +603,22 @@
       <fillValue xsi:type="core:StringValue">
         <value></value>
       </fillValue>
+    </attributes>
+    <attributes uuid="c8a0da4e-0b0f-4def-a61e-5f6e04468e01">
+      <name>ПорядокБиблиотеки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Порядок библиотеки</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+        </numberQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
   </tabularSections>
   <tabularSections uuid="62f9c12c-1837-4320-99b0-8f7ae44af735">
@@ -1328,25 +1345,16 @@
       </fillValue>
     </attributes>
   </tabularSections>
-  <forms uuid="cd2339d9-be64-48c1-8ddf-670269fde7bf">
-    <name>ОбъектыПересеченияОбработчика</name>
+  <forms uuid="0b2c1689-22ba-4ed6-80f3-10475f11db1a">
+    <name>ФормаСпискаОбработчиков</name>
     <synonym>
       <key>ru</key>
-      <value>Объекты пересечения обработчика</value>
+      <value>Форма списка обработчиков</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="05859e7e-d54f-4a60-a6a3-38e717c18bd6">
-    <name>ФормаВыбораИдентификаторовОбъектовМетаданных</name>
-    <synonym>
-      <key>ru</key>
-      <value>Форма выбора идентификаторов объектов метаданных</value>
-    </synonym>
-    <usePurposes>PersonalComputer</usePurposes>
-    <usePurposes>MobileDevice</usePurposes>
-  </forms>
-  <forms uuid="5672790a-b175-44b4-9bba-2c08ff9d025c">
+  <forms uuid="46bbfede-5b4d-44fc-90ec-f6f3598340c4">
     <name>ФормаОбработчика</name>
     <synonym>
       <key>ru</key>
@@ -1355,11 +1363,20 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="1b3b8998-b390-498e-bc1a-1e48871f7fd3">
-    <name>ФормаСпискаОбработчиков</name>
+  <forms uuid="acc6358f-be29-4931-8ed2-b769a48cee08">
+    <name>ФормаВыбораИдентификаторовОбъектовМетаданных</name>
     <synonym>
       <key>ru</key>
-      <value>Форма списка обработчиков</value>
+      <value>Форма выбора идентификаторов объектов метаданных</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="51c58d33-32f7-401a-84d4-5a942129fbd5">
+    <name>ОбъектыПересеченияОбработчика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объекты пересечения обработчика</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
@@ -1372,7 +1389,7 @@
     </synonym>
     <templateType>TextDocument</templateType>
   </templates>
-  <commands uuid="2799e00e-cd30-4169-bf01-6029f90adaaf">
+  <commands uuid="e58672f5-84c9-462f-b5a6-7f15a6f2f797">
     <name>ОписаниеОбработчиковОбновления</name>
     <synonym>
       <key>ru</key>

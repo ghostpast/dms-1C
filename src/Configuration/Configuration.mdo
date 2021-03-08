@@ -137,14 +137,10 @@
   <commonCommands>CommonCommand.УстановитьРасширениеДляРаботыС1СПредприятием</commonCommands>
   <constants>Constant.ГлавныйУзел</constants>
   <constants>Constant.ДетализироватьОбновлениеИБВЖурналеРегистрации</constants>
-  <constants>Constant.ДополнительныйЯзык1</constants>
-  <constants>Constant.ДополнительныйЯзык2</constants>
   <constants>Constant.ЗаголовокСистемы</constants>
   <constants>Constant.ИдентификаторИнформационнойБазы</constants>
   <constants>Constant.ИспользоватьВнешнихПользователей</constants>
   <constants>Constant.ИспользоватьГруппыПользователей</constants>
-  <constants>Constant.ИспользоватьДополнительныйЯзык1</constants>
-  <constants>Constant.ИспользоватьДополнительныйЯзык2</constants>
   <constants>Constant.КоличествоПотоковОбновленияИнформационнойБазы</constants>
   <constants>Constant.НастройкиВходаПользователей</constants>
   <constants>Constant.ОсновнойЯзык</constants>
@@ -171,7 +167,6 @@
   <commonForms>CommonForm.ПредупреждениеБезопасности</commonForms>
   <commonForms>CommonForm.ПредупрежденияПриЗавершенииРаботы</commonForms>
   <commonForms>CommonForm.ПустойРабочийСтол</commonForms>
-  <commonForms>CommonForm.РегиональныеНастройки</commonForms>
   <commonForms>CommonForm.СменаПароля</commonForms>
   <catalogs>Catalog.ВариантыОтчетов</catalogs>
   <catalogs>Catalog.ВерсииРасширений</catalogs>

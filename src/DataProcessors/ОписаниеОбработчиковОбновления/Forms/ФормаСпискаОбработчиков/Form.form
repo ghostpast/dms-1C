@@ -406,56 +406,6 @@
         <textEdit>true</textEdit>
       </extInfo>
     </items>
-    <items xsi:type="form:Decoration">
-      <name>Версия</name>
-      <id>248</id>
-      <title>
-        <key>ru</key>
-        <value>Версия 2.15.4</value>
-      </title>
-      <visible>true</visible>
-      <enabled>true</enabled>
-      <userVisible/>
-      <extendedTooltip>
-        <name>ВерсияРасширеннаяПодсказка</name>
-        <id>250</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <type>Label</type>
-        <autoMaxWidth>true</autoMaxWidth>
-        <autoMaxHeight>true</autoMaxHeight>
-        <extInfo xsi:type="form:LabelDecorationExtInfo">
-          <horizontalAlign>Left</horizontalAlign>
-        </extInfo>
-      </extendedTooltip>
-      <contextMenu>
-        <name>ВерсияКонтекстноеМеню</name>
-        <id>249</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <autoFill>true</autoFill>
-      </contextMenu>
-      <type>Label</type>
-      <autoMaxWidth>true</autoMaxWidth>
-      <autoMaxHeight>true</autoMaxHeight>
-      <textColor xsi:type="core:ColorRef">
-        <color>Style.ReportLineColor</color>
-      </textColor>
-      <font xsi:type="core:FontRef">
-        <font>Style.NormalTextFont</font>
-        <height>8.0</height>
-      </font>
-      <groupHorizontalAlign>Right</groupHorizontalAlign>
-      <extInfo xsi:type="form:LabelDecorationExtInfo">
-        <horizontalAlign>Left</horizontalAlign>
-      </extInfo>
-    </items>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>
@@ -2144,6 +2094,57 @@
       </extInfo>
     </items>
     <items xsi:type="form:FormField">
+      <name>ОбработчикиОбновленияПорядокБиблиотеки</name>
+      <id>248</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible/>
+      <dataPath xsi:type="form:MultiLanguageDataPath">
+        <paths xsi:type="form:DataPath">
+          <segments>Объект.ОбработчикиОбновления.ПорядокБиблиотеки</segments>
+        </paths>
+      </dataPath>
+      <extendedTooltip>
+        <name>ОбработчикиОбновленияПорядокБиблиотекиРасширеннаяПодсказка</name>
+        <id>250</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <contextMenu>
+        <name>ОбработчикиОбновленияПорядокБиблиотекиКонтекстноеМеню</name>
+        <id>249</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <autoFill>true</autoFill>
+      </contextMenu>
+      <type>InputField</type>
+      <readOnly>true</readOnly>
+      <editMode>EnterOnInput</editMode>
+      <showInHeader>true</showInHeader>
+      <headerHorizontalAlign>Left</headerHorizontalAlign>
+      <showInFooter>true</showInFooter>
+      <extInfo xsi:type="form:InputFieldExtInfo">
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <wrap>true</wrap>
+        <chooseType>true</chooseType>
+        <typeDomainEnabled>true</typeDomainEnabled>
+        <textEdit>true</textEdit>
+      </extInfo>
+    </items>
+    <items xsi:type="form:FormField">
       <name>ОбработчикиОбновленияИмяОбъекта</name>
       <id>239</id>
       <visible>true</visible>
@@ -2907,6 +2908,37 @@
           </extInfo>
         </extendedTooltip>
         <commandName>Form.Command.ПоказатьПриоритетыКонфликтыОбработчика</commandName>
+        <representation>Auto</representation>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <placementArea>UserCmds</placementArea>
+        <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
+      </items>
+      <items xsi:type="form:Button">
+        <name>ПоказатьОбъектыОбработчика</name>
+        <id>251</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ПоказатьОбъектыОбработчикаРасширеннаяПодсказка</name>
+          <id>252</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.Command.ПоказатьОбъектыОбработчика</commandName>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -3749,7 +3781,7 @@
     <name>ПоказатьТабличныеЧасти</name>
     <title>
       <key>ru</key>
-      <value>Показать все таблицы описания обработчиков</value>
+      <value>Показать все таблицы описания всех обработчиков</value>
     </title>
     <id>9</id>
     <toolTip>
@@ -4005,6 +4037,27 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ПереключитьРежимФормы</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ПоказатьОбъектыОбработчика</name>
+    <title>
+      <key>ru</key>
+      <value>Показать объекты обработчика</value>
+    </title>
+    <id>21</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Показать объекты обработчика</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ПоказатьОбъектыОбработчика</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

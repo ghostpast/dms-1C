@@ -79,11 +79,6 @@
   <content>ScheduledJob.УдалениеУстаревшихПараметровРаботыВерсийРасширений</content>
   <content>DataProcessor.НерекомендуемаяВерсияПлатформы</content>
   <content>CommonForm.ВосстановлениеСвязиСГлавнымУзлом</content>
-  <content>CommonForm.РегиональныеНастройки</content>
-  <content>Constant.ИспользоватьДополнительныйЯзык1</content>
-  <content>Constant.ИспользоватьДополнительныйЯзык2</content>
-  <content>Constant.ДополнительныйЯзык1</content>
-  <content>Constant.ДополнительныйЯзык2</content>
   <content>CommonCommand.ВремяТекущегоСеанса</content>
   <content>InformationRegister.КэшПрограммныхИнтерфейсов</content>
   <content>Enum.ТипыДанныхКэшаПрограммныхИнтерфейсов</content>

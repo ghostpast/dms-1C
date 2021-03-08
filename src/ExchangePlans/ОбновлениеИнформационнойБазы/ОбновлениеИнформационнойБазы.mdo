@@ -152,6 +152,15 @@
   <content>
     <mdObject>InformationRegister.ПараметрыРаботыПрограммы</mdObject>
   </content>
+  <content>
+    <mdObject>InformationRegister.ОбработчикиОбновления</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ОбработчикиОбновленияОбщихДанных</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ПотокиОбновления</mdObject>
+  </content>
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>

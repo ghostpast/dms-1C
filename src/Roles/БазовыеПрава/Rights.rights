@@ -475,57 +475,6 @@
 		</right>
 	</object>
 	<object>
-		<name>Constant.ДополнительныйЯзык1</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.ДополнительныйЯзык2</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.ИспользоватьДополнительныйЯзык1</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.ИспользоватьДополнительныйЯзык2</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonForm.РегиональныеНастройки</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
 		<name>SessionParameter.ВыполняетсяОбновлениеИБ</name>
 		<right>
 			<name>Get</name>
