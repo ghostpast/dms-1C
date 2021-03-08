@@ -1053,7 +1053,6 @@
       <type>ViewStatusAddition</type>
       <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
         <autoMaxWidth>true</autoMaxWidth>
-        <horizontalLocation>Left</horizontalLocation>
       </extInfo>
     </viewStatusAddition>
     <searchControlAddition>
@@ -1401,8 +1400,8 @@
       <name>Ссылка</name>
       <id>9</id>
       <valueType>
-        <types>CatalogRef.ВнешниеПользователи</types>
         <types>CatalogRef.Пользователи</types>
+        <types>CatalogRef.ВнешниеПользователи</types>
       </valueType>
       <view>
         <common>true</common>

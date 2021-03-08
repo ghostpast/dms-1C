@@ -78,10 +78,10 @@
       <value>Группа пользователей</value>
     </synonym>
     <type>
-      <types>CatalogRef.ВнешниеПользователи</types>
+      <types>CatalogRef.Пользователи</types>
       <types>CatalogRef.ГруппыВнешнихПользователей</types>
       <types>CatalogRef.ГруппыПользователей</types>
-      <types>CatalogRef.Пользователи</types>
+      <types>CatalogRef.ВнешниеПользователи</types>
     </type>
     <toolTip>
       <key>ru</key>
@@ -105,8 +105,8 @@
       <value>Пользователь</value>
     </synonym>
     <type>
-      <types>CatalogRef.ВнешниеПользователи</types>
       <types>CatalogRef.Пользователи</types>
+      <types>CatalogRef.ВнешниеПользователи</types>
     </type>
     <toolTip>
       <key>ru</key>

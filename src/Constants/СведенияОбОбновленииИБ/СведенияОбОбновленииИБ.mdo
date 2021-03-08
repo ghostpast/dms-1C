@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Constant xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1329ba0-5bfd-453e-9975-eb204cefaf69">
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c1329ba0-5bfd-453e-9975-eb204cefaf69">
   <producedTypes>
     <managerType typeId="183d8f58-095e-40b3-aba3-62e360ccf2ee" valueTypeId="13c2bdc9-a982-4c1d-beba-ca3dabe45c30"/>
     <valueManagerType typeId="3d68f767-a854-4e44-ba00-614c531fbc5c" valueTypeId="86b3ad3a-d51f-4854-a3ab-af3b7f4578b1"/>
@@ -17,5 +17,7 @@
     <key>ru</key>
     <value>Содержит информацию об основном и отложенном циклах обновления.</value>
   </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>
 </mdclass:Constant>

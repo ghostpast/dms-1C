@@ -265,7 +265,7 @@
               <horizontalStretch>true</horizontalStretch>
               <verticalStretch>true</verticalStretch>
               <valuesPicture xsi:type="core:PictureRef">
-                <picture>CommonPicture.СостоянияПользователей</picture>
+                <picture>0</picture>
               </valuesPicture>
             </extInfo>
           </items>
@@ -440,7 +440,6 @@
           <type>ViewStatusAddition</type>
           <extInfo xsi:type="form:ViewStatusAdditionExtInfo">
             <autoMaxWidth>true</autoMaxWidth>
-            <horizontalLocation>Left</horizontalLocation>
           </extInfo>
         </viewStatusAddition>
         <searchControlAddition>
@@ -703,7 +702,7 @@
     </extendedTooltip>
     <type>Pages</type>
     <extInfo xsi:type="form:PagesGroupExtInfo">
-      <currentRowUse>DontUse</currentRowUse>
+      <currentRowUse>Auto</currentRowUse>
     </extInfo>
   </items>
   <autoCommandBar>
@@ -907,8 +906,8 @@
   <parameters>
     <name>Пользователь</name>
     <valueType>
-      <types>CatalogRef.ВнешниеПользователи</types>
       <types>CatalogRef.Пользователи</types>
+      <types>CatalogRef.ВнешниеПользователи</types>
     </valueType>
   </parameters>
   <parameters>

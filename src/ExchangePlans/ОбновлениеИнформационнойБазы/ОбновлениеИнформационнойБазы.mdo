@@ -90,7 +90,16 @@
   <codeAllowedLength>Variable</codeAllowedLength>
   <descriptionLength>25</descriptionLength>
   <content>
-    <mdObject>Constant.ГлавныйУзел</mdObject>
+    <mdObject>Constant.РаботаВЛокальномРежиме</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.РаботаВМоделиСервиса</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ВерсииРасширений</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.РаботаВАвтономномРежиме</mdObject>
   </content>
   <content>
     <mdObject>Constant.ДетализироватьОбновлениеИБВЖурналеРегистрации</mdObject>
@@ -99,67 +108,58 @@
     <mdObject>Constant.ЗаголовокСистемы</mdObject>
   </content>
   <content>
-    <mdObject>Constant.ИспользоватьВнешнихПользователей</mdObject>
-  </content>
-  <content>
-    <mdObject>Constant.КоличествоПотоковОбновленияИнформационнойБазы</mdObject>
-  </content>
-  <content>
-    <mdObject>Constant.НастройкиВходаПользователей</mdObject>
-  </content>
-  <content>
-    <mdObject>Constant.ОтложенноеОбновлениеВГлавномУзлеЗавершеноУспешно</mdObject>
-  </content>
-  <content>
     <mdObject>Constant.ОтложенноеОбновлениеЗавершеноУспешно</mdObject>
-  </content>
-  <content>
-    <mdObject>Constant.ПараметрыАдминистрированияИБ</mdObject>
-  </content>
-  <content>
-    <mdObject>Constant.РаботаВАвтономномРежиме</mdObject>
-  </content>
-  <content>
-    <mdObject>Constant.РаботаВЛокальномРежиме</mdObject>
-  </content>
-  <content>
-    <mdObject>Constant.РаботаВМоделиСервиса</mdObject>
-  </content>
-  <content>
-    <mdObject>Constant.СведенияОБлокируемыхОбъектах</mdObject>
-  </content>
-  <content>
-    <mdObject>Constant.СведенияОбОбновленииИБ</mdObject>
-  </content>
-  <content>
-    <mdObject>Catalog.ВерсииРасширений</mdObject>
-  </content>
-  <content>
-    <mdObject>Catalog.ИдентификаторыОбъектовМетаданных</mdObject>
-  </content>
-  <content>
-    <mdObject>Catalog.ВнешниеПользователи</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.БезопасноеХранилищеДанных</mdObject>
   </content>
   <content>
-    <mdObject>InformationRegister.ВерсииПодсистем</mdObject>
-  </content>
-  <content>
-    <mdObject>InformationRegister.ДанныеОбработанныеВЦентральномУзлеРИБ</mdObject>
-  </content>
-  <content>
-    <mdObject>InformationRegister.ПараметрыРаботыПрограммы</mdObject>
+    <mdObject>Catalog.ИдентификаторыОбъектовМетаданных</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.ОбработчикиОбновления</mdObject>
   </content>
   <content>
-    <mdObject>InformationRegister.ОбработчикиОбновленияОбщихДанных</mdObject>
+    <mdObject>InformationRegister.ВерсииПодсистем</mdObject>
+  </content>
+  <content>
+    <mdObject>Catalog.ВнешниеПользователи</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ПараметрыАдминистрированияИБ</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.КоличествоПотоковОбновленияИнформационнойБазы</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ПараметрыРаботыПрограммы</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ГлавныйУзел</mdObject>
   </content>
   <content>
     <mdObject>InformationRegister.ПотокиОбновления</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ДанныеОбработанныеВЦентральномУзлеРИБ</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.НастройкиВходаПользователей</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.СведенияОБлокируемыхОбъектах</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ОтложенноеОбновлениеВГлавномУзлеЗавершеноУспешно</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.СведенияОбОбновленииИБ</mdObject>
+  </content>
+  <content>
+    <mdObject>Constant.ИспользоватьВнешнихПользователей</mdObject>
+  </content>
+  <content>
+    <mdObject>InformationRegister.ОбработчикиОбновленияОбщихДанных</mdObject>
   </content>
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Constant xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="365776a9-f2ea-4900-b79a-31c4c9967ed1">
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="365776a9-f2ea-4900-b79a-31c4c9967ed1">
   <producedTypes>
     <managerType typeId="a59013b1-8371-4492-87c5-c77e21e97570" valueTypeId="136f0921-ba72-40f3-8646-4603da5cffd5"/>
     <valueManagerType typeId="bd6840d7-f145-4ba5-9ffd-032e2a637ab6" valueTypeId="b152908d-1c84-4074-b098-80b08ecc9d46"/>
@@ -14,5 +14,7 @@
     <types>Boolean</types>
   </type>
   <useStandardCommands>true</useStandardCommands>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>
 </mdclass:Constant>

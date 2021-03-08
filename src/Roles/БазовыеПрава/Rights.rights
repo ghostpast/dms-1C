@@ -15,91 +15,11 @@
 		</right>
 	</object>
 	<object>
-		<name>SessionParameter.ВерсияРасширений</name>
+		<name>Constant.РаботаВЛокальномРежиме</name>
 		<right>
-			<name>Get</name>
+			<name>Read</name>
 			<value>true</value>
 		</right>
-	</object>
-	<object>
-		<name>SessionParameter.ОсновнойЯзык</name>
-		<right>
-			<name>Get</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>SessionParameter.ПараметрыКлиентаНаСервере</name>
-		<right>
-			<name>Get</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>SessionParameter.ПараметрыОбработчикаОбновления</name>
-		<right>
-			<name>Get</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>SessionParameter.ПодключенныеРасширения</name>
-		<right>
-			<name>Get</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>SessionParameter.УстановленныеРасширения</name>
-		<right>
-			<name>Get</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonForm.ВопросОбУстановкеРасширенияРаботыСФайлами</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonForm.Вопрос</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonForm.ПредупреждениеБезопасности</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonForm.ПредупрежденияПриЗавершенииРаботы</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonForm.ВходВПрограммуЗапрещен</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonForm.ПустойРабочийСтол</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>CommonCommand.ПредупрежденияПриЗавершенииРаботы</name>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -108,158 +28,11 @@
 	<object>
 		<name>Constant.РаботаВМоделиСервиса</name>
 		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
 			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.ОтложенноеОбновлениеВГлавномУзлеЗавершеноУспешно</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.ГлавныйУзел</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.РаботаВЛокальномРежиме</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.ИспользоватьВнешнихПользователей</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.РаботаВАвтономномРежиме</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.ОсновнойЯзык</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.ОтложенноеОбновлениеЗавершеноУспешно</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.ЗаголовокСистемы</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.СведенияОБлокируемыхОбъектах</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.КоличествоПотоковОбновленияИнформационнойБазы</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.ДетализироватьОбновлениеИБВЖурналеРегистрации</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Constant.СведенияОбОбновленииИБ</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>Catalog.ИдентификаторыОбъектовМетаданных</name>
-		<right>
-			<name>InputByString</name>
 			<value>true</value>
 		</right>
 		<right>
 			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Read</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -275,99 +48,105 @@
 		</right>
 	</object>
 	<object>
-		<name>DataProcessor.РекомендацияПоПовышениюСкоростиРаботы</name>
+		<name>SessionParameter.ТекущийПользователь</name>
 		<right>
-			<name>Use</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>View</name>
+			<name>Get</name>
 			<value>true</value>
 		</right>
 	</object>
 	<object>
-		<name>Constant.ИспользоватьГруппыПользователей</name>
+		<name>SessionParameter.ВыполняетсяОбновлениеИБ</name>
 		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Read</name>
+			<name>Get</name>
 			<value>true</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ГруппыПользователей</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
+		<name>Constant.РаботаВАвтономномРежиме</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
 		</right>
 		<right>
-			<name>InputByString</name>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
 	<object>
-		<name>Catalog.Пользователи</name>
+		<name>SessionParameter.ОсновнойЯзык</name>
 		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Edit</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InputByString</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Update</name>
-			<value>true</value>
-			<restrictionByCondition>
-				<condition>#Если &amp;ОграничениеДоступаНаУровнеЗаписейУниверсально #Тогда
-#ДляОбъекта("")
-#Иначе
-ГДЕ Ссылка = &amp;ТекущийПользователь
-#КонецЕсли</condition>
-			</restrictionByCondition>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.СоставыГруппПользователей</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-			<restrictionByCondition>
-				<condition>#Если &amp;ОграничениеДоступаНаУровнеЗаписейУниверсально #Тогда
-#ДляРегистра("ИдентификаторыОбъектовМетаданных.РегистрСведенийСоставыГруппПользователей", "Пользователь", "", "", "", "")
-#Иначе
-ГДЕ Пользователь = &amp;ТекущийПользователь
-#КонецЕсли</condition>
-			</restrictionByCondition>
-		</right>
-	</object>
-	<object>
-		<name>CommonForm.СменаПароля</name>
-		<right>
-			<name>View</name>
+			<name>Get</name>
 			<value>true</value>
 		</right>
 	</object>
 	<object>
 		<name>CommonForm.НовыйПароль</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>SessionParameter.УстановленныеРасширения</name>
+		<right>
+			<name>Get</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.ДетализироватьОбновлениеИБВЖурналеРегистрации</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.ЗаголовокСистемы</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.ОтложенноеОбновлениеЗавершеноУспешно</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ИдентификаторыОбъектовМетаданных</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ОбработчикиОбновления</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
 		<right>
 			<name>View</name>
 			<value>true</value>
@@ -381,14 +160,35 @@
 		</right>
 	</object>
 	<object>
-		<name>SessionParameter.ТекущийПользователь</name>
+		<name>CommonForm.ВопросОбУстановкеРасширенияРаботыСФайлами</name>
 		<right>
-			<name>Get</name>
+			<name>View</name>
 			<value>true</value>
 		</right>
 	</object>
 	<object>
-		<name>SessionParameter.ТекущийВнешнийПользователь</name>
+		<name>CommonForm.ПредупреждениеБезопасности</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonCommand.УстановитьРасширениеДляРаботыС1СПредприятием</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonForm.СменаПароля</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>SessionParameter.ПараметрыКлиентаНаСервере</name>
 		<right>
 			<name>Get</name>
 			<value>true</value>
@@ -409,22 +209,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Catalog.ИдентификаторыОбъектовРасширений</name>
-		<right>
-			<name>View</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>InputByString</name>
-			<value>true</value>
-		</right>
-		<right>
-			<name>Read</name>
-			<value>true</value>
-		</right>
-	</object>
-	<object>
-		<name>InformationRegister.ИдентификаторыОбъектовВерсийРасширений</name>
+		<name>Constant.ИспользоватьГруппыПользователей</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -435,7 +220,7 @@
 		</right>
 	</object>
 	<object>
-		<name>Constant.ИдентификаторИнформационнойБазы</name>
+		<name>Constant.КоличествоПотоковОбновленияИнформационнойБазы</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
@@ -446,20 +231,78 @@
 		</right>
 	</object>
 	<object>
-		<name>SessionParameter.РаботаСВнешнимиРесурсамиЗаблокирована</name>
+		<name>DataProcessor.РекомендацияПоПовышениюСкоростиРаботы</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.ГлавныйУзел</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>SessionParameter.ВерсияРасширений</name>
 		<right>
 			<name>Get</name>
 			<value>true</value>
 		</right>
 	</object>
 	<object>
-		<name>InformationRegister.ОбработчикиОбновления</name>
+		<name>InformationRegister.СоставыГруппПользователей</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>#Если &amp;ОграничениеДоступаНаУровнеЗаписейУниверсально #Тогда
+#ДляРегистра("ИдентификаторыОбъектовМетаданных.РегистрСведенийСоставыГруппПользователей", "Пользователь", "", "", "", "")
+#Иначе
+ГДЕ Пользователь = &amp;ТекущийПользователь
+#КонецЕсли</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonCommand.ПредупрежденияПриЗавершенииРаботы</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>SessionParameter.ПодключенныеРасширения</name>
+		<right>
+			<name>Get</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ИдентификаторыОбъектовРасширений</name>
 		<right>
 			<name>Read</name>
 			<value>true</value>
 		</right>
 		<right>
 			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
 			<value>true</value>
 		</right>
 	</object>
@@ -475,14 +318,171 @@
 		</right>
 	</object>
 	<object>
-		<name>SessionParameter.ВыполняетсяОбновлениеИБ</name>
+		<name>CommonForm.Вопрос</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.СведенияОБлокируемыхОбъектах</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.ОтложенноеОбновлениеВГлавномУзлеЗавершеноУспешно</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>SessionParameter.ПараметрыОбработчикаОбновления</name>
 		<right>
 			<name>Get</name>
 			<value>true</value>
 		</right>
 	</object>
 	<object>
-		<name>CommonCommand.УстановитьРасширениеДляРаботыС1СПредприятием</name>
+		<name>Catalog.Пользователи</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>#Если &amp;ОграничениеДоступаНаУровнеЗаписейУниверсально #Тогда
+#ДляОбъекта("")
+#Иначе
+ГДЕ Ссылка = &amp;ТекущийПользователь
+#КонецЕсли</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Edit</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.СведенияОбОбновленииИБ</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.ИспользоватьВнешнихПользователей</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonForm.ПустойРабочийСтол</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Catalog.ГруппыПользователей</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>InputByString</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.ИдентификаторыОбъектовВерсийРасширений</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.ОсновнойЯзык</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>SessionParameter.ТекущийВнешнийПользователь</name>
+		<right>
+			<name>Get</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonForm.ПредупрежденияПриЗавершенииРаботы</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>SessionParameter.РаботаСВнешнимиРесурсамиЗаблокирована</name>
+		<right>
+			<name>Get</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.ИдентификаторИнформационнойБазы</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>CommonForm.ВходВПрограммуЗапрещен</name>
 		<right>
 			<name>View</name>
 			<value>true</value>

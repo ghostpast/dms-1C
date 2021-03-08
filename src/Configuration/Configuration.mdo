@@ -11,7 +11,8 @@
   <containedObjects classId="9de14907-ec23-4a07-96f0-85521cb6b53b" objectId="fe05c04c-e6d7-43e0-8cc5-cf2ac70b2286"/>
   <containedObjects classId="51f2d5d8-ea4d-4064-8892-82951750031e" objectId="f31b225a-f528-4ee4-9b06-57a1a035b4e7"/>
   <containedObjects classId="e68182ea-4237-4383-967f-90c1e3370bc7" objectId="a1e465d5-8a3c-4c85-8f1d-4a5547144668"/>
-  <configurationExtensionCompatibilityMode>8.3.14</configurationExtensionCompatibilityMode>
+  <containedObjects classId="fb282519-d103-4dd3-bc12-cb271d631dfc" objectId="3c47e8f8-df55-4e61-9ade-ce8d64d82bd1"/>
+  <configurationExtensionCompatibilityMode>8.3.18</configurationExtensionCompatibilityMode>
   <defaultRunMode>ManagedApplication</defaultRunMode>
   <usePurposes>PersonalComputer</usePurposes>
   <scriptVariant>Russian</scriptVariant>
@@ -19,12 +20,17 @@
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
   <defaultRoles>Role.ПолныеПрава</defaultRoles>
   <version>1.0.0.1</version>
+  <usedMobileApplicationFunctionalities>
+    <functionality>
+      <use>true</use>
+    </functionality>
+  </usedMobileApplicationFunctionalities>
   <defaultLanguage>Language.Русский</defaultLanguage>
   <dataLockControlMode>Managed</dataLockControlMode>
   <objectAutonumerationMode>NotAutoFree</objectAutonumerationMode>
   <modalityUseMode>UseWithWarnings</modalityUseMode>
   <synchronousPlatformExtensionAndAddInCallUseMode>DontUse</synchronousPlatformExtensionAndAddInCallUseMode>
-  <compatibilityMode>8.3.16</compatibilityMode>
+  <compatibilityMode>8.3.18</compatibilityMode>
   <languages uuid="d082d014-f484-42b6-a3a2-f448cb6aae1f">
     <name>Русский</name>
     <synonym>
@@ -43,7 +49,7 @@
   <commonPictures>CommonPicture.Вопрос32</commonPictures>
   <commonPictures>CommonPicture.ДлительнаяОперация48</commonPictures>
   <commonPictures>CommonPicture.ЗавершитьРаботу</commonPictures>
-  <commonPictures>CommonPicture.Информация</commonPictures>
+  <commonPictures>CommonPicture.Информация1</commonPictures>
   <commonPictures>CommonPicture.Информация32</commonPictures>
   <commonPictures>CommonPicture.Ошибка32</commonPictures>
   <commonPictures>CommonPicture.Подсистема</commonPictures>

@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Constant xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b90969f-8bb1-4808-a420-85c25bf629c4">
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="3b90969f-8bb1-4808-a420-85c25bf629c4">
   <producedTypes>
     <managerType typeId="5ac18d92-dea2-4ca3-9b98-805cce61e7a7" valueTypeId="c0ee1264-a2a6-4384-817e-b57a96569a70"/>
     <valueManagerType typeId="2826313d-e0d2-412a-a069-8ec3bc3c9018" valueTypeId="94d8dcd1-c33e-4336-a760-45274f89eb6a"/>
@@ -18,5 +18,7 @@
     <key>ru</key>
     <value>Фрагмент заголовка главного окна программы</value>
   </toolTip>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
   <dataLockControlMode>Managed</dataLockControlMode>
 </mdclass:Constant>

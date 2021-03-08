@@ -6,7 +6,7 @@
     <value>Авторизованный пользователь</value>
   </synonym>
   <type>
-    <types>CatalogRef.ВнешниеПользователи</types>
     <types>CatalogRef.Пользователи</types>
+    <types>CatalogRef.ВнешниеПользователи</types>
   </type>
 </mdclass:SessionParameter>
