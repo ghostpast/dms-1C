@@ -1,0 +1,132 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bfe9b382-4828-43ec-818e-cb380f9fe867">
+  <producedTypes>
+    <selectionType typeId="acb0b515-c278-47f4-9ade-325442f22855" valueTypeId="6ad627fb-b1b0-45e0-83f0-684e8065e8e7"/>
+    <listType typeId="c19a8bda-20d5-4a89-94a4-4e2aef48684f" valueTypeId="b4931bc3-4935-4a05-933b-ecbf14a963c4"/>
+    <managerType typeId="49654e10-0997-489c-808a-79c12babaf08" valueTypeId="afee4f61-4ef5-42fd-9f42-ebbf53642bb8"/>
+    <recordSetType typeId="1a6a4c7e-1197-457e-ba1e-3353f937efcb" valueTypeId="535da2bb-d2d4-4896-b19a-f184e012e78d"/>
+    <recordKeyType typeId="125ad1e4-9f16-425c-a6b0-2a187671d875" valueTypeId="aa81545b-8fd1-4018-9ddd-4f7ee264a9fe"/>
+    <recordType typeId="db975493-f524-4757-8fb5-964ab655763d" valueTypeId="5c57f477-7451-4d72-9723-6a068db2b7f9"/>
+    <recordManagerType typeId="789c978c-22ed-420c-bba7-457d76359b34" valueTypeId="8d05ad19-c20d-4b38-88fb-37c8e2fd514b"/>
+  </producedTypes>
+  <name>ПредопределенныеВариантыОтчетовВерсийРасширений</name>
+  <synonym>
+    <key>ru</key>
+    <value>Предопределенные варианты отчетов версий расширений</value>
+  </synonym>
+  <editType>InDialog</editType>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Active</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>LineNumber</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Recorder</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Period</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <dataLockControlMode>Managed</dataLockControlMode>
+  <dimensions uuid="9f472efe-d254-4ea5-bd76-8c8b63d15cb5">
+    <name>Отчет</name>
+    <synonym>
+      <key>ru</key>
+      <value>Отчет</value>
+    </synonym>
+    <comment>Не &quot;Ведущее&quot;, чтобы отчет не удалился по расписанию.</comment>
+    <type>
+      <types>CatalogRef.ИдентификаторыОбъектовРасширений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c5357d90-4285-4d26-ad9a-f8d4d9e85f78">
+    <name>Вариант</name>
+    <synonym>
+      <key>ru</key>
+      <value>Вариант</value>
+    </synonym>
+    <comment>Не &quot;Ведущее&quot;, чтобы вариант не удалился по расписанию.</comment>
+    <type>
+      <types>CatalogRef.ПредопределенныеВариантыОтчетовРасширений</types>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="ac6c750e-4c74-4a7b-9027-8fdd0a72c59d">
+    <name>ВерсияРасширений</name>
+    <synonym>
+      <key>ru</key>
+      <value>Версия расширений</value>
+    </synonym>
+    <type>
+      <types>CatalogRef.ВерсииРасширений</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Обобщенная версия метаданных набора расширений</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <denyIncompleteValues>true</denyIncompleteValues>
+    <dataHistory>Use</dataHistory>
+    <fillFromFillingValue>true</fillFromFillingValue>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <master>true</master>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+  <dimensions uuid="c665b8b2-e2bb-4a2d-83ea-5530bc625dc8">
+    <name>КлючВарианта</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ключ варианта</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>256</length>
+      </stringQualifiers>
+    </type>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+    <fillValue xsi:type="core:StringValue">
+      <value></value>
+    </fillValue>
+    <mainFilter>true</mainFilter>
+  </dimensions>
+</mdclass:InformationRegister>

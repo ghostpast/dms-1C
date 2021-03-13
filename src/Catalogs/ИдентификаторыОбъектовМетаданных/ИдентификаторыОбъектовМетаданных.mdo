@@ -203,6 +203,18 @@
         <value></value>
       </code>
     </items>
+    <items id="40e85c90-590c-48c1-8b46-c30a63bc5eca">
+      <name>РегистрСведенийПредопределенныеВариантыОтчетовВерсийРасширений</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
+    <items id="87f9af34-5e1e-499d-b6e1-be45fde72f3e">
+      <name>РегистрСведенийНастройкиВариантовОтчетов</name>
+      <code xsi:type="core:StringValue">
+        <value></value>
+      </code>
+    </items>
   </predefined>
   <predefinedDataUpdate>DontAutoUpdate</predefinedDataUpdate>
   <editType>InDialog</editType>

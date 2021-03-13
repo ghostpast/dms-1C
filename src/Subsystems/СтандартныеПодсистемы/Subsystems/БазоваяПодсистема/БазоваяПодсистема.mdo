@@ -85,5 +85,7 @@
   <content>CommonCommand.УстановитьРасширениеДляРаботыС1СПредприятием</content>
   <content>CommonPicture.Подсистема</content>
   <content>CommonPicture.Успешно</content>
+  <content>StyleItem.ЗаблокированныйРеквизитЦвет</content>
+  <content>StyleItem.ВажнаяНадписьШрифт</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

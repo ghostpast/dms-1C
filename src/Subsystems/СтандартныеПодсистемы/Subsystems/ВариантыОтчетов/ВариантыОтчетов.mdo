@@ -15,5 +15,8 @@
   <content>Catalog.ВариантыОтчетов</content>
   <content>CommonPicture.ВариантыОтчетовДоступныеВсемПользователям</content>
   <content>CommonModule.ВариантыОтчетовВызовСервера</content>
+  <content>InformationRegister.ПредопределенныеВариантыОтчетовВерсийРасширений</content>
+  <content>InformationRegister.НастройкиВариантовОтчетов</content>
+  <content>ScheduledJob.ОбновлениеПредопределенныхВариантовОтчетов</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>
