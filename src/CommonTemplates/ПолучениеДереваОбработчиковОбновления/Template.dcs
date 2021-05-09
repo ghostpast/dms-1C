@@ -72,6 +72,19 @@
 			</valueType>
 		</field>
 		<field xsi:type="DataSetFieldField">
+			<dataPath>УправлениеОбработчиками</dataPath>
+			<field>УправлениеОбработчиками</field>
+			<title xsi:type="v8:LocalStringType">
+				<v8:item>
+					<v8:lang>ru</v8:lang>
+					<v8:content>Управление обработчиками</v8:content>
+				</v8:item>
+			</title>
+			<valueType>
+				<v8:Type>xs:boolean</v8:Type>
+			</valueType>
+		</field>
+		<field xsi:type="DataSetFieldField">
 			<dataPath>ВыполнятьВГруппеОбязательных</dataPath>
 			<field>ВыполнятьВГруппеОбязательных</field>
 			<title xsi:type="v8:LocalStringType">
@@ -317,7 +330,7 @@
 	</dataSet>
 	<calculatedField>
 		<dataPath>ВесВерсии</dataPath>
-		<expression>ВЫРАЗИТЬ(ВЫБОР 
+		<expression>ВЫРАЗИТЬ(ВЫБОР
 	КОГДА Версия = "*" ТОГДА -1
 	ИНАЧЕ ОбновлениеВерсииИБСервер.сОИБ_ВесВерсии(Версия)
 КОНЕЦ, "Число(12, 0)")</expression>
@@ -338,7 +351,7 @@
 	</calculatedField>
 	<calculatedField>
 		<dataPath>ГруппаВерсии</dataPath>
-		<expression>ВЫБОР 
+		<expression>ВЫБОР
 	КОГДА ВыполнятьВГруппеОбязательных ТОГДА "*"
 	ИНАЧЕ Версия
 КОНЕЦ</expression>
@@ -349,7 +362,7 @@
 			</v8:item>
 		</title>
 		<orderExpression>
-			<dcscom:expression>ВЫРАЗИТЬ(ВЫБОР 
+			<dcscom:expression>ВЫРАЗИТЬ(ВЫБОР
 	КОГДА Версия = "*" ИЛИ ВыполнятьВГруппеОбязательных ТОГДА -1
 	ИНАЧЕ ОбновлениеВерсииИБСервер.сОИБ_ВесВерсии(Версия)
 КОНЕЦ, "Число(12, 0)") возр</dcscom:expression>
@@ -573,6 +586,9 @@
 					<dcsset:field>Процедура</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
+					<dcsset:field>УправлениеОбработчиками</dcsset:field>
+				</dcsset:item>
+				<dcsset:item xsi:type="dcsset:SelectedItemField">
 					<dcsset:field>МонопольныйРежим</dcsset:field>
 				</dcsset:item>
 				<dcsset:item xsi:type="dcsset:SelectedItemField">
@@ -672,6 +688,17 @@
 							<v8:item>
 								<v8:lang>ru</v8:lang>
 								<v8:content>// Обязательные (*)</v8:content>
+							</v8:item>
+						</dcsset:presentation>
+					</dcsset:item>
+					<dcsset:item xsi:type="dcsset:FilterItemComparison">
+						<dcsset:left xsi:type="dcscor:Field">Версия</dcsset:left>
+						<dcsset:comparisonType>Equal</dcsset:comparisonType>
+						<dcsset:right xsi:type="xs:string">ОтладкаОбработчика</dcsset:right>
+						<dcsset:presentation xsi:type="v8:LocalStringType">
+							<v8:item>
+								<v8:lang>ru</v8:lang>
+								<v8:content>// Версия еще не известна, вызываются при каждом обновлении</v8:content>
 							</v8:item>
 						</dcsset:presentation>
 					</dcsset:item>

@@ -590,7 +590,7 @@
         <type>Popup</type>
         <extInfo xsi:type="form:PopupGroupExtInfo">
           <picture xsi:type="core:PictureRef">
-            <picture>0</picture>
+            <picture>CommonPicture.Отчеты</picture>
           </picture>
           <representation>PictureAndText</representation>
         </extInfo>
@@ -1560,7 +1560,7 @@
                 <segments>ГруппыПользователей.НомерКартинки</segments>
               </rowPictureDataPath>
               <rowsPicture xsi:type="core:PictureRef">
-                <picture>0</picture>
+                <picture>CommonPicture.СостоянияПользователей</picture>
               </rowsPicture>
               <currentRowUse>SelectionPresentationAndChoice</currentRowUse>
               <extInfo xsi:type="form:DynamicListTableExtInfo">
@@ -2250,7 +2250,7 @@
               <footerHeight>1</footerHeight>
               <horizontalScrollBar>AutoUse</horizontalScrollBar>
               <verticalScrollBar>AutoUse</verticalScrollBar>
-              <searchOnInput>DontUse</searchOnInput>
+              <searchOnInput>Auto</searchOnInput>
               <initialListView>Auto</initialListView>
               <horizontalStretch>true</horizontalStretch>
               <verticalStretch>true</verticalStretch>
@@ -2259,7 +2259,7 @@
                 <segments>ПользователиСписок.НомерКартинки</segments>
               </rowPictureDataPath>
               <rowsPicture xsi:type="core:PictureRef">
-                <picture>0</picture>
+                <picture>CommonPicture.СостоянияПользователей</picture>
               </rowsPicture>
               <searchStringLocation>None</searchStringLocation>
               <searchControlLocation>None</searchControlLocation>
@@ -3022,7 +3022,7 @@
             <segments>ПользователиСписок.НомерКартинки</segments>
           </rowPictureDataPath>
           <rowsPicture xsi:type="core:PictureRef">
-            <picture>0</picture>
+            <picture>CommonPicture.СостоянияПользователей</picture>
           </rowsPicture>
           <extInfo xsi:type="form:DynamicListTableExtInfo">
             <autoRefreshPeriod>60</autoRefreshPeriod>
@@ -3484,7 +3484,7 @@
           <segments>ВыбранныеПользователиИГруппы.НомерКартинки</segments>
         </rowPictureDataPath>
         <rowsPicture xsi:type="core:PictureRef">
-          <picture>0</picture>
+          <picture>CommonPicture.СостоянияПользователей</picture>
         </rowsPicture>
         <rowFilter xsi:type="core:UndefinedValue"/>
       </items>
@@ -4357,10 +4357,10 @@
       </title>
       <id>1</id>
       <valueType>
-        <types>CatalogRef.Пользователи</types>
+        <types>CatalogRef.ВнешниеПользователи</types>
         <types>CatalogRef.ГруппыВнешнихПользователей</types>
         <types>CatalogRef.ГруппыПользователей</types>
-        <types>CatalogRef.ВнешниеПользователи</types>
+        <types>CatalogRef.Пользователи</types>
       </valueType>
       <view>
         <common>true</common>
@@ -4749,7 +4749,7 @@
       <common>true</common>
     </use>
     <picture xsi:type="core:PictureRef">
-      <picture>0</picture>
+      <picture>CommonPicture.ВставитьИзБуфераОбмена</picture>
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>

@@ -42,5 +42,6 @@
   <content>CommonPicture.СостояниеПользователя02</content>
   <content>CommonPicture.СостояниеПользователя04</content>
   <content>CommonPicture.СостояниеПользователя10</content>
+  <content>CommonPicture.СостоянияПользователей</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

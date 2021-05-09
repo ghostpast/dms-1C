@@ -24,5 +24,8 @@
   <content>Role.ДобавлениеИзменениеВариантовОтчетов</content>
   <content>Role.ДобавлениеИзменениеЛичныхВариантовОтчетов</content>
   <content>Role.ЧтениеВариантовОтчетов</content>
+  <content>CommonPicture.Отчеты</content>
+  <content>CommonPicture.СортироватьСтрокиПоВозрастанию</content>
+  <content>CommonPicture.СортироватьСтрокиПоУбыванию</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

@@ -88,5 +88,6 @@
   <content>StyleItem.ЗаблокированныйРеквизитЦвет</content>
   <content>StyleItem.ВажнаяНадписьШрифт</content>
   <content>StyleItem.ГиперссылкаЦвет</content>
+  <content>CommonPicture.ВставитьИзБуфераОбмена</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

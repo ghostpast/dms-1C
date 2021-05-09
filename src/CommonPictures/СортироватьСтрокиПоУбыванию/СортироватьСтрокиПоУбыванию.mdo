@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="cfea9e62-f6c4-4838-b8ad-521bf527e93e">
+  <name>СортироватьСтрокиПоУбыванию</name>
+  <synonym>
+    <key>ru</key>
+    <value>Сортировать строки по убыванию</value>
+  </synonym>
+</mdclass:CommonPicture>

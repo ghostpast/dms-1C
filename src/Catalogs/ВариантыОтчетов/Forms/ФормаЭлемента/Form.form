@@ -2894,6 +2894,7 @@
   <enabled>true</enabled>
   <showTitle>true</showTitle>
   <showCloseButton>true</showCloseButton>
+  <conversationsRepresentation>Show</conversationsRepresentation>
   <attributes>
     <name>Объект</name>
     <id>1</id>
@@ -3175,9 +3176,9 @@
     <savedData>true</savedData>
     <extInfo xsi:type="form:ValueListExtInfo">
       <itemValueType>
-        <types>CatalogRef.Пользователи</types>
         <types>CatalogRef.ГруппыВнешнихПользователей</types>
         <types>CatalogRef.ГруппыПользователей</types>
+        <types>CatalogRef.Пользователи</types>
       </itemValueType>
     </extInfo>
   </attributes>
