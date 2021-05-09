@@ -86,7 +86,9 @@
   <roles>Role.БазовыеПрава</roles>
   <roles>Role.БазовыеПраваВнешнихПользователей</roles>
   <roles>Role.ВыводНаПринтерФайлБуферОбмена</roles>
+  <roles>Role.ДобавлениеИзменениеВариантовОтчетов</roles>
   <roles>Role.ДобавлениеИзменениеВнешнихПользователей</roles>
+  <roles>Role.ДобавлениеИзменениеЛичныхВариантовОтчетов</roles>
   <roles>Role.ДобавлениеИзменениеПользователей</roles>
   <roles>Role.ЗапускAutomation</roles>
   <roles>Role.ЗапускВебКлиента</roles>
@@ -101,6 +103,7 @@
   <roles>Role.ПросмотрОписанияИзмененийПрограммы</roles>
   <roles>Role.РежимВсеФункции</roles>
   <roles>Role.СохранениеДанныхПользователя</roles>
+  <roles>Role.ЧтениеВариантовОтчетов</roles>
   <roles>Role.ЧтениеВнешнихПользователей</roles>
   <commonTemplates>CommonTemplate.ОписаниеИзмененийСистемы</commonTemplates>
   <commonTemplates>CommonTemplate.ПолучениеДереваОбработчиковОбновления</commonTemplates>

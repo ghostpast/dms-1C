@@ -21,5 +21,8 @@
   <content>SettingsStorage.ХранилищеВариантовОтчетов</content>
   <content>StyleItem.МоиВариантыОтчетовЦвет</content>
   <content>CommonForm.ВводЗначенийСпискомСФлажками</content>
+  <content>Role.ДобавлениеИзменениеВариантовОтчетов</content>
+  <content>Role.ДобавлениеИзменениеЛичныхВариантовОтчетов</content>
+  <content>Role.ЧтениеВариантовОтчетов</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>
