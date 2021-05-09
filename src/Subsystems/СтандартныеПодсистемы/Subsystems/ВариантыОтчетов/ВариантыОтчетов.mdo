@@ -18,5 +18,8 @@
   <content>InformationRegister.ПредопределенныеВариантыОтчетовВерсийРасширений</content>
   <content>InformationRegister.НастройкиВариантовОтчетов</content>
   <content>ScheduledJob.ОбновлениеПредопределенныхВариантовОтчетов</content>
+  <content>SettingsStorage.ХранилищеВариантовОтчетов</content>
+  <content>StyleItem.МоиВариантыОтчетовЦвет</content>
+  <content>CommonForm.ВводЗначенийСпискомСФлажками</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

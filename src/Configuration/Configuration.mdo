@@ -20,6 +20,7 @@
   <defaultRoles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</defaultRoles>
   <defaultRoles>Role.ПолныеПрава</defaultRoles>
   <version>1.0.0.1</version>
+  <reportsVariantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</reportsVariantsStorage>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
@@ -42,7 +43,9 @@
   <subsystems>Subsystem.СтандартныеПодсистемы</subsystems>
   <subsystems>Subsystem.УправлениеАвтоцентром</subsystems>
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
+  <styleItems>StyleItem.ГиперссылкаЦвет</styleItems>
   <styleItems>StyleItem.ЗаблокированныйРеквизитЦвет</styleItems>
+  <styleItems>StyleItem.МоиВариантыОтчетовЦвет</styleItems>
   <styleItems>StyleItem.ПоясняющийОшибкуТекст</styleItems>
   <styleItems>StyleItem.ПоясняющийТекст</styleItems>
   <styleItems>StyleItem.ТекстЗапрещеннойЯчейкиЦвет</styleItems>
@@ -132,6 +135,7 @@
   <scheduledJobs>ScheduledJob.ОбновлениеПредопределенныхВариантовОтчетов</scheduledJobs>
   <scheduledJobs>ScheduledJob.ОтложенноеОбновлениеИБ</scheduledJobs>
   <scheduledJobs>ScheduledJob.УдалениеУстаревшихПараметровРаботыВерсийРасширений</scheduledJobs>
+  <settingsStorages>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorages>
   <functionalOptions>FunctionalOption.ИспользоватьВнешнихПользователей</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьГруппыПользователей</functionalOptions>
   <functionalOptions>FunctionalOption.ОтложенноеОбновлениеВГлавномУзлеЗавершеноУспешно</functionalOptions>
@@ -163,6 +167,7 @@
   <constants>Constant.СведенияОБлокируемыхОбъектах</constants>
   <constants>Constant.СведенияОбОбновленииИБ</constants>
   <commonForms>CommonForm.БлокировкаРаботыСВнешнимиРесурсами</commonForms>
+  <commonForms>CommonForm.ВводЗначенийСпискомСФлажками</commonForms>
   <commonForms>CommonForm.Вопрос</commonForms>
   <commonForms>CommonForm.ВопросОбУстановкеРасширенияРаботыСФайлами</commonForms>
   <commonForms>CommonForm.ВосстановлениеСвязиСГлавнымУзлом</commonForms>

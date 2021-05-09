@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:SettingsStorage xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ee25a089-a5f2-47f5-9131-c992c428393c">
+  <producedTypes>
+    <managerType typeId="badfd74c-460e-489b-a92d-27413d33dc27" valueTypeId="3db3f10d-60d1-476e-a545-5c73dced20fc"/>
+  </producedTypes>
+  <name>ХранилищеВариантовОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Хранилище вариантов отчетов</value>
+  </synonym>
+  <defaultSaveForm>SettingsStorage.ХранилищеВариантовОтчетов.Form.СохранениеВариантаОтчета</defaultSaveForm>
+  <defaultLoadForm>SettingsStorage.ХранилищеВариантовОтчетов.Form.ВыборВариантаОтчета</defaultLoadForm>
+  <forms uuid="7d403af1-7286-4717-b310-f2b54b8ded8f">
+    <name>ВыборВариантаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор варианта отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7c47384f-dbf5-4e92-b41a-27bda205c33a">
+    <name>ВыборПоляОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор поля отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="dbcd7edd-cebe-42de-8187-5dd45530d10d">
+    <name>ГруппаВыбранныхПолей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Группа выбранных полей</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="99e401dc-86a4-4d9c-8c00-d49762ccecf3">
+    <name>КонтекстнаяНастройкаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Контекстная настройка отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="63eea36e-cf0f-4785-8111-c7f8a4fd885b">
+    <name>ОписаниеНовойВозможностиПоВыводуОписаний</name>
+    <synonym>
+      <key>ru</key>
+      <value>Описание новой возможности по выводу описаний</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d2ef4a9b-9eeb-41da-8514-86a2e132092a">
+    <name>ПанельДругихОтчетов</name>
+    <synonym>
+      <key>ru</key>
+      <value>Панель других отчетов</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6c4e5a78-4037-40c2-b8be-bbdb3fc06ec4">
+    <name>РасширеннаяНастройкаФильтраОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширенная настройка фильтра отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="1a3d5ccb-77c2-444d-82a3-2bb3b37aaf3b">
+    <name>СохранениеВариантаОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сохранение варианта отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="74962ee8-2098-441a-bdd3-31e8cbde7c1b">
+    <name>СохранениеВариантаОтчетаВФайл</name>
+    <synonym>
+      <key>ru</key>
+      <value>Сохранение варианта отчета в файл</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="82327932-0d83-4aad-8e88-58ac25455ed5">
+    <name>УсловияОтборовОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Условия отборов отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="b3767a6e-acb6-4682-af93-cfabb37c2969">
+    <name>ЭлементУсловногоОформленияОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Элемент условного оформления отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:SettingsStorage>

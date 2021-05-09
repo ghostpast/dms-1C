@@ -87,5 +87,6 @@
   <content>CommonPicture.Успешно</content>
   <content>StyleItem.ЗаблокированныйРеквизитЦвет</content>
   <content>StyleItem.ВажнаяНадписьШрифт</content>
+  <content>StyleItem.ГиперссылкаЦвет</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>
