@@ -488,4 +488,11 @@
 			<value>true</value>
 		</right>
 	</object>
+	<object>
+		<name>CommonForm.ВводЗначенийСпискомСФлажками</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
 </Rights>
