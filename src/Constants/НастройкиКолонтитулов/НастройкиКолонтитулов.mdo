@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8cf1b9f5-35b8-4ae9-bf83-abb4dc13bfaa">
+  <producedTypes>
+    <managerType typeId="04ab1ccf-527a-4094-b6f2-35eba700ee27" valueTypeId="a6a4195e-8828-4b9b-8dea-086348861c0e"/>
+    <valueManagerType typeId="d5dee413-b984-4a11-bace-b9fab17d6474" valueTypeId="89a03ae3-e19a-4874-8724-a36305e9e6e1"/>
+    <valueKeyType typeId="a2fad3ca-97a0-4e7a-97aa-2735d887f5b9" valueTypeId="ba18cd24-8ef2-4457-81ad-805e5a82ded5"/>
+  </producedTypes>
+  <name>НастройкиКолонтитулов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Настройки колонтитулов</value>
+  </synonym>
+  <type>
+    <types>ValueStorage</types>
+  </type>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.НастройкаКолонтитулов</defaultForm>
+  <minValue xsi:type="core:UndefinedValue"/>
+  <maxValue xsi:type="core:UndefinedValue"/>
+</mdclass:Constant>

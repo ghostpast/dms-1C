@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="d450c5eb-bcb9-4fa2-8181-c66da8209ee3">
+  <name>ВысотаСтроки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Высота строки</value>
+  </synonym>
+</mdclass:CommonPicture>

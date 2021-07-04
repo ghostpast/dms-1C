@@ -27,5 +27,12 @@
   <content>CommonPicture.Отчеты</content>
   <content>CommonPicture.СортироватьСтрокиПоВозрастанию</content>
   <content>CommonPicture.СортироватьСтрокиПоУбыванию</content>
+  <content>CommonForm.ФормаОтчета</content>
+  <content>CommonForm.ФормаВариантаОтчета</content>
+  <content>CommonForm.ФормаНастроекОтчета</content>
+  <content>Catalog.ПользовательскиеНастройкиОтчетов</content>
+  <content>CommonPicture.ВысотаСтроки</content>
+  <content>CommonPicture.ШиринаКолонки</content>
+  <content>Constant.НастройкиКолонтитулов</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

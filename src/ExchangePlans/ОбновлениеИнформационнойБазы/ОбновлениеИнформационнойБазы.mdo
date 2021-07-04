@@ -161,6 +161,9 @@
   <content>
     <mdObject>InformationRegister.ОбработчикиОбновленияОбщихДанных</mdObject>
   </content>
+  <content>
+    <mdObject>Constant.НастройкиКолонтитулов</mdObject>
+  </content>
   <defaultPresentation>AsDescription</defaultPresentation>
   <editType>InDialog</editType>
   <choiceMode>BothWays</choiceMode>

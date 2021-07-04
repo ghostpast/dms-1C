@@ -89,5 +89,8 @@
   <content>StyleItem.ВажнаяНадписьШрифт</content>
   <content>StyleItem.ГиперссылкаЦвет</content>
   <content>CommonPicture.ВставитьИзБуфераОбмена</content>
+  <content>CommonPicture.Пустая</content>
+  <content>CommonForm.ВыборОбъектовМетаданных</content>
+  <content>StyleItem.ИтогиФонГруппы</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

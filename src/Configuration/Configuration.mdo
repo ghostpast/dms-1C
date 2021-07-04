@@ -45,6 +45,7 @@
   <styleItems>StyleItem.ВажнаяНадписьШрифт</styleItems>
   <styleItems>StyleItem.ГиперссылкаЦвет</styleItems>
   <styleItems>StyleItem.ЗаблокированныйРеквизитЦвет</styleItems>
+  <styleItems>StyleItem.ИтогиФонГруппы</styleItems>
   <styleItems>StyleItem.МоиВариантыОтчетовЦвет</styleItems>
   <styleItems>StyleItem.ПоясняющийОшибкуТекст</styleItems>
   <styleItems>StyleItem.ПоясняющийТекст</styleItems>
@@ -53,6 +54,7 @@
   <commonPictures>CommonPicture.ВариантыОтчетовДоступныеВсемПользователям</commonPictures>
   <commonPictures>CommonPicture.Вопрос32</commonPictures>
   <commonPictures>CommonPicture.ВставитьИзБуфераОбмена</commonPictures>
+  <commonPictures>CommonPicture.ВысотаСтроки</commonPictures>
   <commonPictures>CommonPicture.ДлительнаяОперация48</commonPictures>
   <commonPictures>CommonPicture.ЗавершитьРаботу</commonPictures>
   <commonPictures>CommonPicture.Информация1</commonPictures>
@@ -63,6 +65,7 @@
   <commonPictures>CommonPicture.ПользовательБезФотографии</commonPictures>
   <commonPictures>CommonPicture.Предупреждение</commonPictures>
   <commonPictures>CommonPicture.Предупреждение32</commonPictures>
+  <commonPictures>CommonPicture.Пустая</commonPictures>
   <commonPictures>CommonPicture.СортироватьСтрокиПоВозрастанию</commonPictures>
   <commonPictures>CommonPicture.СортироватьСтрокиПоУбыванию</commonPictures>
   <commonPictures>CommonPicture.СостояниеПользователя02</commonPictures>
@@ -72,6 +75,7 @@
   <commonPictures>CommonPicture.СостоянияПользователей</commonPictures>
   <commonPictures>CommonPicture.Успешно</commonPictures>
   <commonPictures>CommonPicture.Успешно32</commonPictures>
+  <commonPictures>CommonPicture.ШиринаКолонки</commonPictures>
   <sessionParameters>SessionParameter.АвторизованныйПользователь</sessionParameters>
   <sessionParameters>SessionParameter.БуферОбмена</sessionParameters>
   <sessionParameters>SessionParameter.ВерсияРасширений</sessionParameters>
@@ -164,6 +168,7 @@
   <constants>Constant.ИспользоватьГруппыПользователей</constants>
   <constants>Constant.КоличествоПотоковОбновленияИнформационнойБазы</constants>
   <constants>Constant.НастройкиВходаПользователей</constants>
+  <constants>Constant.НастройкиКолонтитулов</constants>
   <constants>Constant.ОсновнойЯзык</constants>
   <constants>Constant.ОтложенноеОбновлениеВГлавномУзлеЗавершеноУспешно</constants>
   <constants>Constant.ОтложенноеОбновлениеЗавершеноУспешно</constants>
@@ -180,9 +185,11 @@
   <commonForms>CommonForm.ВопросОбУстановкеРасширенияРаботыСФайлами</commonForms>
   <commonForms>CommonForm.ВосстановлениеСвязиСГлавнымУзлом</commonForms>
   <commonForms>CommonForm.ВходВПрограммуЗапрещен</commonForms>
+  <commonForms>CommonForm.ВыборОбъектовМетаданных</commonForms>
   <commonForms>CommonForm.ВыборТиповПользователей</commonForms>
   <commonForms>CommonForm.ГруппыПользователей</commonForms>
   <commonForms>CommonForm.ДлительнаяОперация</commonForms>
+  <commonForms>CommonForm.НастройкаКолонтитулов</commonForms>
   <commonForms>CommonForm.НастройкиВходаПользователей</commonForms>
   <commonForms>CommonForm.НовыйПароль</commonForms>
   <commonForms>CommonForm.ОписаниеИзмененийПрограммы</commonForms>
@@ -190,6 +197,9 @@
   <commonForms>CommonForm.ПредупрежденияПриЗавершенииРаботы</commonForms>
   <commonForms>CommonForm.ПустойРабочийСтол</commonForms>
   <commonForms>CommonForm.СменаПароля</commonForms>
+  <commonForms>CommonForm.ФормаВариантаОтчета</commonForms>
+  <commonForms>CommonForm.ФормаНастроекОтчета</commonForms>
+  <commonForms>CommonForm.ФормаОтчета</commonForms>
   <catalogs>Catalog.ВариантыОтчетов</catalogs>
   <catalogs>Catalog.ВерсииРасширений</catalogs>
   <catalogs>Catalog.ВнешниеПользователи</catalogs>
@@ -198,6 +208,7 @@
   <catalogs>Catalog.ИдентификаторыОбъектовМетаданных</catalogs>
   <catalogs>Catalog.ИдентификаторыОбъектовРасширений</catalogs>
   <catalogs>Catalog.Пользователи</catalogs>
+  <catalogs>Catalog.ПользовательскиеНастройкиОтчетов</catalogs>
   <catalogs>Catalog.ПредопределенныеВариантыОтчетов</catalogs>
   <catalogs>Catalog.ПредопределенныеВариантыОтчетовРасширений</catalogs>
   <enums>Enum.РежимыВыполненияОбработчиков</enums>
