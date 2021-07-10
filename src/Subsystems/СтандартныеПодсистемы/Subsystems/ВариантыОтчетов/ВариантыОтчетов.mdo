@@ -41,5 +41,6 @@
   <content>StyleItem.ЦветФонаВнимание</content>
   <content>Enum.ВариантыПредставленияПериода</content>
   <content>Report.УниверсальныйОтчет</content>
+  <content>StyleItem.ГруппаВариантовОтчетовЦвет</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

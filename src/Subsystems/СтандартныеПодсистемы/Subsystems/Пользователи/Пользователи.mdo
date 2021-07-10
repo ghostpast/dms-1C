@@ -44,5 +44,6 @@
   <content>CommonPicture.СостояниеПользователя10</content>
   <content>CommonPicture.СостоянияПользователей</content>
   <content>CommonPicture.ПоказатьТолькоВыбранныеРоли</content>
+  <content>Report.СведенияОПользователях</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>
