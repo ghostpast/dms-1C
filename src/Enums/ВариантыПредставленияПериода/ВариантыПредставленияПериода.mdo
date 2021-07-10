@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="19018593-fcf9-4042-aab6-13a0482dafc6">
+  <producedTypes>
+    <refType typeId="5e752b97-59a2-49d2-8d85-c151646a92c0" valueTypeId="3ef59bc4-94c0-4610-b1e1-0de55cdbce50"/>
+    <listType typeId="c756777e-800b-4fe2-a1aa-0c40e45ef54e" valueTypeId="7471521f-df93-4459-a2a0-fb8918a04916"/>
+    <managerType typeId="6f7f5fcc-cd22-451a-a4dc-286b2127013f" valueTypeId="4a74d91e-446e-4202-b5c4-1d8ddbefa976"/>
+  </producedTypes>
+  <name>ВариантыПредставленияПериода</name>
+  <synonym>
+    <key>ru</key>
+    <value>Варианты представления периода</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <enumValues uuid="e87dbaf6-50f4-40fc-8f4c-c296f636d7d4">
+    <name>Стандартный</name>
+    <synonym>
+      <key>ru</key>
+      <value>Стандартный</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="a20737ae-eb01-4086-865c-b97dd525990e">
+    <name>Гиперссылка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Гиперссылка</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

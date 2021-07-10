@@ -21,6 +21,9 @@
   <defaultRoles>Role.ПолныеПрава</defaultRoles>
   <version>1.0.0.1</version>
   <reportsVariantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</reportsVariantsStorage>
+  <defaultReportForm>CommonForm.ФормаОтчета</defaultReportForm>
+  <defaultReportVariantForm>CommonForm.ФормаВариантаОтчета</defaultReportVariantForm>
+  <defaultReportSettingsForm>CommonForm.ФормаНастроекОтчета</defaultReportSettingsForm>
   <usedMobileApplicationFunctionalities>
     <functionality>
       <use>true</use>
@@ -222,12 +225,14 @@
   <catalogs>Catalog.ПредопределенныеВариантыОтчетов</catalogs>
   <catalogs>Catalog.ПредопределенныеВариантыОтчетовРасширений</catalogs>
   <enums>Enum.ВариантыПериода</enums>
+  <enums>Enum.ВариантыПредставленияПериода</enums>
   <enums>Enum.ДоступныеПериодыОтчета</enums>
   <enums>Enum.РежимыВыполненияОбработчиков</enums>
   <enums>Enum.РежимыВыполненияОтложенныхОбработчиков</enums>
   <enums>Enum.СтатусыОбработчиковОбновления</enums>
   <enums>Enum.ТипыДанныхКэшаПрограммныхИнтерфейсов</enums>
   <enums>Enum.ТипыОтчетов</enums>
+  <reports>Report.УниверсальныйОтчет</reports>
   <dataProcessors>DataProcessor.ЖурналРегистрации</dataProcessors>
   <dataProcessors>DataProcessor.КонструкторФормул</dataProcessors>
   <dataProcessors>DataProcessor.НерекомендуемаяВерсияПлатформы</dataProcessors>

@@ -39,5 +39,7 @@
   <content>DataProcessor.КонструкторФормул</content>
   <content>StyleItem.ЦветТекстаВнимание</content>
   <content>StyleItem.ЦветФонаВнимание</content>
+  <content>Enum.ВариантыПредставленияПериода</content>
+  <content>Report.УниверсальныйОтчет</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

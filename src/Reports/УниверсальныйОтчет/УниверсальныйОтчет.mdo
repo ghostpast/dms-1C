@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="0c568803-cadf-4a51-afdd-de3940f3fdc7">
+  <producedTypes>
+    <objectType typeId="8f198801-ebe7-4d2c-b0e4-a0dc56de295e" valueTypeId="10486dfd-7d82-48d4-8655-3035e81c04cb"/>
+    <managerType typeId="1d51ffc3-626a-4eb7-824a-a150c843e6c3" valueTypeId="9259ae89-5bf2-42e7-a1d7-3585d658277b"/>
+  </producedTypes>
+  <name>УниверсальныйОтчет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Универсальный отчет</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.УниверсальныйОтчет.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="9572eaaf-51ae-4435-8244-1d3a2cf88c7e">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>
