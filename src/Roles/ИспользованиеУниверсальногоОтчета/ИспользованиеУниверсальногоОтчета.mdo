@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Role xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="e8c4cba0-541c-438a-8409-f3cf42997eec">
+  <name>ИспользованиеУниверсальногоОтчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Использование универсального отчета</value>
+  </synonym>
+</mdclass:Role>

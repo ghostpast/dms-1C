@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f92be81-b53b-4729-8198-a3873ce72a22">
+  <producedTypes>
+    <objectType typeId="fa7c81b9-4f5e-4bc1-8ebb-ec2b128d026c" valueTypeId="8b9ca696-de04-4348-b356-f0f5ff776b3c"/>
+    <managerType typeId="5521401b-0fa3-459e-95ba-fa551501666e" valueTypeId="d2079366-f2e5-4931-b229-4e264ccd7142"/>
+  </producedTypes>
+  <name>ПрогрессОтложенногоОбновления</name>
+  <synonym>
+    <key>ru</key>
+    <value>Прогресс отложенного обновления</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>CommonForm.ФормаОтчета</defaultForm>
+  <mainDataCompositionSchema>Report.ПрогрессОтложенногоОбновления.Template.ОсновнаяСхемаКомпоновкиДанных</mainDataCompositionSchema>
+  <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
+  <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
+  <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
+  <templates uuid="c5a41dfa-5764-4237-8b79-5c2101a0cd33">
+    <name>ОсновнаяСхемаКомпоновкиДанных</name>
+    <synonym>
+      <key>ru</key>
+      <value>Основная схема компоновки данных</value>
+    </synonym>
+    <templateType>DataCompositionSchema</templateType>
+  </templates>
+</mdclass:Report>

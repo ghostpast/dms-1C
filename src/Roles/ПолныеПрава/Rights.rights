@@ -1962,4 +1962,26 @@
 			<value>true</value>
 		</right>
 	</object>
+	<object>
+		<name>Report.УниверсальныйОтчет</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Report.ПрогрессОтложенногоОбновления</name>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
 </Rights>

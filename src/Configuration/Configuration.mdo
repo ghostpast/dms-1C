@@ -119,6 +119,7 @@
   <roles>Role.ЗапускТолстогоКлиента</roles>
   <roles>Role.ЗапускТонкогоКлиента</roles>
   <roles>Role.ИнтерактивноеОткрытиеВнешнихОтчетовИОбработок</roles>
+  <roles>Role.ИспользованиеУниверсальногоОтчета</roles>
   <roles>Role.ОбновлениеКонфигурацииБазыДанных</roles>
   <roles>Role.ПолныеПрава</roles>
   <roles>Role.ПросмотрЖурналаРегистрации</roles>
@@ -232,6 +233,7 @@
   <enums>Enum.СтатусыОбработчиковОбновления</enums>
   <enums>Enum.ТипыДанныхКэшаПрограммныхИнтерфейсов</enums>
   <enums>Enum.ТипыОтчетов</enums>
+  <reports>Report.ПрогрессОтложенногоОбновления</reports>
   <reports>Report.УниверсальныйОтчет</reports>
   <dataProcessors>DataProcessor.ЖурналРегистрации</dataProcessors>
   <dataProcessors>DataProcessor.КонструкторФормул</dataProcessors>
