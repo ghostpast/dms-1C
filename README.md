@@ -5,7 +5,7 @@
 
  - Технологическая платформа 1С 8.3.18;
  - Liberica JDK 11.0.11;
- - 1C:Enterprise Development Tools 2021.1.3.
+ - 1C:Enterprise Development Tools 2021.1.7.
 ------------
 **Отличия от "Библиотеки стандартных подсистем":**
 
