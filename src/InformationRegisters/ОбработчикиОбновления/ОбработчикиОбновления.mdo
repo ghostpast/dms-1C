@@ -64,6 +64,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
   </resources>
   <resources uuid="621b1881-9a7f-4fa4-a373-46467743e29c">
     <name>Версия</name>

@@ -469,6 +469,10 @@
           <items xsi:type="form:FormField">
             <name>ПометкаВажности</name>
             <id>108</id>
+            <title>
+              <key>ru</key>
+              <value>Пометка</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -515,6 +519,10 @@
           <items xsi:type="form:FormField">
             <name>ЗначениеВажности</name>
             <id>110</id>
+            <title>
+              <key>ru</key>
+              <value>Значение</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1626,6 +1634,10 @@
           <items xsi:type="form:FormField">
             <name>ПометкаСтатуса</name>
             <id>118</id>
+            <title>
+              <key>ru</key>
+              <value>Пометка</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>
@@ -1672,6 +1684,10 @@
           <items xsi:type="form:FormField">
             <name>ЗначениеСтатуса</name>
             <id>120</id>
+            <title>
+              <key>ru</key>
+              <value>Значение</value>
+            </title>
             <visible>true</visible>
             <enabled>true</enabled>
             <userVisible>

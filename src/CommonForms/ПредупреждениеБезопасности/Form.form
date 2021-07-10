@@ -180,6 +180,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Командная панель 1</value>
+        </title>
         <extendedTooltip>
           <name>КоманднаяПанель1РасширеннаяПодсказка</name>
           <id>48</id>
@@ -323,6 +327,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Командная панель 2</value>
+        </title>
         <extendedTooltip>
           <name>КоманднаяПанель2РасширеннаяПодсказка</name>
           <id>59</id>
@@ -497,6 +505,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Командная панель 3</value>
+        </title>
         <extendedTooltip>
           <name>КоманднаяПанель3РасширеннаяПодсказка</name>
           <id>79</id>
@@ -669,6 +681,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Командная панель 4</value>
+        </title>
         <extendedTooltip>
           <name>КоманднаяПанель4РасширеннаяПодсказка</name>
           <id>35</id>
@@ -841,6 +857,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Командная панель 8</value>
+        </title>
         <extendedTooltip>
           <name>КоманднаяПанель8РасширеннаяПодсказка</name>
           <id>161</id>
@@ -1016,6 +1036,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Командная панель 5</value>
+        </title>
         <extendedTooltip>
           <name>КоманднаяПанель5РасширеннаяПодсказка</name>
           <id>119</id>
@@ -1187,6 +1211,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Командная панель 6</value>
+        </title>
         <extendedTooltip>
           <name>КоманднаяПанель6РасширеннаяПодсказка</name>
           <id>132</id>
@@ -1401,6 +1429,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Командная панель 7</value>
+        </title>
         <extendedTooltip>
           <name>КоманднаяПанель7РасширеннаяПодсказка</name>
           <id>148</id>
@@ -1573,6 +1605,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Командная панель 9</value>
+        </title>
         <extendedTooltip>
           <name>КоманднаяПанель9РасширеннаяПодсказка</name>
           <id>174</id>
@@ -1735,6 +1771,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Отступ расширения без данных</value>
+        </title>
         <extendedTooltip>
           <name>ГруппаОтступРасширенияБезДанныхРасширеннаяПодсказка</name>
           <id>244</id>
@@ -1880,6 +1920,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Командная панель 12</value>
+        </title>
         <extendedTooltip>
           <name>КоманднаяПанель12РасширеннаяПодсказка</name>
           <id>223</id>
@@ -2043,6 +2087,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Отступ расширение с данными</value>
+        </title>
         <extendedTooltip>
           <name>ГруппаОтступРасширениеСДаннымиРасширеннаяПодсказка</name>
           <id>246</id>
@@ -2188,6 +2236,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Командная панель 10</value>
+        </title>
         <extendedTooltip>
           <name>КоманднаяПанель10РасширеннаяПодсказка</name>
           <id>187</id>
@@ -2345,6 +2397,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Отступ перед отключением расширения с данными</value>
+        </title>
         <shortcut>F7</shortcut>
         <extendedTooltip>
           <name>ГруппаОтступПередОтключениемРасширенияСДаннымиРасширеннаяПодсказка</name>
@@ -2443,6 +2499,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Командная панель 11</value>
+        </title>
         <extendedTooltip>
           <name>КоманднаяПанель11РасширеннаяПодсказка</name>
           <id>200</id>
@@ -2498,6 +2558,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Страницы</value>
+    </title>
     <extendedTooltip>
       <name>СтраницыРасширеннаяПодсказка</name>
       <id>16</id>

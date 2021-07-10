@@ -16,6 +16,7 @@
           <segments>СтрокаПоиска</segments>
         </paths>
       </dataPath>
+      <titleLocation>None</titleLocation>
       <toolTip>
         <key>ru</key>
         <value>Поиск слов в наименовании и описании отчета а также в наименованиях настроек отчета.</value>
@@ -68,6 +69,10 @@
         <chooseType>true</chooseType>
         <typeDomainEnabled>true</typeDomainEnabled>
         <textEdit>true</textEdit>
+        <inputHint>
+          <key>ru</key>
+          <value>Наименование, поле или автор отчета</value>
+        </inputHint>
       </extInfo>
     </items>
     <items xsi:type="form:Button">
@@ -2148,7 +2153,7 @@
         <segments>Список.ИндексКартинки</segments>
       </rowPictureDataPath>
       <rowsPicture xsi:type="core:PictureRef">
-        <picture>0</picture>
+        <picture>CommonPicture.ПиктограммыЭлементов</picture>
       </rowsPicture>
       <extInfo xsi:type="form:DynamicListTableExtInfo">
         <autoRefreshPeriod>60</autoRefreshPeriod>
@@ -2641,6 +2646,7 @@
         <name>ВыполнитьПоиск</name>
       </handler>
     </action>
+    <representation>Picture</representation>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
   <formCommands>
@@ -2683,7 +2689,7 @@
       <common>true</common>
     </use>
     <picture xsi:type="core:PictureRef">
-      <picture>0</picture>
+      <picture>CommonPicture.СохранитьФайлКак</picture>
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
@@ -2708,7 +2714,7 @@
       <common>true</common>
     </use>
     <picture xsi:type="core:PictureRef">
-      <picture>0</picture>
+      <picture>CommonPicture.ОбновитьФайлИзФайлаНаДиске</picture>
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>

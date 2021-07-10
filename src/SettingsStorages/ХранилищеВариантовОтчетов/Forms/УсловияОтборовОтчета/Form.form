@@ -2,14 +2,14 @@
 <form:Form xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:form="http://g5.1c.ru/v8/dt/form">
   <title>
     <key>ru</key>
-    <value>Условия отборов отчета</value>
+    <value>Условия фильтров отчета</value>
   </title>
   <items xsi:type="form:Table">
     <name>Отборы</name>
     <id>28</id>
     <title>
       <key>ru</key>
-      <value>Отборы</value>
+      <value>Фильтры</value>
     </title>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -413,7 +413,6 @@
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
-      <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
     </items>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -466,7 +465,7 @@
   <showCloseButton>true</showCloseButton>
   <mobileDeviceCommandBarContent>
     <value xsi:type="core:StringValue">
-      <value>ГруппаКоманднаяПанель</value>
+      <value></value>
     </value>
   </mobileDeviceCommandBarContent>
   <attributes>
@@ -550,7 +549,7 @@
     <name>Отборы</name>
     <title>
       <key>ru</key>
-      <value>Отборы</value>
+      <value>Фильтры</value>
     </title>
     <id>8</id>
     <valueType>

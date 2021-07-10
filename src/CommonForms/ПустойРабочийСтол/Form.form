@@ -102,6 +102,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Тестовый режим</value>
+    </title>
     <extendedTooltip>
       <name>ТестовыйРежимРасширеннаяПодсказка</name>
       <id>2</id>

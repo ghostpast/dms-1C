@@ -10,6 +10,15 @@
   </synonym>
   <defaultSaveForm>SettingsStorage.ХранилищеВариантовОтчетов.Form.СохранениеВариантаОтчета</defaultSaveForm>
   <defaultLoadForm>SettingsStorage.ХранилищеВариантовОтчетов.Form.ВыборВариантаОтчета</defaultLoadForm>
+  <forms uuid="e374e7ac-5181-432f-a5aa-13b0e1169b2f">
+    <name>БыстрыеНастройкиОтчета</name>
+    <synonym>
+      <key>ru</key>
+      <value>Быстрые настройки</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
   <forms uuid="7d403af1-7286-4717-b310-f2b54b8ded8f">
     <name>ВыборВариантаОтчета</name>
     <synonym>
@@ -24,6 +33,23 @@
     <synonym>
       <key>ru</key>
       <value>Выбор поля отчета</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="14c494f3-f62b-4c53-9dac-9eeb2a8368ac">
+    <name>ВыборФинансовогоПериода</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор финансового периода</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+  </forms>
+  <forms uuid="77b79b69-9ead-40b2-ab33-da4aa14f9d0c">
+    <name>ВыборФинансовогоПериодаДень</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор финансового периода день</value>
     </synonym>
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>

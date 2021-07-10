@@ -1985,7 +1985,7 @@
         <id>47</id>
         <title>
           <key>ru</key>
-          <value>Текущий элемент имеет собственный отбор (для фильтрации записей, выводимых в элементе)</value>
+          <value>Текущий элемент имеет собственный фильтр (для фильтрации записей, выводимых в элементе)</value>
         </title>
         <visible>true</visible>
         <enabled>true</enabled>
@@ -2045,7 +2045,7 @@
             <id>51</id>
             <title>
               <key>ru</key>
-              <value>Доступные поля отбора</value>
+              <value>Доступные поля фильтров</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2231,7 +2231,7 @@
             <id>54</id>
             <title>
               <key>ru</key>
-              <value>Таблица отбора</value>
+              <value>Таблица фильтров</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2455,9 +2455,9 @@
             <id>58</id>
             <title>
               <key>ru</key>
-              <value>В текущем элементе отбор не установлен.
-Выберите в дереве структуры отчет для редактирования отбора отчета в целом.
-Если необходимо, чтобы текущий элемент имел собственный отбор, установите флажок, расположенный над этим текстом.</value>
+              <value>В текущем элементе фильтр не установлен.
+Выберите в дереве структуры отчет для редактирования фильтра отчета в целом.
+Если необходимо, чтобы текущий элемент имел собственный фильтр, установите флажок, расположенный над этим текстом.</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2500,7 +2500,7 @@
             <id>60</id>
             <title>
               <key>ru</key>
-              <value>Нажмите здесь для перехода к отбору отчета.</value>
+              <value>Нажмите здесь для перехода к фильтру отчета.</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2550,7 +2550,7 @@
           </userVisible>
           <title>
             <key>ru</key>
-            <value>Страница отключенного отбора</value>
+            <value>Страница отключенного фильтра</value>
           </title>
           <extendedTooltip>
             <name>ОтключенныеНастройкиОтбораExtendedTooltip</name>
@@ -2581,8 +2581,8 @@
             <id>63</id>
             <title>
               <key>ru</key>
-              <value>У текущего элемента не может быть установлен отбор.
-Выберите в дереве структуры отчет для редактирования отбора отчета в целом.</value>
+              <value>У текущего элемента не может быть установлен фильтр.
+Выберите в дереве структуры отчет для редактирования фильтра отчета в целом.</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2625,7 +2625,7 @@
             <id>65</id>
             <title>
               <key>ru</key>
-              <value>Нажмите здесь для перехода к отбору отчета.</value>
+              <value>Нажмите здесь для перехода к фильтру отчета.</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -2675,7 +2675,7 @@
           </userVisible>
           <title>
             <key>ru</key>
-            <value>Страница недоступного отбора</value>
+            <value>Страница недоступного фильтра</value>
           </title>
           <extendedTooltip>
             <name>НедоступныеНастройкиОтбораExtendedTooltip</name>
@@ -2705,7 +2705,7 @@
         </userVisible>
         <title>
           <key>ru</key>
-          <value>Страницы отбора</value>
+          <value>Страницы фильтры</value>
         </title>
         <extendedTooltip>
           <name>СтраницыОтбораExtendedTooltip</name>
@@ -2734,7 +2734,7 @@
       </userVisible>
       <title>
         <key>ru</key>
-        <value>Отбор</value>
+        <value>Фильтры</value>
       </title>
       <extendedTooltip>
         <name>СтраницаОтбораExtendedTooltip</name>
@@ -4912,7 +4912,7 @@
     <name>ЛокальныйОтбор</name>
     <title>
       <key>ru</key>
-      <value>Локальный отбор</value>
+      <value>Локальный фильтр</value>
     </title>
     <id>3</id>
     <valueType>
@@ -5030,6 +5030,13 @@
     </action>
     <currentRowUse>DontUse</currentRowUse>
   </formCommands>
+  <parameters>
+    <name>ИмяСтраницы</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

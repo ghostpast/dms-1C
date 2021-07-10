@@ -34,5 +34,8 @@
   <content>CommonPicture.ВысотаСтроки</content>
   <content>CommonPicture.ШиринаКолонки</content>
   <content>Constant.НастройкиКолонтитулов</content>
+  <content>Enum.ВариантыПериода</content>
+  <content>Enum.ДоступныеПериодыОтчета</content>
+  <content>DataProcessor.КонструкторФормул</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

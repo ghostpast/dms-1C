@@ -25,6 +25,10 @@
       <items xsi:type="form:FormField">
         <name>СписокПометка</name>
         <id>12</id>
+        <title>
+          <key>ru</key>
+          <value>Пометка</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -70,6 +74,10 @@
       <items xsi:type="form:FormField">
         <name>СписокЗначение</name>
         <id>30</id>
+        <title>
+          <key>ru</key>
+          <value>Значение</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>

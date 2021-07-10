@@ -477,6 +477,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Кнопки формы</value>
+    </title>
     <extendedTooltip>
       <name>КнопкиФормыExtendedTooltip</name>
       <id>20</id>

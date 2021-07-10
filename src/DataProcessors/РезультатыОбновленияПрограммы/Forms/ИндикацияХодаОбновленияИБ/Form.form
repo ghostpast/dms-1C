@@ -102,6 +102,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Обновление версии программы</value>
+      </title>
       <toolTipRepresentation>None</toolTipRepresentation>
       <extendedTooltip>
         <name>ОбновлениеВерсииПрограммыРасширеннаяПодсказка</name>
@@ -217,6 +221,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Начальное заполнение</value>
+      </title>
       <extendedTooltip>
         <name>НачальноеЗаполнениеExtendedTooltip</name>
         <id>16</id>
@@ -452,6 +460,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Обновление параметров работы программы</value>
+      </title>
       <extendedTooltip>
         <name>ОбновлениеПараметровРаботыПрограммыРасширеннаяПодсказка</name>
         <id>39</id>
@@ -477,6 +489,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Режим запуска</value>
+    </title>
     <extendedTooltip>
       <name>РежимЗапускаExtendedTooltip</name>
       <id>12</id>

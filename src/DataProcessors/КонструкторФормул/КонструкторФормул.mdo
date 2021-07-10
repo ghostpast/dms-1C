@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="70314502-2a3d-49be-ba75-8cab9ca3f87e">
+  <producedTypes>
+    <objectType typeId="3f4b6fc8-6d6a-4ffd-a24f-1e8fc3d35eb5" valueTypeId="a95f1e6d-359b-4a54-9278-5503a5a2a991"/>
+    <managerType typeId="bcc8ff10-0bc2-4d7c-933d-c2ac188d4f9f" valueTypeId="79d8c5b3-9404-47dc-8023-239403069fdd"/>
+  </producedTypes>
+  <name>КонструкторФормул</name>
+  <synonym>
+    <key>ru</key>
+    <value>Конструктор формул</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <forms uuid="dc012a47-4da0-455f-9b50-6586381a7ab5">
+    <name>РедактированиеФормулы</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование формулы</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

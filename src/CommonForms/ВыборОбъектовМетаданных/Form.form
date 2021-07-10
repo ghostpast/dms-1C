@@ -110,6 +110,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Командная панель</value>
+    </title>
     <extendedTooltip>
       <name>КоманднаяПанельРасширеннаяПодсказка</name>
       <id>37</id>
@@ -137,6 +141,10 @@
   <items xsi:type="form:Table">
     <name>ДеревоОбъектовМетаданных</name>
     <id>1</id>
+    <title>
+      <key>ru</key>
+      <value>Дерево объектов метаданных</value>
+    </title>
     <visible>true</visible>
     <enabled>true</enabled>
     <userVisible>

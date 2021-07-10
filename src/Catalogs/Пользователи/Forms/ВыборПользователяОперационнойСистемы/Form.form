@@ -9,6 +9,10 @@
       <items xsi:type="form:Table">
         <name>ТаблицаДоменов</name>
         <id>5</id>
+        <title>
+          <key>ru</key>
+          <value>Таблица доменов</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -452,6 +456,10 @@
       <items xsi:type="form:Table">
         <name>ТаблицаПользователейДомена</name>
         <id>8</id>
+        <title>
+          <key>ru</key>
+          <value>Таблица пользователей домена</value>
+        </title>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -924,6 +932,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Домены и пользователи</value>
+    </title>
     <extendedTooltip>
       <name>ДоменыИПользователиExtendedTooltip</name>
       <id>29</id>

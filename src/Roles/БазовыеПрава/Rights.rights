@@ -264,13 +264,6 @@
 		<right>
 			<name>Read</name>
 			<value>true</value>
-			<restrictionByCondition>
-				<condition>#Если &amp;ОграничениеДоступаНаУровнеЗаписейУниверсально #Тогда
-#ДляРегистра("ИдентификаторыОбъектовМетаданных.РегистрСведенийСоставыГруппПользователей", "Пользователь", "", "", "", "")
-#Иначе
-ГДЕ Пользователь = &amp;ТекущийПользователь
-#КонецЕсли</condition>
-			</restrictionByCondition>
 		</right>
 		<right>
 			<name>View</name>
@@ -629,6 +622,17 @@
 		<name>CommonForm.ФормаОтчета</name>
 		<right>
 			<name>View</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>DataProcessor.КонструкторФормул</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Use</name>
 			<value>true</value>
 		</right>
 	</object>

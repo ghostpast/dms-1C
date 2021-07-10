@@ -99,6 +99,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Картинка и надпись</value>
+    </title>
     <extendedTooltip>
       <name>КартинкаИНадписьРасширеннаяПодсказка</name>
       <id>15</id>

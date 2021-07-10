@@ -103,6 +103,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Информация об удалении патчей</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаИнформацияОбУдаленииПатчейРасширеннаяПодсказка</name>
       <id>256</id>
@@ -394,6 +398,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Информация об ошибке</value>
+          </title>
           <extendedTooltip>
             <name>ИнформацияОбОшибкеРасширеннаяПодсказка</name>
             <id>241</id>
@@ -453,6 +461,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Результаты обновления</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаРезультатыОбновленияРасширеннаяПодсказка</name>
         <id>185</id>
@@ -577,6 +589,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Исправления установлены компоновка</value>
+          </title>
           <extendedTooltip>
             <name>ГруппаИсправленияУстановленыКомпоновкаРасширеннаяПодсказка</name>
             <id>210</id>
@@ -732,6 +748,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Ошибка установки исправлений компоновка</value>
+          </title>
           <extendedTooltip>
             <name>ГруппаОшибкаУстановкиИсправленийКомпоновкаРасширеннаяПодсказка</name>
             <id>223</id>
@@ -791,6 +811,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Установленные исправления</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаУстановленныеИсправленияРасширеннаяПодсказка</name>
         <id>203</id>
@@ -945,6 +969,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Шапка файловая база</value>
+        </title>
         <extendedTooltip>
           <name>ГруппаШапкаФайловаяБазаРасширеннаяПодсказка</name>
           <id>248</id>
@@ -1053,6 +1081,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Запустить отложенное обновление</value>
+          </title>
           <extendedTooltip>
             <name>ГруппаЗапуститьОтложенноеОбновлениеРасширеннаяПодсказка</name>
             <id>138</id>
@@ -1082,6 +1114,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Информация файловая база</value>
+        </title>
         <extendedTooltip>
           <name>ГруппаИнформацияФайловаяБазаExtendedTooltip</name>
           <id>137</id>
@@ -1238,6 +1274,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Шапка модель сервиса</value>
+        </title>
         <extendedTooltip>
           <name>ГруппаШапкаМодельСервисаРасширеннаяПодсказка</name>
           <id>250</id>
@@ -1302,6 +1342,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Статус обновления для пользователя</value>
+      </title>
       <extendedTooltip>
         <name>СтатусОбновленияДляПользователяExtendedTooltip</name>
         <id>145</id>
@@ -1425,6 +1469,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Шапка клиент сервер</value>
+          </title>
           <extendedTooltip>
             <name>ГруппаШапкаКлиентСерверРасширеннаяПодсказка</name>
             <id>252</id>
@@ -1659,6 +1707,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Приоритет</value>
+            </title>
             <extendedTooltip>
               <name>ГруппаПриоритетРасширеннаяПодсказка</name>
               <id>243</id>
@@ -1857,6 +1909,10 @@
               <userVisible>
                 <common>true</common>
               </userVisible>
+              <title>
+                <key>ru</key>
+                <value>Настройка расписания</value>
+              </title>
               <extendedTooltip>
                 <name>ГруппаНастройкаРасписанияExtendedTooltip</name>
                 <id>174</id>
@@ -1886,6 +1942,10 @@
             <userVisible>
               <common>true</common>
             </userVisible>
+            <title>
+              <key>ru</key>
+              <value>Подсказка про период наименьшей активности пользователей</value>
+            </title>
             <extendedTooltip>
               <name>ГруппаПодсказкаПроПериодНаименьшейАктивностиПользователейExtendedTooltip</name>
               <id>157</id>
@@ -1915,6 +1975,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Информация о прогрессе</value>
+          </title>
           <extendedTooltip>
             <name>ГруппаИнформацияОПрогрессеExtendedTooltip</name>
             <id>153</id>
@@ -1944,6 +2008,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Ход обновления</value>
+        </title>
         <extendedTooltip>
           <name>ГруппаХодОбновленияExtendedTooltip</name>
           <id>151</id>
@@ -1974,6 +2042,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Обновление выполняется</value>
+      </title>
       <extendedTooltip>
         <name>ОбновлениеВыполняетсяExtendedTooltip</name>
         <id>150</id>
@@ -2139,6 +2211,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Шапка завершено</value>
+          </title>
           <extendedTooltip>
             <name>ГруппаШапкаЗавершеноРасширеннаяПодсказка</name>
             <id>254</id>
@@ -2259,6 +2335,10 @@
           <userVisible>
             <common>true</common>
           </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Переход к списку отложенных обработчиков</value>
+          </title>
           <extendedTooltip>
             <name>ГруппаПереходКСпискуОтложенныхОбработчиковРасширеннаяПодсказка</name>
             <id>166</id>
@@ -2288,6 +2368,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Отложенное обновление завершено</value>
+        </title>
         <extendedTooltip>
           <name>ГруппаОтложенноеОбновлениеЗавершеноExtendedTooltip</name>
           <id>164</id>
@@ -2318,6 +2402,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Обновление завершено</value>
+      </title>
       <extendedTooltip>
         <name>ОбновлениеЗавершеноExtendedTooltip</name>
         <id>163</id>
@@ -2343,6 +2431,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Статус обновления</value>
+    </title>
     <horizontalStretch>true</horizontalStretch>
     <extendedTooltip>
       <name>СтатусОбновленияExtendedTooltip</name>

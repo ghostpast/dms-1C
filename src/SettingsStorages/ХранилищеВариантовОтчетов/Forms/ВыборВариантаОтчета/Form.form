@@ -67,7 +67,7 @@
     </userVisible>
     <title>
       <key>ru</key>
-      <value>Быстрые отборы</value>
+      <value>Быстрые фильтры</value>
     </title>
     <extendedTooltip>
       <name>БыстрыеОтборыExtendedTooltip</name>
@@ -194,7 +194,6 @@
         <picture>StdPicture.MarkToDelete</picture>
       </picture>
       <representationInContextMenu>Auto</representationInContextMenu>
-      <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
     </items>
     <items xsi:type="form:Button">
       <name>ПоказыватьЛичныеВариантыОтчетовДругихАвторов</name>
@@ -225,7 +224,6 @@
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
-      <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
     </items>
     <items xsi:type="form:Button">
       <name>ФормаОбновить</name>
@@ -256,7 +254,6 @@
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
       <representationInContextMenu>Auto</representationInContextMenu>
-      <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
     </items>
     <items xsi:type="form:FormGroup">
       <name>КоманднаяПанельДерева</name>
@@ -709,7 +706,6 @@
           <picture>StdPicture.MarkToDelete</picture>
         </picture>
         <representationInContextMenu>Auto</representationInContextMenu>
-        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
       <items xsi:type="form:Button">
         <name>ПоказыватьЛичныеВариантыОтчетовДругихАвторовКМ</name>
@@ -740,7 +736,6 @@
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
-        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -881,7 +876,7 @@
   <showCloseButton>true</showCloseButton>
   <mobileDeviceCommandBarContent>
     <value xsi:type="core:StringValue">
-      <value>ОсновнаяКоманднаяПанель</value>
+      <value></value>
     </value>
   </mobileDeviceCommandBarContent>
   <attributes>

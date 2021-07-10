@@ -1951,4 +1951,15 @@
 			<value>true</value>
 		</right>
 	</object>
+	<object>
+		<name>DataProcessor.КонструкторФормул</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Use</name>
+			<value>true</value>
+		</right>
+	</object>
 </Rights>

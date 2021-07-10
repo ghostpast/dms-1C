@@ -92,5 +92,12 @@
   <content>CommonPicture.Пустая</content>
   <content>CommonForm.ВыборОбъектовМетаданных</content>
   <content>StyleItem.ИтогиФонГруппы</content>
+  <content>CommonPicture.ПиктограммыЭлементов</content>
+  <content>CommonPicture.СохранитьФайлКак</content>
+  <content>CommonPicture.ОбновитьФайлИзФайлаНаДиске</content>
+  <content>CommonPicture.ВосклицательныйЗнакСерый</content>
+  <content>CommonPicture.ЗнакСтоп</content>
+  <content>CommonPicture.ЗаполнитьФорму</content>
+  <content>CommonPicture.ТипФункция</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

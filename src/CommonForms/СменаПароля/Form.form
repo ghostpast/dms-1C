@@ -267,6 +267,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Новый пароль</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаНовыйПарольРасширеннаяПодсказка</name>
         <id>73</id>
@@ -409,6 +413,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Подтверждение</value>
+      </title>
       <verticalStretch>false</verticalStretch>
       <extendedTooltip>
         <name>ГруппаПодтверждениеРасширеннаяПодсказка</name>
@@ -492,6 +500,10 @@
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Показывать новый пароль</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаПоказыватьНовыйПарольРасширеннаяПодсказка</name>
         <id>32</id>
@@ -522,6 +534,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Пароль</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаПарольРасширеннаяПодсказка</name>
       <id>19</id>
@@ -730,8 +746,8 @@
     <name>Пользователь</name>
     <id>7</id>
     <valueType>
-      <types>CatalogRef.Пользователи</types>
       <types>CatalogRef.ВнешниеПользователи</types>
+      <types>CatalogRef.Пользователи</types>
     </valueType>
     <view>
       <common>true</common>
@@ -863,8 +879,8 @@
   <parameters>
     <name>Пользователь</name>
     <valueType>
-      <types>CatalogRef.Пользователи</types>
       <types>CatalogRef.ВнешниеПользователи</types>
+      <types>CatalogRef.Пользователи</types>
     </valueType>
   </parameters>
   <parameters>

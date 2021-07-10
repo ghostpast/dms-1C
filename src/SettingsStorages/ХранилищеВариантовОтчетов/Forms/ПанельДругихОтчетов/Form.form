@@ -50,6 +50,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Страница другие отчеты</value>
+    </title>
     <extendedTooltip>
       <name>СтраницаДругиеОтчетыРасширеннаяПодсказка</name>
       <id>2</id>
@@ -191,13 +195,16 @@
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <representationInContextMenu>Auto</representationInContextMenu>
-        <locationInCommandBar>InCommandBarAndInAdditionalSubmenu</locationInCommandBar>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
+      <title>
+        <key>ru</key>
+        <value>Командная панель</value>
+      </title>
       <extendedTooltip>
         <name>ГруппаКоманднаяПанельРасширеннаяПодсказка</name>
         <id>11</id>
@@ -224,6 +231,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Подвал</value>
+    </title>
     <verticalStretch>false</verticalStretch>
     <extendedTooltip>
       <name>ГруппаПодвалРасширеннаяПодсказка</name>

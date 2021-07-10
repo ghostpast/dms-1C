@@ -84,33 +84,6 @@
           <choiceList>
             <presentation>
               <key>ru</key>
-              <value>Ошибка</value>
-            </presentation>
-            <value xsi:type="core:StringValue">
-              <value>Ошибка</value>
-            </value>
-          </choiceList>
-          <choiceList>
-            <presentation>
-              <key>ru</key>
-              <value>Выполняется</value>
-            </presentation>
-            <value xsi:type="core:StringValue">
-              <value>Выполняется</value>
-            </value>
-          </choiceList>
-          <choiceList>
-            <presentation>
-              <key>ru</key>
-              <value>Выполнено</value>
-            </presentation>
-            <value xsi:type="core:StringValue">
-              <value>Выполнено</value>
-            </value>
-          </choiceList>
-          <choiceList>
-            <presentation>
-              <key>ru</key>
               <value>Желательно быстрее</value>
             </presentation>
             <value xsi:type="core:StringValue">
@@ -611,7 +584,7 @@
         <editMode>EnterOnInput</editMode>
         <showInHeader>true</showInHeader>
         <headerPicture xsi:type="core:PictureRef">
-          <picture>0</picture>
+          <picture>CommonPicture.ВосклицательныйЗнакСерый</picture>
         </headerPicture>
         <headerHorizontalAlign>Left</headerHorizontalAlign>
         <showInFooter>true</showInFooter>
@@ -1908,6 +1881,10 @@
     </columns>
     <columns>
       <name>СтатусКартинка</name>
+      <title>
+        <key>ru</key>
+        <value>Статус картинка</value>
+      </title>
       <id>4</id>
       <valueType>
         <types>Picture</types>
@@ -2314,7 +2291,7 @@
       <common>true</common>
     </use>
     <picture xsi:type="core:PictureRef">
-      <picture>0</picture>
+      <picture>CommonPicture.ЗнакСтоп</picture>
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>

@@ -2786,7 +2786,7 @@
             <segments>Роли.НомерКартинки</segments>
           </rowPictureDataPath>
           <rowsPicture xsi:type="core:PictureRef">
-            <picture>0</picture>
+            <picture>CommonPicture.ПиктограммыЭлементов</picture>
           </rowsPicture>
         </items>
         <visible>true</visible>
@@ -3290,7 +3290,7 @@
       <type>Popup</type>
       <extInfo xsi:type="form:PopupGroupExtInfo">
         <picture xsi:type="core:PictureRef">
-          <picture>0</picture>
+          <picture>CommonPicture.Отчеты</picture>
         </picture>
         <representation>PictureAndText</representation>
       </extInfo>
@@ -4136,7 +4136,7 @@
       <common>true</common>
     </use>
     <picture xsi:type="core:PictureRef">
-      <picture>0</picture>
+      <picture>CommonPicture.ПоказатьТолькоВыбранныеРоли</picture>
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
@@ -4211,7 +4211,7 @@
       <common>true</common>
     </use>
     <picture xsi:type="core:PictureRef">
-      <picture>0</picture>
+      <picture>CommonPicture.ЗаполнитьФорму</picture>
     </picture>
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>

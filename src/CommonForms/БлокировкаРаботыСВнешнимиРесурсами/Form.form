@@ -270,6 +270,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Командная панель</value>
+        </title>
         <extendedTooltip>
           <name>ГруппаКоманднаяПанельРасширеннаяПодсказка</name>
           <id>28</id>
@@ -361,6 +365,10 @@
         <userVisible>
           <common>true</common>
         </userVisible>
+        <title>
+          <key>ru</key>
+          <value>Командная панель параметры</value>
+        </title>
         <extendedTooltip>
           <name>ГруппаКоманднаяПанельПараметрыРасширеннаяПодсказка</name>
           <id>33</id>
@@ -463,6 +471,10 @@
     <userVisible>
       <common>true</common>
     </userVisible>
+    <title>
+      <key>ru</key>
+      <value>Параметры формы</value>
+    </title>
     <extendedTooltip>
       <name>ГруппаПараметрыФормыРасширеннаяПодсказка</name>
       <id>19</id>

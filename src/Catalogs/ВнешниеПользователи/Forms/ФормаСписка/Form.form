@@ -1021,7 +1021,7 @@
             <segments>ГруппыВнешнихПользователей.НомерКартинки</segments>
           </rowPictureDataPath>
           <rowsPicture xsi:type="core:PictureRef">
-            <picture>0</picture>
+            <picture>CommonPicture.СостоянияПользователей</picture>
           </rowsPicture>
           <currentRowUse>SelectionPresentationAndChoice</currentRowUse>
           <extInfo xsi:type="form:DynamicListTableExtInfo">
@@ -1721,7 +1721,7 @@
             <segments>ВнешниеПользователиСписок.НомерКартинки</segments>
           </rowPictureDataPath>
           <rowsPicture xsi:type="core:PictureRef">
-            <picture>0</picture>
+            <picture>CommonPicture.СостоянияПользователей</picture>
           </rowsPicture>
           <extInfo xsi:type="form:DynamicListTableExtInfo">
             <autoRefreshPeriod>60</autoRefreshPeriod>
@@ -2190,7 +2190,7 @@
           <segments>ВыбранныеПользователиИГруппы.НомерКартинки</segments>
         </rowPictureDataPath>
         <rowsPicture xsi:type="core:PictureRef">
-          <picture>0</picture>
+          <picture>CommonPicture.СостоянияПользователей</picture>
         </rowsPicture>
         <rowFilter xsi:type="core:UndefinedValue"/>
       </items>
@@ -2925,10 +2925,10 @@
       </title>
       <id>1</id>
       <valueType>
-        <types>CatalogRef.Пользователи</types>
+        <types>CatalogRef.ВнешниеПользователи</types>
         <types>CatalogRef.ГруппыВнешнихПользователей</types>
         <types>CatalogRef.ГруппыПользователей</types>
-        <types>CatalogRef.ВнешниеПользователи</types>
+        <types>CatalogRef.Пользователи</types>
       </valueType>
       <view>
         <common>true</common>

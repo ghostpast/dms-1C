@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="7ee15716-95f8-4b28-9df2-c25c60744541">
+  <name>ОбновитьФайлИзФайлаНаДиске</name>
+  <synonym>
+    <key>ru</key>
+    <value>Обновить файл из файла на диске</value>
+  </synonym>
+</mdclass:CommonPicture>
