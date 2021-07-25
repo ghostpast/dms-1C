@@ -99,5 +99,6 @@
   <content>CommonPicture.ЗнакСтоп</content>
   <content>CommonPicture.ЗаполнитьФорму</content>
   <content>CommonPicture.ТипФункция</content>
+  <content>CommonPicture.Сумма</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

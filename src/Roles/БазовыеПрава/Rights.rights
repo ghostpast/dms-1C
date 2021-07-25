@@ -636,4 +636,150 @@
 			<value>true</value>
 		</right>
 	</object>
+	<object>
+		<name>InformationRegister.НастройкиВариантовОтчетов</name>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>#Если &amp;ОграничениеДоступаНаУровнеЗаписейУниверсально #Тогда
+#ДляРегистра("ИдентификаторыОбъектовМетаданных.РегистрСведенийНастройкиВариантовОтчетов", "Вариант", "Пользователь", "", "", "")
+#Иначе
+ТекущаяТаблица
+ГДЕ Пользователь = &amp;АвторизованныйПользователь
+	ИЛИ Пользователь = НЕОПРЕДЕЛЕНО
+	ИЛИ Вариант.Автор = &amp;АвторизованныйПользователь
+	ИЛИ ИСТИНА В (
+			ВЫБРАТЬ ПЕРВЫЕ 1
+				ИСТИНА
+			ИЗ
+				РегистрСведений.СоставыГруппПользователей КАК СоставыГруппПользователей
+			ГДЕ
+				СоставыГруппПользователей.ГруппаПользователей = ТекущаяТаблица.Пользователь
+				И СоставыГруппПользователей.Пользователь = &amp;АвторизованныйПользователь)
+#КонецЕсли</condition>
+			</restrictionByCondition>
+		</right>
+		<right>
+			<name>Update</name>
+			<value>true</value>
+			<restrictionByCondition>
+				<condition>#Если &amp;ОграничениеДоступаНаУровнеЗаписейУниверсально #Тогда
+#ДляРегистра("ИдентификаторыОбъектовМетаданных.РегистрСведенийНастройкиВариантовОтчетов", "Вариант", "Пользователь", "", "", "")
+#Иначе
+ТекущаяТаблица
+ГДЕ Пользователь = &amp;АвторизованныйПользователь
+	ИЛИ Пользователь = НЕОПРЕДЕЛЕНО
+	ИЛИ Вариант.Автор = &amp;АвторизованныйПользователь
+	ИЛИ ИСТИНА В (
+			ВЫБРАТЬ ПЕРВЫЕ 1
+				ИСТИНА
+			ИЗ
+				РегистрСведений.СоставыГруппПользователей КАК СоставыГруппПользователей
+			ГДЕ
+				СоставыГруппПользователей.ГруппаПользователей = ТекущаяТаблица.Пользователь
+				И СоставыГруппПользователей.Пользователь = &amp;АвторизованныйПользователь)
+#КонецЕсли</condition>
+			</restrictionByCondition>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.НастройкиВариантовОтчетов.StandardAttribute.Recorder</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.НастройкиВариантовОтчетов.Resource.Видимость</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.НастройкиВариантовОтчетов.Resource.БыстрыйДоступ</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.НастройкиВариантовОтчетов.Dimension.Пользователь</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.НастройкиВариантовОтчетов.StandardAttribute.Period</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.НастройкиВариантовОтчетов.Dimension.Подсистема</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.НастройкиВариантовОтчетов.StandardAttribute.LineNumber</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.НастройкиВариантовОтчетов.Dimension.Вариант</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
+	<object>
+		<name>InformationRegister.НастройкиВариантовОтчетов.StandardAttribute.Active</name>
+		<right>
+			<name>Edit</name>
+			<value>false</value>
+		</right>
+		<right>
+			<name>View</name>
+			<value>false</value>
+		</right>
+	</object>
 </Rights>
