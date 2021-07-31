@@ -3371,6 +3371,10 @@
     </dataPath>
     <defaultItem>true</defaultItem>
     <titleLocation>None</titleLocation>
+    <handlers>
+      <event>AdditionalDetailProcessing</event>
+      <name>ОтчетТабличныйДокументОбработкаДополнительнойРасшифровки</name>
+    </handlers>
     <extendedTooltip>
       <name>ОтчетТабличныйДокументExtendedTooltip</name>
       <id>163</id>
@@ -6436,7 +6440,10 @@
               <horizontalAlign>Left</horizontalAlign>
             </extInfo>
           </extendedTooltip>
-          <extInfo xsi:type="form:ButtonGroupExtInfo"/>
+          <type>Popup</type>
+          <extInfo xsi:type="form:PopupGroupExtInfo">
+            <representation>Auto</representation>
+          </extInfo>
         </items>
         <items xsi:type="form:Button">
           <name>КонтекстноеМенюОбластиОбщееСкомпоноватьРезультат</name>
@@ -6505,10 +6512,6 @@
     <headerHorizontalAlign>Left</headerHorizontalAlign>
     <showInFooter>true</showInFooter>
     <extInfo xsi:type="form:SpreadSheetDocFieldExtInfo">
-      <handlers>
-        <event>AdditionalDetailProcessing</event>
-        <name>ОтчетТабличныйДокументОбработкаДополнительнойРасшифровки</name>
-      </handlers>
       <handlers>
         <event>OnActivate</event>
         <name>ОтчетТабличныйДокументПриАктивизации</name>

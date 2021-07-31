@@ -686,6 +686,14 @@
         <horizontalAlign>Left</horizontalAlign>
       </autoCommandBar>
       <handlers>
+        <event>BeforeAddRow</event>
+        <name>ОформляемыеПоляПередНачаломДобавления</name>
+      </handlers>
+      <handlers>
+        <event>BeforeRowChange</event>
+        <name>ОформляемыеПоляПередНачаломИзменения</name>
+      </handlers>
+      <handlers>
         <event>OnChange</event>
         <name>ОформляемыеПоляПриИзменении</name>
       </handlers>
@@ -2619,6 +2627,14 @@
         </userVisible>
         <horizontalAlign>Left</horizontalAlign>
       </autoCommandBar>
+      <handlers>
+        <event>BeforeAddRow</event>
+        <name>ОтборПередНачаломДобавления</name>
+      </handlers>
+      <handlers>
+        <event>BeforeRowChange</event>
+        <name>ОтборПередНачаломИзменения</name>
+      </handlers>
       <handlers>
         <event>OnChange</event>
         <name>ОтборПриИзменении</name>

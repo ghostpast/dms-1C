@@ -365,6 +365,32 @@
     </edit>
     <savedData>true</savedData>
   </attributes>
+  <attributes>
+    <name>ДляЗапроса</name>
+    <id>14</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>КомпоновщикНастроек</name>
+    <id>15</id>
+    <valueType>
+      <types>DataCompositionSettingsComposer</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>ЗавершитьРедактирование</name>
     <title>
@@ -448,6 +474,12 @@
     <valueType>
       <types>String</types>
       <stringQualifiers/>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ДляЗапроса</name>
+    <valueType>
+      <types>Boolean</types>
     </valueType>
   </parameters>
   <commandInterface>

@@ -3305,7 +3305,7 @@
           <id>811</id>
           <title>
             <key>ru</key>
-            <value>&lt;bgcolor #ffec9d>&lt;color #9d5600>В отчете установлены фильтры для группировок, которые можно настроить на странице &lt;/>&lt;/>&lt;b>&lt;color #9d5600>Структура&lt;/>&lt;/>&lt;bgcolor #ffec9d>&lt;color #9d5600>.&lt;/>&lt;/></value>
+            <value>&lt;color #9D5600>&lt;bgcolor #FFEC9D>В отчете установлены фильтры для группировок, которые можно настроить на странице &lt;/>&lt;/>&lt;b>&lt;color #9D5600>Структура&lt;/>&lt;/>&lt;color #9D5600>&lt;bgcolor #FFEC9D>.&lt;/>&lt;/></value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -6037,7 +6037,7 @@
           <id>1007</id>
           <title>
             <key>ru</key>
-            <value>&lt;bgcolor #ffec9d>&lt;color #9d5600>В отчете выбраны поля и сортировки для группировок, которые можно настроить на странице &lt;/>&lt;/>&lt;b>&lt;color #9d5600>Структура&lt;/>&lt;/>&lt;bgcolor #ffec9d>&lt;color #9d5600>.&lt;/>&lt;/></value>
+            <value>&lt;color #9D5600>&lt;bgcolor #FFEC9D>В отчете выбраны поля и сортировки для группировок, которые можно настроить на странице &lt;/>&lt;/>&lt;b>&lt;color #9D5600>Структура&lt;/>&lt;/>&lt;color #9D5600>&lt;bgcolor #FFEC9D>.&lt;/>&lt;/></value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
@@ -6991,7 +6991,7 @@
           <id>931</id>
           <title>
             <key>ru</key>
-            <value>&lt;bgcolor #ffec9d>&lt;color #9d5600>В отчете установлено оформление для группировок, которое можно настроить на странице &lt;/>&lt;/>&lt;b>&lt;color #9d5600>Структура&lt;/>&lt;/>&lt;bgcolor #ffec9d>&lt;color #9d5600>.&lt;/>&lt;/></value>
+            <value>&lt;color #9D5600>&lt;bgcolor #FFEC9D>В отчете установлено оформление для группировок, которое можно настроить на странице &lt;/>&lt;/>&lt;b>&lt;color #9D5600>Структура&lt;/>&lt;/>&lt;color #9D5600>&lt;bgcolor #FFEC9D>.&lt;/>&lt;/></value>
           </title>
           <visible>true</visible>
           <enabled>true</enabled>
