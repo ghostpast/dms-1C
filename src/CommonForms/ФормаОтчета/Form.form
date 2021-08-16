@@ -3934,6 +3934,36 @@
         <items xsi:type="form:FormGroup">
           <name>КонтекстноеМенюОбластиЗаголовкаМенюОформить</name>
           <id>866</id>
+          <items xsi:type="form:Button">
+            <name>КонтекстноеМенюОбластиЗаголовкаОчиститьОформление</name>
+            <id>1091</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>КонтекстноеМенюОбластиЗаголовкаОчиститьОформлениеРасширеннаяПодсказка</name>
+              <id>1092</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Command.ОчиститьОформление</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
           <items xsi:type="form:FormGroup">
             <name>КонтекстноеМенюОбластиЗаголовкаОформитьОтрицательныеПоложительные</name>
             <id>868</id>
@@ -5276,6 +5306,36 @@
         <items xsi:type="form:FormGroup">
           <name>КонтекстноеМенюОбластиДанныхМенюОформить</name>
           <id>954</id>
+          <items xsi:type="form:Button">
+            <name>КонтекстноеМенюОбластиДанныхОчиститьОформление</name>
+            <id>1093</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>КонтекстноеМенюОбластиДанныхОчиститьОформлениеРасширеннаяПодсказка</name>
+              <id>1094</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Command.ОчиститьОформление</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
           <items xsi:type="form:FormGroup">
             <name>КонтекстноеМенюОбластиДанныхОформитьКраснымЖелтымЗеленым</name>
             <id>956</id>
@@ -5662,6 +5722,95 @@
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
           <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <items xsi:type="form:FormGroup">
+          <name>КонтекстноеМенюОбластиДанныхБуферОбмена</name>
+          <id>1095</id>
+          <items xsi:type="form:Button">
+            <name>КонтекстноеМенюОбластиДанныхКопироватьВБуферОбмена</name>
+            <id>1097</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>КонтекстноеМенюОбластиДанныхКопироватьВБуферОбменаРасширеннаяПодсказка</name>
+              <id>1098</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Item.ОтчетТабличныйДокумент.StandardCommand.CopyToClipboard</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <items xsi:type="form:Button">
+            <name>КонтекстноеМенюОбластиДанныхВставитьИзБуфераОбмена</name>
+            <id>1099</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <extendedTooltip>
+              <name>КонтекстноеМенюОбластиДанныхВставитьИзБуфераОбменаРасширеннаяПодсказка</name>
+              <id>1100</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <commandName>Form.Item.ОтчетТабличныйДокумент.StandardCommand.PasteFromClipboard</commandName>
+            <representation>Auto</representation>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <placementArea>UserCmds</placementArea>
+            <representationInContextMenu>Auto</representationInContextMenu>
+          </items>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <title>
+            <key>ru</key>
+            <value>Буфер обмена</value>
+          </title>
+          <extendedTooltip>
+            <name>КонтекстноеМенюОбластиДанныхБуферОбменаРасширеннаяПодсказка</name>
+            <id>1096</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <extInfo xsi:type="form:ButtonGroupExtInfo"/>
         </items>
         <enabled>true</enabled>
         <userVisible>
@@ -9614,6 +9763,23 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>СгруппироватьПоВыбранномуПолю</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>ОчиститьОформление</name>
+    <title>
+      <key>ru</key>
+      <value>Очистить оформление</value>
+    </title>
+    <id>55</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ОчиститьОформление</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

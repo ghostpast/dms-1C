@@ -1245,7 +1245,7 @@
     </columns>
   </attributes>
   <attributes>
-    <name>ИмяФайлаБезРаширения</name>
+    <name>ИмяФайлаБезРасширения</name>
     <id>14</id>
     <valueType>
       <types>String</types>
