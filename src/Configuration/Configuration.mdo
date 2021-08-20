@@ -126,7 +126,7 @@
   <roles>Role.ПолныеПрава</roles>
   <roles>Role.ПросмотрЖурналаРегистрации</roles>
   <roles>Role.ПросмотрОписанияИзмененийПрограммы</roles>
-  <roles>Role.РежимВсеФункции</roles>
+  <roles>Role.РежимТехническогоСпециалиста</roles>
   <roles>Role.СохранениеДанныхПользователя</roles>
   <roles>Role.ЧтениеВариантовОтчетов</roles>
   <roles>Role.ЧтениеВнешнихПользователей</roles>
@@ -161,6 +161,7 @@
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <scheduledJobs>ScheduledJob.КонтрольАктивностиПользователей</scheduledJobs>
   <scheduledJobs>ScheduledJob.ОбновлениеПредопределенныхВариантовОтчетов</scheduledJobs>
+  <scheduledJobs>ScheduledJob.ОбработкаСервисовИнтеграции</scheduledJobs>
   <scheduledJobs>ScheduledJob.ОтложенноеОбновлениеИБ</scheduledJobs>
   <scheduledJobs>ScheduledJob.УдалениеУстаревшихПараметровРаботыВерсийРасширений</scheduledJobs>
   <settingsStorages>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorages>
