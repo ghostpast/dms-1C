@@ -336,6 +336,5 @@
       <key>ru</key>
       <value>Группы пользователя</value>
     </toolTip>
-    <shortcut></shortcut>
   </commands>
 </mdclass:Catalog>

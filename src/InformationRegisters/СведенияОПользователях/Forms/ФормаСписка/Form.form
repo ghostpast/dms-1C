@@ -68,6 +68,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
       <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
     </items>
@@ -126,10 +127,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.Пользователь</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.Пользователь</segments>
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
@@ -181,10 +180,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.ПотребоватьСменуПароляПриВходе</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ПотребоватьСменуПароляПриВходе</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПотребоватьСменуПароляПриВходеРасширеннаяПодсказка</name>
@@ -232,10 +229,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.СрокДействияНеОграничен</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.СрокДействияНеОграничен</segments>
       </dataPath>
       <extendedTooltip>
         <name>СрокДействияНеОграниченРасширеннаяПодсказка</name>
@@ -277,10 +272,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.СрокДействия</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.СрокДействия</segments>
       </dataPath>
       <extendedTooltip>
         <name>СрокДействияРасширеннаяПодсказка</name>
@@ -331,10 +324,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.ПросрочкаРаботыВПрограммеДоЗапрещенияВхода</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ПросрочкаРаботыВПрограммеДоЗапрещенияВхода</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПросрочкаРаботыВПрограммеДоЗапрещенияВходаРасширеннаяПодсказка</name>
@@ -386,10 +377,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.ДатаРазрешенияВходаВПрограмму</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ДатаРазрешенияВходаВПрограмму</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДатаРазрешенияВходаВПрограммуРасширеннаяПодсказка</name>
@@ -440,10 +429,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.ДатаПоследнейАктивности</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ДатаПоследнейАктивности</segments>
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
@@ -496,10 +483,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.ДатаАвтоматическогоЗапрещенияВхода</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ДатаАвтоматическогоЗапрещенияВхода</segments>
       </dataPath>
       <defaultItem>true</defaultItem>
       <extendedTooltip>
@@ -552,10 +537,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.ДатаНачалаИспользованияПароля</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ДатаНачалаИспользованияПароля</segments>
       </dataPath>
       <extendedTooltip>
         <name>ДатаНачалаИспользованияПароляРасширеннаяПодсказка</name>
@@ -601,10 +584,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>Список.ПоследнийИспользуемыйКлиент</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>Список.ПоследнийИспользуемыйКлиент</segments>
       </dataPath>
       <extendedTooltip>
         <name>ПоследнийИспользуемыйКлиентРасширеннаяПодсказка</name>

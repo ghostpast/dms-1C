@@ -8,10 +8,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>ЗаголовокГруппы</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ЗаголовокГруппы</segments>
     </dataPath>
     <toolTipRepresentation>ShowBottom</toolTipRepresentation>
     <extendedTooltip>
@@ -65,10 +63,8 @@
     <userVisible>
       <common>true</common>
     </userVisible>
-    <dataPath xsi:type="form:MultiLanguageDataPath">
-      <paths xsi:type="form:DataPath">
-        <segments>РасположениеГруппы</segments>
-      </paths>
+    <dataPath xsi:type="form:DataPath">
+      <segments>РасположениеГруппы</segments>
     </dataPath>
     <extendedTooltip>
       <name>РасположениеРасширеннаяПодсказка</name>
@@ -182,6 +178,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <items xsi:type="form:Button">
@@ -212,6 +209,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <visible>true</visible>

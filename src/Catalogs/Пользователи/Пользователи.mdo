@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="b9096c75-e7ba-4855-bed4-0383939030ca">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="579baaa4-6493-4d99-8744-6399757295c7">
   <producedTypes>
-    <objectType typeId="b2d9f593-390b-437f-9eb5-5755c7d4978e" valueTypeId="d521507b-bc02-40cb-b07a-8c9cbc3f43d9"/>
-    <refType typeId="23375595-8aae-431e-af72-fe2998d6e7a7" valueTypeId="9263a655-d689-4e36-899f-8bc6984e2a52"/>
-    <selectionType typeId="8008c07c-a4a7-4d58-8023-f0c217d67b1e" valueTypeId="12fff388-8f28-4608-acd2-aea023d811ec"/>
-    <listType typeId="fdf16e02-b58d-4c33-989f-ae8b6a68f864" valueTypeId="18db141a-e421-4631-b669-d7ac6b39c799"/>
-    <managerType typeId="9c9a7b5b-18c4-488f-93b7-1add296168e1" valueTypeId="530d2c9a-f15b-495e-8aa6-35bc65c7b2cf"/>
+    <objectType typeId="ffa9c90a-d490-40c2-b99c-7a87752d3e03" valueTypeId="49c454fd-8766-49e9-a582-ff3c0541ade0"/>
+    <refType typeId="c54edff0-c3a1-44d7-9707-1fe05700b055" valueTypeId="5a50a8a2-b7f7-4b8f-9e9b-6d8b6b500ec2"/>
+    <selectionType typeId="d241e74a-70bf-467c-a1fa-aff8bb05f975" valueTypeId="6853d21b-906d-453f-a5af-397094781e56"/>
+    <listType typeId="d2ae0ca4-e888-47e1-81aa-9722ba4b48fa" valueTypeId="310cf267-d5ab-4fdf-8238-af92a0db7ebc"/>
+    <managerType typeId="11db8b7a-763b-4b40-91e6-42643db24cde" valueTypeId="3bc5ad12-2be0-4d3f-a44d-c26a7c0c99fe"/>
   </producedTypes>
   <name>Пользователи</name>
   <synonym>
     <key>ru</key>
     <value>Пользователи</value>
   </synonym>
+  <comment>АПК:413 - №744.2.1.1 Допустимо не отключать историю выбора, так как она используется, а переопределение отбора фиксированное, то есть служебные и недействительные пользователи в нее не попадут, но если как-то попали, то это не является проблемой</comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.Пользователи.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
@@ -142,7 +143,7 @@
   <defaultObjectForm>Catalog.Пользователи.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.Пользователи.Form.ФормаСписка</defaultListForm>
   <defaultChoiceForm>Catalog.Пользователи.Form.ФормаСписка</defaultChoiceForm>
-  <attributes uuid="e71bdd8e-828d-46b8-a596-e98eb29777a6">
+  <attributes uuid="ae6d0e12-8857-476c-b4b2-f03295cbed3e">
     <name>Недействителен</name>
     <synonym>
       <key>ru</key>
@@ -164,7 +165,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="e899fcac-59a9-4968-ab43-78a9ab05f44c">
+  <attributes uuid="7ee1e0d0-9735-45da-bd24-c0dbabfd5b1e">
     <name>Комментарий</name>
     <synonym>
       <key>ru</key>
@@ -187,7 +188,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="66dbcfdc-1f8b-42e2-aeda-a96e306824d9">
+  <attributes uuid="bd0e3bd4-1207-41ea-8dfc-afa8f7d08cc2">
     <name>Служебный</name>
     <synonym>
       <key>ru</key>
@@ -206,7 +207,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="f3610e84-205c-4967-a7a4-0bbffba22293">
+  <attributes uuid="51d83895-5692-4479-9612-07c790d19dff">
     <name>Подготовлен</name>
     <synonym>
       <key>ru</key>
@@ -225,7 +226,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="a8ae49fd-25d5-4388-a657-c00c38220cd3">
+  <attributes uuid="9c1325af-7492-42be-b3af-51b692534510">
     <name>ИдентификаторПользователяИБ</name>
     <synonym>
       <key>ru</key>
@@ -244,7 +245,7 @@
     <indexing>Index</indexing>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="0477a7e3-b4b7-440f-94a5-36890ed4a81d">
+  <attributes uuid="d854b528-8456-4453-9c2d-4f96caf10481">
     <name>СвойстваПользователяИБ</name>
     <synonym>
       <key>ru</key>
@@ -263,7 +264,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="e66af79f-11a7-4db4-9ab1-09bdb9345b0b">
+  <attributes uuid="622d6de2-7404-41cc-961b-131d078d7ab4">
     <name>Фотография</name>
     <synonym>
       <key>ru</key>
@@ -278,7 +279,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="c8e38572-331b-4b45-8dc9-3b53e9b7e40d">
+  <forms uuid="cb92dc2e-6053-4233-a408-4464514b1257">
     <name>ФормаЭлемента</name>
     <synonym>
       <key>ru</key>
@@ -287,7 +288,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="65332fd9-17ed-46f9-a90b-d79d98db952d">
+  <forms uuid="8cd65ad3-a7a3-46f6-9061-e8751fd5073e">
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>
@@ -296,7 +297,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="a2c0606f-ad44-4fb6-9464-7a787bb003b3">
+  <forms uuid="85550a7a-8fe0-4296-ace5-63cf053536b4">
     <name>ПользователиИнформационнойБазы</name>
     <synonym>
       <key>ru</key>
@@ -305,7 +306,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="7786da1f-5471-47a9-8795-fc89e0d0efce">
+  <forms uuid="cf1bd9cd-2ef2-4868-b6c0-5160860690f7">
     <name>ВыборПользователяОперационнойСистемы</name>
     <synonym>
       <key>ru</key>
@@ -314,7 +315,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="cc49c1ba-00ec-41ff-a117-1f7bf31cccee">
+  <forms uuid="9c3bc502-bcb1-4c90-ae43-53c798958339">
     <name>ОграничениеНаВходВПрограмму</name>
     <synonym>
       <key>ru</key>
@@ -323,7 +324,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <commands uuid="91fb602c-57f4-4d3d-a2da-1e8d1a51abbd">
+  <commands uuid="bed3f0b2-40c6-4323-9bca-cb8864e38ec0">
     <name>ПользователиИнформационнойБазы</name>
     <synonym>
       <key>ru</key>
@@ -336,6 +337,5 @@
       <key>ru</key>
       <value>Пользователи информационной базы</value>
     </toolTip>
-    <shortcut></shortcut>
   </commands>
 </mdclass:Catalog>

@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Enum xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="41702128-cb77-4014-b200-d2e6f3e30b47">
+  <producedTypes>
+    <refType typeId="00be25f5-c4ab-4100-a2dc-c831d613d5b5" valueTypeId="54b81680-73fe-497a-9a00-a346cf12a0f8"/>
+    <listType typeId="0532adb7-8be9-43cd-b18d-563d6e1a8e5e" valueTypeId="28ad43c9-bbf6-476a-9d60-e0eb3f4d8fe1"/>
+    <managerType typeId="23849382-d575-4632-8db9-f8cf588b7e89" valueTypeId="c10797f8-262c-4923-9198-284740ed8113"/>
+  </producedTypes>
+  <name>ФорматыСохраненияОтчетов</name>
+  <synonym>
+    <key>ru</key>
+    <value>Форматы сохранения отчетов</value>
+  </synonym>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Order</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <standardAttributes>
+    <dataHistory>Use</dataHistory>
+    <name>Ref</name>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+  </standardAttributes>
+  <quickChoice>true</quickChoice>
+  <choiceMode>BothWays</choiceMode>
+  <explanation>
+    <key>ru</key>
+    <value>Имя перечисления - краткое наименование формата (используется для представления формата в составе сформированных отчетов)
+Синоним - полное наименование формата (используется как пользовательское представление формата в режиме выбора)</value>
+  </explanation>
+  <enumValues uuid="32a647d4-fc35-490b-9cb0-81a8559b9221">
+    <name>HTML</name>
+    <synonym>
+      <key>ru</key>
+      <value>Веб-страница (.html)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="1040e47e-e3e3-4dec-a015-0565e2aba72b">
+    <name>HTML4</name>
+    <synonym>
+      <key>ru</key>
+      <value>Веб-страница версии 4 (.html)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="82640ffc-4c2a-4adf-be98-e4f752656083">
+    <name>XLS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лист Microsoft Excel 97-2003 (.xls)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="e9af2758-c1c5-4e39-a63e-f03ea775c49b">
+    <name>XLSX</name>
+    <synonym>
+      <key>ru</key>
+      <value>Лист Microsoft Excel 2007 (.xlsx)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="58552101-dc2f-4f2b-b345-d25c7cf478b3">
+    <name>PDF</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ PDF (.pdf)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="c552f113-dfe6-42ea-b54d-fb3efd745361">
+    <name>MXL</name>
+    <synonym>
+      <key>ru</key>
+      <value>Табличный документ (.mxl)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="8238b58c-a2a3-4fed-b238-c76f43fca241">
+    <name>ODS</name>
+    <synonym>
+      <key>ru</key>
+      <value>Электронная таблица Open Document (.ods)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="4f7029c5-7857-4069-b2e9-5007709b0503">
+    <name>DOCX</name>
+    <synonym>
+      <key>ru</key>
+      <value>Документ Word 2007 (.docx)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="d6266268-6c98-44d8-87fd-2fec03c2fd41">
+    <name>TXT</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текстовый документ UTF-8 (.txt)</value>
+    </synonym>
+  </enumValues>
+  <enumValues uuid="82e965cf-c863-436c-a0f4-26f8ae5d4567">
+    <name>ANSITXT</name>
+    <synonym>
+      <key>ru</key>
+      <value>Текстовый документ ANSI (.txt)</value>
+    </synonym>
+  </enumValues>
+</mdclass:Enum>

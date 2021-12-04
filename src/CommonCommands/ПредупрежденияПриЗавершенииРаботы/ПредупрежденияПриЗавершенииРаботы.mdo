@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9456375f-95d4-4a29-b5e0-7eaa255513c7">
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="4f86b052-b81e-49b8-9fa8-82b2ecbc8e01">
   <name>ПредупрежденияПриЗавершенииРаботы</name>
   <synonym>
     <key>ru</key>
@@ -8,5 +8,4 @@
   <group>NavigationPanelOrdinary</group>
   <commandParameterType/>
   <representation>Auto</representation>
-  <shortcut></shortcut>
 </mdclass:CommonCommand>

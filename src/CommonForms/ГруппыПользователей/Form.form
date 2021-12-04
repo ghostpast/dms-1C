@@ -42,6 +42,7 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>Auto</toolTipRepresentation>
           <representationInContextMenu>Auto</representationInContextMenu>
         </items>
         <items xsi:type="form:Button">
@@ -72,6 +73,7 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>Auto</toolTipRepresentation>
           <representationInContextMenu>Auto</representationInContextMenu>
         </items>
         <items xsi:type="form:Button">
@@ -102,6 +104,7 @@
           <autoMaxWidth>true</autoMaxWidth>
           <autoMaxHeight>true</autoMaxHeight>
           <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>Auto</toolTipRepresentation>
           <representationInContextMenu>Auto</representationInContextMenu>
         </items>
         <visible>true</visible>
@@ -173,10 +176,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>ДеревоГрупп.Пометка</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ДеревоГрупп.Пометка</segments>
             </dataPath>
             <handlers>
               <event>OnChange</event>
@@ -223,10 +224,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>ДеревоГрупп.Картинка</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ДеревоГрупп.Картинка</segments>
             </dataPath>
             <extendedTooltip>
               <name>ДеревоГруппКартинкаExtendedTooltip</name>
@@ -265,7 +264,7 @@
               <horizontalStretch>true</horizontalStretch>
               <verticalStretch>true</verticalStretch>
               <valuesPicture xsi:type="core:PictureRef">
-                <picture>0</picture>
+                <picture>CommonPicture.СостоянияПользователей</picture>
               </valuesPicture>
             </extInfo>
           </items>
@@ -277,10 +276,8 @@
             <userVisible>
               <common>true</common>
             </userVisible>
-            <dataPath xsi:type="form:MultiLanguageDataPath">
-              <paths xsi:type="form:DataPath">
-                <segments>ДеревоГрупп.Группа</segments>
-              </paths>
+            <dataPath xsi:type="form:DataPath">
+              <segments>ДеревоГрупп.Группа</segments>
             </dataPath>
             <extendedTooltip>
               <name>ДеревоГруппГруппаExtendedTooltip</name>
@@ -906,8 +903,8 @@
   <parameters>
     <name>Пользователь</name>
     <valueType>
-      <types>CatalogRef.Пользователи</types>
       <types>CatalogRef.ВнешниеПользователи</types>
+      <types>CatalogRef.Пользователи</types>
     </valueType>
   </parameters>
   <parameters>

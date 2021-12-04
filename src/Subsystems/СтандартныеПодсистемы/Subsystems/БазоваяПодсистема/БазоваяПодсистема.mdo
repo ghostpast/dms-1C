@@ -101,5 +101,15 @@
   <content>CommonPicture.ТипФункция</content>
   <content>CommonPicture.Сумма</content>
   <content>ScheduledJob.ОбработкаСервисовИнтеграции</content>
+  <content>CommonPicture.ФорматPDF</content>
+  <content>CommonPicture.ФорматMXL</content>
+  <content>CommonPicture.ФорматExcel2007</content>
+  <content>CommonPicture.ФорматExcel</content>
+  <content>CommonPicture.ФорматOpenOfficeCalc</content>
+  <content>CommonPicture.ФорматWord2007</content>
+  <content>CommonPicture.ФорматHTML</content>
+  <content>CommonPicture.ФорматTXT</content>
+  <content>Enum.ФорматыСохраненияОтчетов</content>
+  <content>CommonPicture.КоллекцияВидыСобытийЖурналаРегистрации</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

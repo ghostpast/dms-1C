@@ -1385,7 +1385,7 @@
     <name>cut_tags</name>
     <synonym>
       <key>ru</key>
-      <value>Cut tags</value>
+      <value>Cut_tags</value>
     </synonym>
     <templateType>TextDocument</templateType>
   </templates>
@@ -1398,6 +1398,5 @@
     <group>NavigationPanelOrdinary</group>
     <commandParameterType/>
     <representation>Auto</representation>
-    <shortcut></shortcut>
   </commands>
 </mdclass:DataProcessor>

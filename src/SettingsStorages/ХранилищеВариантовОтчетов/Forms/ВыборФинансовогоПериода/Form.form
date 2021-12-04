@@ -43,6 +43,7 @@
         <font xsi:type="core:FontRef">
           <font>Style.LargeTextFont</font>
         </font>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
         <shapeRepresentation>WhenActive</shapeRepresentation>
       </items>
@@ -133,10 +134,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ДатаНачалаГода</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ДатаНачалаГода</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
       <extendedTooltip>
@@ -212,6 +211,7 @@
       <font xsi:type="core:FontRef">
         <font>Style.LargeTextFont</font>
       </font>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
       <shapeRepresentation>WhenActive</shapeRepresentation>
     </items>
@@ -288,6 +288,7 @@
           <autoMaxHeight>true</autoMaxHeight>
           <horizontalStretch>true</horizontalStretch>
           <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>Auto</toolTipRepresentation>
           <representationInContextMenu>Auto</representationInContextMenu>
           <shapeRepresentation>WhenActive</shapeRepresentation>
         </items>
@@ -321,6 +322,7 @@
           <autoMaxHeight>true</autoMaxHeight>
           <horizontalStretch>true</horizontalStretch>
           <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>Auto</toolTipRepresentation>
           <representationInContextMenu>Auto</representationInContextMenu>
           <shapeRepresentation>WhenActive</shapeRepresentation>
         </items>
@@ -354,6 +356,7 @@
           <autoMaxHeight>true</autoMaxHeight>
           <horizontalStretch>true</horizontalStretch>
           <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>Auto</toolTipRepresentation>
           <representationInContextMenu>Auto</representationInContextMenu>
           <shapeRepresentation>WhenActive</shapeRepresentation>
         </items>
@@ -421,6 +424,7 @@
           <autoMaxHeight>true</autoMaxHeight>
           <horizontalStretch>true</horizontalStretch>
           <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>Auto</toolTipRepresentation>
           <representationInContextMenu>Auto</representationInContextMenu>
           <shapeRepresentation>WhenActive</shapeRepresentation>
         </items>
@@ -454,6 +458,7 @@
           <autoMaxHeight>true</autoMaxHeight>
           <horizontalStretch>true</horizontalStretch>
           <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>Auto</toolTipRepresentation>
           <representationInContextMenu>Auto</representationInContextMenu>
           <shapeRepresentation>WhenActive</shapeRepresentation>
         </items>
@@ -487,6 +492,7 @@
           <autoMaxHeight>true</autoMaxHeight>
           <horizontalStretch>true</horizontalStretch>
           <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>Auto</toolTipRepresentation>
           <representationInContextMenu>Auto</representationInContextMenu>
           <shapeRepresentation>WhenActive</shapeRepresentation>
         </items>
@@ -554,6 +560,7 @@
           <autoMaxHeight>true</autoMaxHeight>
           <horizontalStretch>true</horizontalStretch>
           <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>Auto</toolTipRepresentation>
           <representationInContextMenu>Auto</representationInContextMenu>
           <shapeRepresentation>WhenActive</shapeRepresentation>
         </items>
@@ -587,6 +594,7 @@
           <autoMaxHeight>true</autoMaxHeight>
           <horizontalStretch>true</horizontalStretch>
           <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>Auto</toolTipRepresentation>
           <representationInContextMenu>Auto</representationInContextMenu>
           <shapeRepresentation>WhenActive</shapeRepresentation>
         </items>
@@ -620,6 +628,7 @@
           <autoMaxHeight>true</autoMaxHeight>
           <horizontalStretch>true</horizontalStretch>
           <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>Auto</toolTipRepresentation>
           <representationInContextMenu>Auto</representationInContextMenu>
           <shapeRepresentation>WhenActive</shapeRepresentation>
         </items>
@@ -687,6 +696,7 @@
           <autoMaxHeight>true</autoMaxHeight>
           <horizontalStretch>true</horizontalStretch>
           <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>Auto</toolTipRepresentation>
           <representationInContextMenu>Auto</representationInContextMenu>
           <shapeRepresentation>WhenActive</shapeRepresentation>
         </items>
@@ -720,6 +730,7 @@
           <autoMaxHeight>true</autoMaxHeight>
           <horizontalStretch>true</horizontalStretch>
           <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>Auto</toolTipRepresentation>
           <representationInContextMenu>Auto</representationInContextMenu>
           <shapeRepresentation>WhenActive</shapeRepresentation>
         </items>
@@ -753,6 +764,7 @@
           <autoMaxHeight>true</autoMaxHeight>
           <horizontalStretch>true</horizontalStretch>
           <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>Auto</toolTipRepresentation>
           <representationInContextMenu>Auto</representationInContextMenu>
           <shapeRepresentation>WhenActive</shapeRepresentation>
         </items>
@@ -857,6 +869,7 @@
         <backColor xsi:type="core:ColorRef">
           <color>Style.ИтогиФонГруппы</color>
         </backColor>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
         <shapeRepresentation>WhenActive</shapeRepresentation>
       </items>
@@ -893,6 +906,7 @@
         <backColor xsi:type="core:ColorRef">
           <color>Style.ИтогиФонГруппы</color>
         </backColor>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
         <shapeRepresentation>WhenActive</shapeRepresentation>
       </items>
@@ -929,6 +943,7 @@
         <backColor xsi:type="core:ColorRef">
           <color>Style.ИтогиФонГруппы</color>
         </backColor>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
         <shapeRepresentation>WhenActive</shapeRepresentation>
       </items>
@@ -965,6 +980,7 @@
         <backColor xsi:type="core:ColorRef">
           <color>Style.ИтогиФонГруппы</color>
         </backColor>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
         <shapeRepresentation>WhenActive</shapeRepresentation>
       </items>
@@ -1036,6 +1052,7 @@
         <autoMaxHeight>true</autoMaxHeight>
         <horizontalStretch>true</horizontalStretch>
         <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
         <shapeRepresentation>WhenActive</shapeRepresentation>
       </items>
@@ -1073,6 +1090,7 @@
         <autoMaxHeight>true</autoMaxHeight>
         <horizontalStretch>true</horizontalStretch>
         <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
         <shapeRepresentation>WhenActive</shapeRepresentation>
       </items>
@@ -1106,6 +1124,7 @@
         <autoMaxHeight>true</autoMaxHeight>
         <horizontalStretch>true</horizontalStretch>
         <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
         <shapeRepresentation>WhenActive</shapeRepresentation>
       </items>
@@ -1139,6 +1158,7 @@
         <autoMaxHeight>true</autoMaxHeight>
         <horizontalStretch>true</horizontalStretch>
         <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
         <shapeRepresentation>WhenActive</shapeRepresentation>
       </items>
@@ -1241,6 +1261,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
       <shapeRepresentation>WhenActive</shapeRepresentation>
     </items>
@@ -1273,6 +1294,7 @@
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
       <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
       <representationInContextMenu>Auto</representationInContextMenu>
       <shapeRepresentation>WhenActive</shapeRepresentation>
     </items>

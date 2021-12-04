@@ -57,6 +57,7 @@
   <styleItems>StyleItem.ФонУправляющегоПоля</styleItems>
   <styleItems>StyleItem.ЦветТекстаВнимание</styleItems>
   <styleItems>StyleItem.ЦветФонаВнимание</styleItems>
+  <commonPictures>CommonPicture.АрхивАнкета</commonPictures>
   <commonPictures>CommonPicture.ВариантыОтчетовДоступныеВсемПользователям</commonPictures>
   <commonPictures>CommonPicture.Вопрос32</commonPictures>
   <commonPictures>CommonPicture.ВосклицательныйЗнакСерый</commonPictures>
@@ -68,6 +69,8 @@
   <commonPictures>CommonPicture.ЗнакСтоп</commonPictures>
   <commonPictures>CommonPicture.Информация1</commonPictures>
   <commonPictures>CommonPicture.Информация32</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияВидыСобытийЖурналаРегистрации</commonPictures>
+  <commonPictures>CommonPicture.КоллекцияОбъектыМетаданных</commonPictures>
   <commonPictures>CommonPicture.ОбновитьФайлИзФайлаНаДиске</commonPictures>
   <commonPictures>CommonPicture.Отчеты</commonPictures>
   <commonPictures>CommonPicture.Ошибка32</commonPictures>
@@ -90,6 +93,14 @@
   <commonPictures>CommonPicture.ТипФункция</commonPictures>
   <commonPictures>CommonPicture.Успешно</commonPictures>
   <commonPictures>CommonPicture.Успешно32</commonPictures>
+  <commonPictures>CommonPicture.ФорматExcel</commonPictures>
+  <commonPictures>CommonPicture.ФорматExcel2007</commonPictures>
+  <commonPictures>CommonPicture.ФорматHTML</commonPictures>
+  <commonPictures>CommonPicture.ФорматMXL</commonPictures>
+  <commonPictures>CommonPicture.ФорматOpenOfficeCalc</commonPictures>
+  <commonPictures>CommonPicture.ФорматPDF</commonPictures>
+  <commonPictures>CommonPicture.ФорматTXT</commonPictures>
+  <commonPictures>CommonPicture.ФорматWord2007</commonPictures>
   <commonPictures>CommonPicture.ШиринаКолонки</commonPictures>
   <sessionParameters>SessionParameter.АвторизованныйПользователь</sessionParameters>
   <sessionParameters>SessionParameter.БуферОбмена</sessionParameters>
@@ -239,6 +250,7 @@
   <enums>Enum.СтатусыОбработчиковОбновления</enums>
   <enums>Enum.ТипыДанныхКэшаПрограммныхИнтерфейсов</enums>
   <enums>Enum.ТипыОтчетов</enums>
+  <enums>Enum.ФорматыСохраненияОтчетов</enums>
   <reports>Report.ПрогрессОтложенногоОбновления</reports>
   <reports>Report.СведенияОПользователях</reports>
   <reports>Report.УниверсальныйОтчет</reports>

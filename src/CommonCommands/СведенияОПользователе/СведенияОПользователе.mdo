@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a7cd4a37-c611-4cf1-a900-4279e8591650">
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="301eea20-0e7f-441e-a531-28b4627dfd93">
   <name>СведенияОПользователе</name>
   <synonym>
     <key>ru</key>
@@ -8,5 +8,4 @@
   <group>ActionsPanelTools</group>
   <commandParameterType/>
   <representation>Auto</representation>
-  <shortcut></shortcut>
 </mdclass:CommonCommand>

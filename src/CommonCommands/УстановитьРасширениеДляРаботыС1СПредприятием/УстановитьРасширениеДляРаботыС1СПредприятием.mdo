@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5894f594-7e5c-4758-a4b5-e28f8c4cf600">
+<mdclass:CommonCommand xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="893b2dd9-a939-4799-9b78-50d788a5f3ba">
   <name>УстановитьРасширениеДляРаботыС1СПредприятием</name>
   <synonym>
     <key>ru</key>
@@ -8,5 +8,4 @@
   <group>ActionsPanelTools</group>
   <commandParameterType/>
   <representation>Auto</representation>
-  <shortcut></shortcut>
 </mdclass:CommonCommand>

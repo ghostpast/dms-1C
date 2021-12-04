@@ -90,10 +90,8 @@
       <userVisible>
         <common>true</common>
       </userVisible>
-      <dataPath xsi:type="form:MultiLanguageDataPath">
-        <paths xsi:type="form:DataPath">
-          <segments>ЗакрыватьПослеВыбора</segments>
-        </paths>
+      <dataPath xsi:type="form:DataPath">
+        <segments>ЗакрыватьПослеВыбора</segments>
       </dataPath>
       <titleLocation>Right</titleLocation>
       <handlers>
@@ -164,6 +162,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <items xsi:type="form:Button">
@@ -194,6 +193,7 @@
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <visible>true</visible>
@@ -383,6 +383,7 @@
       <valueType>
         <types>CatalogRef.ИдентификаторыОбъектовРасширений</types>
         <types>String</types>
+        <types>CatalogRef.ДополнительныеОтчетыИОбработки</types>
         <types>CatalogRef.ИдентификаторыОбъектовМетаданных</types>
         <stringQualifiers/>
       </valueType>

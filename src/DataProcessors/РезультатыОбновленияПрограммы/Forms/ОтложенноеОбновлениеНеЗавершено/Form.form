@@ -209,6 +209,7 @@
         <representation>Auto</representation>
         <defaultButton>true</defaultButton>
         <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <items xsi:type="form:Button">
@@ -237,6 +238,7 @@
         <commandName>Form.Command.ПродолжитьОбновление</commandName>
         <representation>Auto</representation>
         <placementArea>UserCmds</placementArea>
+        <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
       </items>
       <visible>true</visible>

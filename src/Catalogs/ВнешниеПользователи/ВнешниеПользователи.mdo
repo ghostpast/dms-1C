@@ -1,17 +1,18 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="60ee9144-eb40-4a57-b986-6c0d8d73bf42">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="92876c9e-52ff-480d-9878-5766f4f9d12c">
   <producedTypes>
-    <objectType typeId="9231a361-f90c-467d-b921-9980061905d8" valueTypeId="8d46eb59-9ada-49a6-a2c3-abb57df8e66b"/>
-    <refType typeId="f801d41c-aa25-4662-bd7a-b9d092029d4f" valueTypeId="aadf3f5a-26e2-49ab-bc7c-64d237e50341"/>
-    <selectionType typeId="9e21893e-dc6d-4ee9-9f2f-12d1e63bbc45" valueTypeId="8e89836e-5303-4bff-8359-273da492bc43"/>
-    <listType typeId="d908a609-84df-4a66-95dc-8c83b11643a0" valueTypeId="9ae5224f-6e05-4de8-b69a-03b51fece32e"/>
-    <managerType typeId="d2238aef-4a76-4918-a786-3e2423eb05fe" valueTypeId="4214aaef-c30a-42fc-a476-025de8490778"/>
+    <objectType typeId="bbe341c2-024d-4862-a2df-44d971fccee6" valueTypeId="54b863df-4c6b-4fa0-9c45-088bb9df5ca6"/>
+    <refType typeId="3997c341-4065-4af6-813f-99750a01052b" valueTypeId="57841705-49e0-46e6-9c93-916fa703601e"/>
+    <selectionType typeId="4e36bc8a-0041-4f99-b8b0-f2ba326eaa86" valueTypeId="90b728b1-1268-4c52-85ea-c1b7843718d2"/>
+    <listType typeId="e9895cb0-1cc0-442e-bc3b-e6468f957452" valueTypeId="865dc8b8-9a9b-46b5-a3c6-5f118c5fe7ea"/>
+    <managerType typeId="1b2ea3e9-2a70-41f8-ac71-b0aba723dab5" valueTypeId="15818276-f4f1-4e17-9235-3b6fbc785e2f"/>
   </producedTypes>
   <name>ВнешниеПользователи</name>
   <synonym>
     <key>ru</key>
     <value>Внешние пользователи</value>
   </synonym>
+  <comment>АПК:413 - №744.2.1.1 Допустимо не отключать историю выбора, так как она используется, а переопределение отбора фиксированное, то есть служебные и недействительные пользователи в нее не попадут, но если как-то попали, то это не является проблемой</comment>
   <useStandardCommands>true</useStandardCommands>
   <inputByString>Catalog.ВнешниеПользователи.StandardAttribute.Description</inputByString>
   <fullTextSearchOnInputByString>DontUse</fullTextSearchOnInputByString>
@@ -119,26 +120,69 @@
   <defaultObjectForm>Catalog.ВнешниеПользователи.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.ВнешниеПользователи.Form.ФормаСписка</defaultListForm>
   <defaultChoiceForm>Catalog.ВнешниеПользователи.Form.ФормаСписка</defaultChoiceForm>
-  <attributes uuid="a34fad33-5ebb-4a39-b5ff-084497c858db">
-    <name>ИдентификаторПользователяИБ</name>
+  <attributes uuid="b729d739-5249-4765-85ee-fd792bb22911">
+    <name>Недействителен</name>
     <synonym>
       <key>ru</key>
-      <value>Идентификатор пользователя ИБ</value>
+      <value>Недействителен</value>
     </synonym>
     <type>
-      <types>UUID</types>
+      <types>Boolean</types>
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Уникальный идентификатор пользователя информационной базы, с которым сопоставлен этот элемент справочника.</value>
+      <value>Внешний пользователь больше не работает в программе, но сведения о нем сохранены.
+Недействительные внешние пользователи скрываются из всех списков
+при выборе или подборе в документах и других местах программы.</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
     <fillValue xsi:type="core:UndefinedValue"/>
     <indexing>Index</indexing>
+    <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="7cecd53e-2ac6-481e-916d-83e56a069a0b">
+  <attributes uuid="d65c4485-7bac-4206-9a6c-7156f4bb876d">
+    <name>ОбъектАвторизации</name>
+    <synonym>
+      <key>ru</key>
+      <value>Объект</value>
+    </synonym>
+    <type>
+      <types>DefinedType.ВнешнийПользователь</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Объект, которому соответствует внешний пользователь, например, контрагент</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillChecking>ShowError</fillChecking>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="d431d1e2-13dc-495c-9de1-b5ec872eceed">
+    <name>УстановитьРолиНепосредственно</name>
+    <synonym>
+      <key>ru</key>
+      <value>Установить роли непосредственно</value>
+    </synonym>
+    <comment>Используется, если не встроена подсистема &quot;Управление доступом&quot;</comment>
+    <type>
+      <types>Boolean</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Установить роли непосредственно без использования ролей, заданных в группах внешних пользователей</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <fullTextSearch>Use</fullTextSearch>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="e8bec681-d269-41ba-9184-556cbcc27d74">
     <name>Комментарий</name>
     <synonym>
       <key>ru</key>
@@ -161,65 +205,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="cc511e05-d569-4dec-acbb-06828590961a">
-    <name>Недействителен</name>
-    <synonym>
-      <key>ru</key>
-      <value>Недействителен</value>
-    </synonym>
-    <type>
-      <types>Boolean</types>
-    </type>
-    <toolTip>
-      <key>ru</key>
-      <value>Внешний пользователь больше не работает в программе, но сведения о нем сохранены.
-Недействительные внешние пользователи скрываются из всех списков
-при выборе или подборе в документах и других местах программы.</value>
-    </toolTip>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <indexing>Index</indexing>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="a5c15de4-c075-4d1f-a770-bf802a3256ff">
-    <name>ОбъектАвторизации</name>
-    <synonym>
-      <key>ru</key>
-      <value>Объект авторизации</value>
-    </synonym>
-    <type>
-      <types>DefinedType.ВнешнийПользователь</types>
-    </type>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:StringValue">
-      <value></value>
-    </fillValue>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="da7f95e2-7333-4538-9ca3-27055111ea6e">
-    <name>СвойстваПользователяИБ</name>
-    <synonym>
-      <key>ru</key>
-      <value>Свойства пользователя ИБ</value>
-    </synonym>
-    <type>
-      <types>ValueStorage</types>
-    </type>
-    <toolTip>
-      <key>ru</key>
-      <value>Служебное хранилище некоторых свойств пользователя ИБ</value>
-    </toolTip>
-    <minValue xsi:type="core:UndefinedValue"/>
-    <maxValue xsi:type="core:UndefinedValue"/>
-    <fillValue xsi:type="core:UndefinedValue"/>
-    <fullTextSearch>Use</fullTextSearch>
-    <dataHistory>Use</dataHistory>
-  </attributes>
-  <attributes uuid="0dbc2974-b0c5-49f5-bb42-5137f6ddfa61">
+  <attributes uuid="b8aaef91-f72c-4127-a494-771c13694ca4">
     <name>Подготовлен</name>
     <synonym>
       <key>ru</key>
@@ -238,19 +224,37 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="3ad3cbd8-d17f-48a9-a49c-6eadc382cc5a">
-    <name>УстановитьРолиНепосредственно</name>
+  <attributes uuid="433a114f-3198-4ef6-bbf8-ce9b54fdb736">
+    <name>ИдентификаторПользователяИБ</name>
     <synonym>
       <key>ru</key>
-      <value>Установить роли непосредственно</value>
+      <value>Идентификатор пользователя ИБ</value>
     </synonym>
-    <comment>Используется, если не встроена подсистема &quot;Управление доступом&quot;</comment>
     <type>
-      <types>Boolean</types>
+      <types>UUID</types>
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Установить роли непосредственно без использования ролей, заданных в группах внешних пользователей</value>
+      <value>Уникальный идентификатор пользователя информационной базы, с которым сопоставлен этот элемент справочника.</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <indexing>Index</indexing>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="3e090261-4aa2-4ece-9f77-62df83c890b3">
+    <name>СвойстваПользователяИБ</name>
+    <synonym>
+      <key>ru</key>
+      <value>Свойства пользователя ИБ</value>
+    </synonym>
+    <type>
+      <types>ValueStorage</types>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Служебное хранилище некоторых свойств пользователя ИБ</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -258,7 +262,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="710c88ed-0ff4-4315-a642-9735c525ce65">
+  <forms uuid="9dc3a563-11bb-40a7-8431-c1d4367ccbaf">
     <name>ФормаЭлемента</name>
     <synonym>
       <key>ru</key>
@@ -267,7 +271,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="be936cab-40d3-4cf6-a27e-9a71fad02770">
+  <forms uuid="c9ea4e72-5f01-42ae-88e3-52e49757b26f">
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>
@@ -276,7 +280,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <commands uuid="9ffd3d9b-ea17-4199-b107-fa3a2d92eac9">
+  <commands uuid="38d92d75-c8b8-42d6-9e0a-6dc0811a8652">
     <name>ВнешнийДоступ</name>
     <synonym>
       <key>ru</key>
@@ -293,6 +297,5 @@
     <picture xsi:type="core:PictureRef">
       <picture>CommonPicture.СостояниеПользователя08</picture>
     </picture>
-    <shortcut></shortcut>
   </commands>
 </mdclass:Catalog>
