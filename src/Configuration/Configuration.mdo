@@ -144,6 +144,9 @@
   <commonModules>CommonModule.ВариантыОтчетовКлиентСервер</commonModules>
   <commonModules>CommonModule.ВариантыОтчетовСервер</commonModules>
   <commonModules>CommonModule.ВариантыОтчетовСерверПовтИсп</commonModules>
+  <commonModules>CommonModule.ЗагрузкаДанныхИзФайлаКлиент</commonModules>
+  <commonModules>CommonModule.ЗагрузкаДанныхИзФайлаКлиентСервер</commonModules>
+  <commonModules>CommonModule.ЗагрузкаДанныхИзФайлаСервер</commonModules>
   <commonModules>CommonModule.ИнтеграцияПодсистемКлиент</commonModules>
   <commonModules>CommonModule.ИнтеграцияПодсистемСервер</commonModules>
   <commonModules>CommonModule.ОбновлениеВерсииИБВызовСервера</commonModules>
@@ -240,6 +243,7 @@
   <reports>Report.СведенияОПользователях</reports>
   <reports>Report.УниверсальныйОтчет</reports>
   <dataProcessors>DataProcessor.ЖурналРегистрации</dataProcessors>
+  <dataProcessors>DataProcessor.ЗагрузкаДанныхИзФайла</dataProcessors>
   <dataProcessors>DataProcessor.КонструкторФормул</dataProcessors>
   <dataProcessors>DataProcessor.НерекомендуемаяВерсияПлатформы</dataProcessors>
   <dataProcessors>DataProcessor.ОписаниеОбработчиковОбновления</dataProcessors>

@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ba91fe0a-d632-4538-ae06-11e181240d30">
+  <producedTypes>
+    <objectType typeId="ee7fa38e-e48c-4ade-8bf0-9ce7ce2e50a4" valueTypeId="a4e73971-63e0-449e-8783-c0b09a734bfd"/>
+    <managerType typeId="3825369a-4da3-418e-8520-a2df072c3acf" valueTypeId="b1d5abd4-173b-4ccf-bdaa-bb3b9016b321"/>
+  </producedTypes>
+  <name>ЗагрузкаДанныхИзФайла</name>
+  <synonym>
+    <key>ru</key>
+    <value>Загрузка данных из файла</value>
+  </synonym>
+  <useStandardCommands>true</useStandardCommands>
+  <defaultForm>DataProcessor.ЗагрузкаДанныхИзФайла.Form.ЗагрузкаДанныхИзФайла</defaultForm>
+  <explanation>
+    <key>ru</key>
+    <value>Загрузка справочной информации из табличных документов (файлы Microsoft Office Excel, Microsoft Office Word, OpenOffice Calc и др.) в справочники программы.</value>
+  </explanation>
+  <forms uuid="0f7b7837-f40d-4d34-b483-cc18f1b69494">
+    <name>ЗагрузкаДанныхИзФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка данных из файла</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="80433c5c-d5ad-4957-89ff-88a1e46d9039">
+    <name>ВыборКолонок</name>
+    <synonym>
+      <key>ru</key>
+      <value>Выбор колонок сопоставления</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f384e271-093a-483c-a684-4f3586e28226">
+    <name>РазрешенияНеоднозначностей</name>
+    <synonym>
+      <key>ru</key>
+      <value>Разрешения неоднозначностей</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="dec26bb8-5fa7-4e3d-b92c-97a7c3953efd">
+    <name>РасширениеФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Расширение файла</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fa501672-5500-45bb-8015-7427281abe52">
+    <name>РедактированиеБланка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Редактирование бланка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="61224562-7835-48f9-bc8c-dc000bdb163c">
+    <name>ПростойШаблон</name>
+    <synonym>
+      <key>ru</key>
+      <value>Простой шаблон</value>
+    </synonym>
+  </templates>
+  <commands uuid="f99435c4-e1e3-4aa7-8ec3-a25a30ab74ea">
+    <name>ЗагрузкаДанныхИзФайла</name>
+    <synonym>
+      <key>ru</key>
+      <value>Загрузка данных из файла</value>
+    </synonym>
+    <group>NavigationPanelOrdinary</group>
+    <commandParameterType/>
+    <representation>Auto</representation>
+    <toolTip>
+      <key>ru</key>
+      <value>Загрузка справочной информации из табличных документов (файлы Microsoft Office Excel, Microsoft Office Word, OpenOffice Calc и др.) в справочники программы.</value>
+    </toolTip>
+    <shortcut></shortcut>
+  </commands>
+</mdclass:DataProcessor>
