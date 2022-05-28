@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="fb32c52f-f9a3-4a70-9bc7-05dd1c862ec0">
+  <name>ВертикальноеПоложениеНиз</name>
+  <synonym>
+    <key>ru</key>
+    <value>Вертикальное положение низ</value>
+  </synonym>
+</mdclass:CommonPicture>

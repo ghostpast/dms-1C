@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="dd226e62-30c8-4f31-892e-0975c091cc24">
+  <name>ПереместитьГруппировкуНиже</name>
+  <synonym>
+    <key>ru</key>
+    <value>Переместить группировку ниже</value>
+  </synonym>
+</mdclass:CommonPicture>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a41a004b-8bc6-44b6-903f-628bc1f660b0">
+  <name>СкрытаяНастройкаОтчета</name>
+  <synonym>
+    <key>ru</key>
+    <value>Скрытая настройка отчета</value>
+  </synonym>
+</mdclass:CommonPicture>

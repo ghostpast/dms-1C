@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f5fa0414-6b90-47cd-9b7a-cd8441442164">
+  <name>ПоляИСортировки</name>
+  <synonym>
+    <key>ru</key>
+    <value>Поля и сортировки</value>
+  </synonym>
+</mdclass:CommonPicture>

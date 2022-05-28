@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="24dbb70d-338b-4faa-a3ca-e8d6e26c5662">
+  <name>БыстрыйДоступ</name>
+  <synonym>
+    <key>ru</key>
+    <value>Быстрый доступ</value>
+  </synonym>
+</mdclass:CommonPicture>

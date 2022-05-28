@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:Subsystem xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="214989c5-0e14-44d8-8903-3939a46d381e">
+  <name>КонтактнаяИнформация</name>
+  <synonym>
+    <key>ru</key>
+    <value>Контактная информация</value>
+  </synonym>
+  <content>Enum.ТипыКонтактнойИнформации</content>
+  <content>StyleItem.КонтактнаяИнформацияСРедактированиемВДиалогеЦвет</content>
+  <content>Catalog.СтраныМира</content>
+  <content>CommonModule.КонтактнаяИнформацияСервер</content>
+  <content>CommonModule.КонтактнаяИнформацияКлиент</content>
+  <content>Catalog.ВидыКонтактнойИнформации</content>
+  <content>ScheduledJob.ИсправлениеУстаревшихАдресов</content>
+  <content>Role.ДобавлениеИзменениеВидовКонтактнойИнформации</content>
+  <content>DataProcessor.РасширенныйВводКонтактнойИнформации</content>
+  <content>CommonModule.КонтактнаяИнформацияСерверПовтИсп</content>
+  <content>CommonModule.КонтактнаяИнформацияКлиентСервер</content>
+  <content>XDTOPackage.КонтактнаяИнформация</content>
+  <content>XDTOPackage.Адрес</content>
+  <content>CommonModule.КонтактнаяИнформацияВызовСервера</content>
+  <content>CommonPicture.ЯндексКарты</content>
+  <content>CommonPicture.GoogleMaps</content>
+  <content>CommonPicture.ВидыКонтактнойИнформации</content>
+  <content>DataProcessor.ВводКонтактнойИнформации</content>
+  <content>CommonPicture.РедактироватьАдресСайта</content>
+  <content>CommonPicture.МенюДополнительныеФункции</content>
+  <content>CommonPicture.ИсторияИзменений</content>
+  <content>CommonPicture.КонтактнаяИнформацияПерейтиПоСсылке</content>
+  <content>CommonPicture.Позвонить</content>
+  <content>CommonPicture.Skype</content>
+  <content>SessionParameter.ИнтерактивнаяПроверкаЗаполненияКонтактнойИнформации</content>
+  <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
+</mdclass:Subsystem>

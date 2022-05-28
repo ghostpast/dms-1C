@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c24c1cb-b789-462f-9bfd-01addf975a7a">
+  <producedTypes>
+    <objectType typeId="274c9bac-b049-454a-9d99-4920f9eba6b9" valueTypeId="1c860b74-9dee-48bd-a42f-041944cb50a5"/>
+    <managerType typeId="9c48983b-f4e3-486b-a230-024ebe086cd6" valueTypeId="38906a0f-7aa9-4c3e-8656-60c0e3bc93a4"/>
+  </producedTypes>
+  <name>ВводКонтактнойИнформации</name>
+  <synonym>
+    <key>ru</key>
+    <value>Ввод контактной информации</value>
+  </synonym>
+  <defaultForm>DataProcessor.ВводКонтактнойИнформации.Form.ВводАдресаВСвободнойФорме</defaultForm>
+  <forms uuid="6dbee1df-95a2-46cc-ac68-b7a207657520">
+    <name>ВводАдресаВСвободнойФорме</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод адреса в свободной форме</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="6cf5b0c1-84b8-4435-8b96-a7098c1abbac">
+    <name>ВводТелефона</name>
+    <synonym>
+      <key>ru</key>
+      <value>Ввод телефона</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="35e4da02-7727-436b-81de-5fa53da753f7">
+    <name>ИсторияКонтактнойИнформации</name>
+    <synonym>
+      <key>ru</key>
+      <value>История контактной информации</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="d1488602-1f2d-419e-90cd-3ff7a5455232">
+    <name>ВебСайт</name>
+    <synonym>
+      <key>ru</key>
+      <value>Веб сайт</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+</mdclass:DataProcessor>

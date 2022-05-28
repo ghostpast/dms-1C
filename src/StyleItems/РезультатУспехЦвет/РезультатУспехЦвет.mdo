@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:StyleItem xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="c8ff75aa-72cd-4146-9578-c4af95575e4e">
+  <name>РезультатУспехЦвет</name>
+  <synonym>
+    <key>ru</key>
+    <value>Результат успех цвет</value>
+  </synonym>
+  <value xsi:type="core:ColorValue">
+    <value xsi:type="core:ColorDef">
+      <green>128</green>
+    </value>
+  </value>
+</mdclass:StyleItem>

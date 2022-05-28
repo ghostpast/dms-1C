@@ -42,5 +42,37 @@
   <content>Enum.ВариантыПредставленияПериода</content>
   <content>Report.УниверсальныйОтчет</content>
   <content>StyleItem.ГруппаВариантовОтчетовЦвет</content>
+  <content>CommonPicture.ПроверитьФормулу</content>
+  <content>CommonPicture.ВставитьГруппировкуВыше</content>
+  <content>CommonPicture.ВставитьГруппировкуНиже</content>
+  <content>CommonPicture.ВставитьКолонкуСлева</content>
+  <content>CommonPicture.ВставитьКолонкуСправа</content>
+  <content>CommonPicture.ПереместитьГруппировкуВыше</content>
+  <content>CommonPicture.ПереместитьГруппировкуНиже</content>
+  <content>CommonPicture.ПереместитьКолонкуВлево</content>
+  <content>CommonPicture.ПереместитьКолонкуВправо</content>
+  <content>CommonPicture.Группировка</content>
+  <content>CommonPicture.ВыбратьВариантОтчета</content>
+  <content>CommonPicture.ЭлектронноеПисьмо</content>
+  <content>CommonPicture.Закрепить</content>
+  <content>CommonPicture.Шрифт</content>
+  <content>CommonPicture.ВертикальноеПоложениеВерх</content>
+  <content>CommonPicture.ВертикальноеПоложениеНиз</content>
+  <content>CommonPicture.ВертикальноеПоложениеЦентр</content>
+  <content>CommonPicture.ПиктограммыНастроекОтчета</content>
+  <content>CommonPicture.БыстрыйДоступ</content>
+  <content>CommonPicture.ПиктограммыДоступаКНастройкамОтчета</content>
+  <content>CommonPicture.Отборы</content>
+  <content>CommonPicture.ПоляИСортировки</content>
+  <content>CommonPicture.Оформление</content>
+  <content>CommonPicture.Структура</content>
+  <content>CommonPicture.ДобавитьРодительский</content>
+  <content>CommonPicture.ПереместитьВлевоВверх</content>
+  <content>CommonPicture.ПереместитьВправоВниз</content>
+  <content>CommonPicture.ПереместитьВлевоВсе</content>
+  <content>CommonPicture.ВидСравнения</content>
+  <content>CommonPicture.СкрытаяНастройкаОтчета</content>
+  <content>CommonPicture.БыстрыйДоступСФлажком</content>
+  <content>CommonPicture.ОбычныйДоступСФлажком</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

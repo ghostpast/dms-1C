@@ -111,5 +111,14 @@
   <content>CommonPicture.ФорматTXT</content>
   <content>Enum.ФорматыСохраненияОтчетов</content>
   <content>CommonPicture.КоллекцияВидыСобытийЖурналаРегистрации</content>
+  <content>StyleItem.ЦветФонаПредупреждения</content>
+  <content>CommonPicture.СохранитьКак</content>
+  <content>CommonPicture.СтрелкаВнизЗеленая</content>
+  <content>CommonPicture.Скачать</content>
+  <content>CommonPicture.ПиктограммыТиповДанных</content>
+  <content>StyleItem.РезультатУспехЦвет</content>
+  <content>StyleItem.ЗаголовокУдаленногоРеквизитаШрифт</content>
+  <content>CommonPicture.Комментарий</content>
+  <content>CommonPicture.ОтправитьЭлектронноеПисьмо</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>
