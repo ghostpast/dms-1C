@@ -8,6 +8,7 @@
   <subsystems>БазоваяПодсистема</subsystems>
   <subsystems>ВариантыОтчетов</subsystems>
   <subsystems>ЗагрузкаДанныхИзФайла</subsystems>
+  <subsystems>КонструкторФормул</subsystems>
   <subsystems>КонтактнаяИнформация</subsystems>
   <subsystems>ОбновлениеВерсииИБ</subsystems>
   <subsystems>Пользователи</subsystems>

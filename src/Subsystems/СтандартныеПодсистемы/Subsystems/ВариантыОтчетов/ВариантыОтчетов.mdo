@@ -36,7 +36,6 @@
   <content>Constant.НастройкиКолонтитулов</content>
   <content>Enum.ВариантыПериода</content>
   <content>Enum.ДоступныеПериодыОтчета</content>
-  <content>DataProcessor.КонструкторФормул</content>
   <content>StyleItem.ЦветТекстаВнимание</content>
   <content>StyleItem.ЦветФонаВнимание</content>
   <content>Enum.ВариантыПредставленияПериода</content>

@@ -214,6 +214,9 @@
   <commonModules>CommonModule.ЗагрузкаДанныхИзФайлаСервер</commonModules>
   <commonModules>CommonModule.ИнтеграцияПодсистемКлиент</commonModules>
   <commonModules>CommonModule.ИнтеграцияПодсистемСервер</commonModules>
+  <commonModules>CommonModule.КонструкторФормулКлиент</commonModules>
+  <commonModules>CommonModule.КонструкторФормулКлиентСервер</commonModules>
+  <commonModules>CommonModule.КонструкторФормулСервер</commonModules>
   <commonModules>CommonModule.КонтактнаяИнформацияВызовСервера</commonModules>
   <commonModules>CommonModule.КонтактнаяИнформацияКлиент</commonModules>
   <commonModules>CommonModule.КонтактнаяИнформацияКлиентСервер</commonModules>
