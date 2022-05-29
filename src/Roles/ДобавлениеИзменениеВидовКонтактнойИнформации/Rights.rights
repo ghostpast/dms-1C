@@ -80,6 +80,10 @@
 			<name>InputByString</name>
 			<value>true</value>
 		</right>
+		<right>
+			<name>InteractiveDeleteMarked</name>
+			<value>true</value>
+		</right>
 	</object>
 	<object>
 		<name>Catalog.ВидыКонтактнойИнформации</name>
