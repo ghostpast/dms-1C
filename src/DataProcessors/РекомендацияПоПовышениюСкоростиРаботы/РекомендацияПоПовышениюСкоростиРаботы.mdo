@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="77edb6ea-aa04-469d-ac9c-deee868285d4">
+<mdclass:DataProcessor xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9e16edb6-d841-48fa-bfe1-f9aabdcf9e46">
   <producedTypes>
-    <objectType typeId="4b5f655e-c8bc-4a8f-ac05-55937a6d8ef4" valueTypeId="b52db20c-8e65-4e7c-b82f-231cac90861d"/>
-    <managerType typeId="140cad1e-1f66-49d2-9d38-ed78327294c6" valueTypeId="c8d9cf3e-9fc1-467a-aabc-65cca27167b1"/>
+    <objectType typeId="b7022576-4e70-448c-978a-ac02c0eb2a01" valueTypeId="c605105b-4006-4237-9441-20294a9e251a"/>
+    <managerType typeId="11c92712-79e5-4eaf-8a8b-7e2d09df3b28" valueTypeId="3fbd7cf9-5fcb-4042-a370-5dcc2d23312f"/>
   </producedTypes>
   <name>РекомендацияПоПовышениюСкоростиРаботы</name>
   <synonym>
@@ -11,7 +11,7 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <defaultForm>DataProcessor.РекомендацияПоПовышениюСкоростиРаботы.Form.Форма</defaultForm>
-  <forms uuid="ed68aa70-2a86-46e7-8188-f41f4541462a">
+  <forms uuid="628de771-c19c-4474-989f-8fb6cd7756a2">
     <name>Форма</name>
     <synonym>
       <key>ru</key>

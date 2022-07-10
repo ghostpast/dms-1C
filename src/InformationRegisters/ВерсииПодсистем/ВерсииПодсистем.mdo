@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="474843e6-8432-40d5-8f1a-aec53766d385">
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="5e53ccc6-5ab4-4f9d-b524-0081d345d7a2">
   <producedTypes>
-    <selectionType typeId="0f057582-f397-4fb0-9b2f-4951a6bfefb0" valueTypeId="a96235ea-f5d2-409a-aeb0-142353e81473"/>
-    <listType typeId="08c31d49-bfeb-43ad-bc7a-9734a0234bf1" valueTypeId="f37f5d0c-ff1f-4488-9f97-d76b2f95c3ac"/>
-    <managerType typeId="aae31d19-2b57-4247-a545-df128fde2dc5" valueTypeId="beae225e-c9e8-4c18-b13f-ce09253facf3"/>
-    <recordSetType typeId="e72bd9a3-9bb3-4fc4-a8fe-7184ff35cfc4" valueTypeId="2672b94a-bcf7-4072-ba9b-95ab2d851afd"/>
-    <recordKeyType typeId="d01f8a9a-3fcb-46d4-ae27-ab077a557e41" valueTypeId="0636391a-be05-4994-8d0c-ed00eea66901"/>
-    <recordType typeId="3c814a04-74bc-46ec-859d-9eac13513adb" valueTypeId="d7555a28-986b-47d6-9cc7-231031ce8d1a"/>
-    <recordManagerType typeId="949ef20e-3e5e-4390-8308-d00e69d29548" valueTypeId="5fca1a03-c9f0-4ad5-91bc-faaa85cea79e"/>
+    <selectionType typeId="b69e9b75-45e5-424f-bc1b-f9d51f90a66b" valueTypeId="6e0cd203-a12a-4a5d-9e57-7283b7cba927"/>
+    <listType typeId="75c3b89f-634f-4ef4-9713-d65307ff4b78" valueTypeId="697571e9-fe81-4ae5-8a82-2432ecd67915"/>
+    <managerType typeId="02d6318f-5ed3-4469-a040-5cc0daffc750" valueTypeId="fe46a016-d964-491d-9710-6adac423374a"/>
+    <recordSetType typeId="33f79af0-3513-47b1-b13b-9971abcd3441" valueTypeId="7b1fb5a8-3b20-48d3-8895-db830f8d89ff"/>
+    <recordKeyType typeId="9d1139df-6e39-452e-a591-b808210d4d20" valueTypeId="9593a7d4-9e82-4498-89fd-e3fb4742d771"/>
+    <recordType typeId="d9ca0360-9025-405e-bf2f-b37aeb1e89a2" valueTypeId="2f05ee55-bed3-4dd2-9888-51d97a635b75"/>
+    <recordManagerType typeId="0011014c-2cd9-4b57-b8e6-981f28d0e177" valueTypeId="2f68de0f-8c49-4d09-a4ba-2b5846b1c895"/>
   </producedTypes>
   <name>ВерсииПодсистем</name>
   <synonym>
@@ -52,7 +52,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <resources uuid="e1c0ed9c-9400-41de-98ec-e2a3bda990ec">
+  <resources uuid="c3b3805b-3501-47a7-b280-46180049b235">
     <name>Версия</name>
     <synonym>
       <key>ru</key>
@@ -77,7 +77,7 @@
       <value>               </value>
     </fillValue>
   </resources>
-  <attributes uuid="38a3127c-b0b5-41b3-a545-04346e29cc82">
+  <attributes uuid="29af05c2-37de-495b-b3cf-477d452abe5e">
     <name>ПланОбновления</name>
     <synonym>
       <key>ru</key>
@@ -96,7 +96,7 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <attributes uuid="ce7d8caf-6e28-4d16-a8e0-af9c7ee79d00">
+  <attributes uuid="0c732569-a50f-4be3-a214-0843c6a3da47">
     <name>ЭтоОсновнаяКонфигурация</name>
     <synonym>
       <key>ru</key>
@@ -115,7 +115,7 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <attributes uuid="4e571d67-7a2d-4e13-9ad2-61c6e9754b75">
+  <attributes uuid="f55d74bf-5824-4228-9683-31f7c7fdf74d">
     <name>ВыполненаРегистрацияОтложенныхОбработчиков</name>
     <synonym>
       <key>ru</key>
@@ -134,7 +134,7 @@
     <dataHistory>Use</dataHistory>
     <fillValue xsi:type="core:UndefinedValue"/>
   </attributes>
-  <dimensions uuid="8c558301-1977-493c-a0c4-d51deafc764c">
+  <dimensions uuid="5e922083-0ceb-449a-8201-7dd27a46f2fc">
     <name>ИмяПодсистемы</name>
     <synonym>
       <key>ru</key>
@@ -161,7 +161,7 @@
     </fillValue>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <forms uuid="1fb6bafa-c09d-4a3d-95be-a3c133fe7f68">
+  <forms uuid="0d142fcd-a596-4cdf-a3f6-c31becdb7b59">
     <name>ФормаЗаписи</name>
     <synonym>
       <key>ru</key>
@@ -170,7 +170,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="68b3b506-91e5-43e5-909a-2bfbaa1d7928">
+  <forms uuid="c30c6860-befb-497e-b432-3dba0f86c540">
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>

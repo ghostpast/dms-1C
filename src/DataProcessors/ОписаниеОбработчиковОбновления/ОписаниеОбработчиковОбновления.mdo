@@ -620,6 +620,19 @@
       <maxValue xsi:type="core:UndefinedValue"/>
       <fillValue xsi:type="core:UndefinedValue"/>
     </attributes>
+    <attributes uuid="a55e9aef-79ad-4cb6-b80a-c7f769bebbea">
+      <name>ИзмененаПроцедураПроверки</name>
+      <synonym>
+        <key>ru</key>
+        <value>Изменена процедура проверки</value>
+      </synonym>
+      <type>
+        <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
   </tabularSections>
   <tabularSections uuid="62f9c12c-1837-4320-99b0-8f7ae44af735">
     <producedTypes>
@@ -684,6 +697,23 @@
       </synonym>
       <type>
         <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="bc3183cb-8691-4fa5-b154-3645f3cd8944">
+      <name>ПорядокТипа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Порядок типа</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -769,6 +799,23 @@
       </synonym>
       <type>
         <types>Boolean</types>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:UndefinedValue"/>
+    </attributes>
+    <attributes uuid="018390b5-06d9-4d04-abad-1de1ccf0843c">
+      <name>ПорядокТипа</name>
+      <synonym>
+        <key>ru</key>
+        <value>Порядок типа</value>
+      </synonym>
+      <type>
+        <types>Number</types>
+        <numberQualifiers>
+          <precision>10</precision>
+          <nonNegative>true</nonNegative>
+        </numberQualifiers>
       </type>
       <minValue xsi:type="core:UndefinedValue"/>
       <maxValue xsi:type="core:UndefinedValue"/>
@@ -923,6 +970,24 @@
       <synonym>
         <key>ru</key>
         <value>Порядок</value>
+      </synonym>
+      <type>
+        <types>String</types>
+        <stringQualifiers>
+          <length>10</length>
+        </stringQualifiers>
+      </type>
+      <minValue xsi:type="core:UndefinedValue"/>
+      <maxValue xsi:type="core:UndefinedValue"/>
+      <fillValue xsi:type="core:StringValue">
+        <value></value>
+      </fillValue>
+    </attributes>
+    <attributes uuid="9ac5a405-4eb7-4013-8bbd-5d1b6d0929ab">
+      <name>ПорядокАвто</name>
+      <synonym>
+        <key>ru</key>
+        <value>Порядок авто</value>
       </synonym>
       <type>
         <types>String</types>

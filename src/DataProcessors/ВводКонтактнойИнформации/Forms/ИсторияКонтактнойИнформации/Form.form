@@ -199,6 +199,10 @@
       <horizontalAlign>Left</horizontalAlign>
     </autoCommandBar>
     <handlers>
+      <event>Selection</event>
+      <name>ИсторияВыбор</name>
+    </handlers>
+    <handlers>
       <event>BeforeAddRow</event>
       <name>ИсторияПередНачаломДобавления</name>
     </handlers>
@@ -207,20 +211,16 @@
       <name>ИсторияПередУдалением</name>
     </handlers>
     <handlers>
-      <event>BeforeRowChange</event>
-      <name>ИсторияПередНачаломИзменения</name>
-    </handlers>
-    <handlers>
       <event>OnActivateRow</event>
       <name>ИсторияПриАктивизацииСтроки</name>
     </handlers>
     <handlers>
-      <event>OnChange</event>
-      <name>ИсторияПриИзменении</name>
+      <event>BeforeRowChange</event>
+      <name>ИсторияПередНачаломИзменения</name>
     </handlers>
     <handlers>
-      <event>Selection</event>
-      <name>ИсторияВыбор</name>
+      <event>OnChange</event>
+      <name>ИсторияПриИзменении</name>
     </handlers>
     <searchStringAddition>
       <visible>true</visible>

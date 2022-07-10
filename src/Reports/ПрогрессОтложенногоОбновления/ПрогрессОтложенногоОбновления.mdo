@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1f92be81-b53b-4729-8198-a3873ce72a22">
+<mdclass:Report xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a7c7c835-5402-4bdd-a0e3-d21746174d5a">
   <producedTypes>
-    <objectType typeId="fa7c81b9-4f5e-4bc1-8ebb-ec2b128d026c" valueTypeId="8b9ca696-de04-4348-b356-f0f5ff776b3c"/>
-    <managerType typeId="5521401b-0fa3-459e-95ba-fa551501666e" valueTypeId="d2079366-f2e5-4931-b229-4e264ccd7142"/>
+    <objectType typeId="4476b6cc-c736-44e9-b30b-e8f4d6b135e4" valueTypeId="8389be6d-f381-48f2-8481-4acfca7deb92"/>
+    <managerType typeId="155882bf-66ce-4543-b752-738fc7d506a0" valueTypeId="09de2216-4ce8-4c4f-97da-5fbe03d3d554"/>
   </producedTypes>
   <name>ПрогрессОтложенногоОбновления</name>
   <synonym>
@@ -15,7 +15,25 @@
   <defaultSettingsForm>CommonForm.ФормаНастроекОтчета</defaultSettingsForm>
   <defaultVariantForm>CommonForm.ФормаВариантаОтчета</defaultVariantForm>
   <variantsStorage>SettingsStorage.ХранилищеВариантовОтчетов</variantsStorage>
-  <templates uuid="c5a41dfa-5764-4237-8b79-5c2101a0cd33">
+  <forms uuid="54766e6b-cf49-4c58-b5e5-dcb6362ac5e2">
+    <name>ЗависимостьОбработчика</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зависимость обработчика</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="f2210cf1-f9f5-41ed-8b4d-937778da842b">
+    <name>ЗарегистрированныеДанные</name>
+    <synonym>
+      <key>ru</key>
+      <value>Зарегистрированные данные</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <templates uuid="07e81872-afac-4720-86b4-91e7bf4a2881">
     <name>ОсновнаяСхемаКомпоновкиДанных</name>
     <synonym>
       <key>ru</key>

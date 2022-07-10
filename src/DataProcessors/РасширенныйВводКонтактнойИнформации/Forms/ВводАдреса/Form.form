@@ -1284,16 +1284,16 @@
                   <name>НаселенныйПунктАвтоПодбор</name>
                 </handlers>
                 <handlers>
-                  <event>ChoiceProcessing</event>
-                  <name>НаселенныйПунктОбработкаВыбора</name>
+                  <event>StartChoice</event>
+                  <name>НаселенныйПунктНачалоВыбора</name>
                 </handlers>
                 <handlers>
                   <event>Clearing</event>
                   <name>НаселенныйПунктОчистка</name>
                 </handlers>
                 <handlers>
-                  <event>StartChoice</event>
-                  <name>НаселенныйПунктНачалоВыбора</name>
+                  <event>ChoiceProcessing</event>
+                  <name>НаселенныйПунктОбработкаВыбора</name>
                 </handlers>
                 <width>60</width>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -1363,16 +1363,16 @@
                   <name>УлицаАвтоПодбор</name>
                 </handlers>
                 <handlers>
-                  <event>ChoiceProcessing</event>
-                  <name>УлицаОбработкаВыбора</name>
+                  <event>StartChoice</event>
+                  <name>УлицаНачалоВыбора</name>
                 </handlers>
                 <handlers>
                   <event>Clearing</event>
                   <name>УлицаОчистка</name>
                 </handlers>
                 <handlers>
-                  <event>StartChoice</event>
-                  <name>УлицаНачалоВыбора</name>
+                  <event>ChoiceProcessing</event>
+                  <name>УлицаОбработкаВыбора</name>
                 </handlers>
                 <width>60</width>
                 <autoMaxHeight>true</autoMaxHeight>
@@ -1550,12 +1550,12 @@
                       <name>ДомАвтоПодбор</name>
                     </handlers>
                     <handlers>
-                      <event>ChoiceProcessing</event>
-                      <name>ДомОбработкаВыбора</name>
-                    </handlers>
-                    <handlers>
                       <event>StartChoice</event>
                       <name>ДомНачалоВыбора</name>
+                    </handlers>
+                    <handlers>
+                      <event>ChoiceProcessing</event>
+                      <name>ДомОбработкаВыбора</name>
                     </handlers>
                     <width>12</width>
                     <autoMaxWidth>true</autoMaxWidth>
@@ -1723,12 +1723,12 @@
                       <name>СтроениеАвтоПодбор</name>
                     </handlers>
                     <handlers>
-                      <event>ChoiceProcessing</event>
-                      <name>СтроениеОбработкаВыбора</name>
-                    </handlers>
-                    <handlers>
                       <event>StartChoice</event>
                       <name>СтроениеНачалоВыбора</name>
+                    </handlers>
+                    <handlers>
+                      <event>ChoiceProcessing</event>
+                      <name>СтроениеОбработкаВыбора</name>
                     </handlers>
                     <width>12</width>
                     <autoMaxWidth>true</autoMaxWidth>
@@ -3068,16 +3068,16 @@
                     <name>СтранаАвтоПодбор</name>
                   </handlers>
                   <handlers>
-                    <event>ChoiceProcessing</event>
-                    <name>СтранаОбработкаВыбора</name>
-                  </handlers>
-                  <handlers>
                     <event>Clearing</event>
                     <name>СтранаОчистка</name>
                   </handlers>
                   <handlers>
                     <event>TextEditEnd</event>
                     <name>СтранаОкончаниеВводаТекста</name>
+                  </handlers>
+                  <handlers>
+                    <event>ChoiceProcessing</event>
+                    <name>СтранаОбработкаВыбора</name>
                   </handlers>
                   <width>60</width>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -3473,7 +3473,7 @@
               <key>ru</key>
               <value>Адреса могут быть введены в следующих форматах:
   • в историческом формате – по административно-территориальному делению;
-  • по муниципальному делению с учетом требований Федерального закона от 06.10.1999 № 131-ФЗ «Об общих принципах организации местного самоуправления в Российской Федерации».</value>
+  • по муниципальному делению с учетом требований Федерального закона от 06.10.1999 № 131-ФЗ &quot;Об общих принципах организации местного самоуправления в Российской Федерации&quot;.</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -3560,7 +3560,7 @@
               <key>ru</key>
               <value>Адреса могут быть введены в следующих форматах:
   • в историческом формате – по административно-территориальному делению;
-  • по муниципальному делению с учетом требований Федерального закона от 06.10.1999 № 131-ФЗ «Об общих принципах организации местного самоуправления в Российской Федерации».</value>
+  • по муниципальному делению с учетом требований Федерального закона от 06.10.1999 № 131-ФЗ &quot;Об общих принципах организации местного самоуправления в Российской Федерации&quot;.</value>
             </title>
             <visible>true</visible>
             <enabled>true</enabled>
@@ -3964,10 +3964,6 @@
     <horizontalAlign>Left</horizontalAlign>
   </autoCommandBar>
   <handlers>
-    <event>BeforeClose</event>
-    <name>ПередЗакрытием</name>
-  </handlers>
-  <handlers>
     <event>ChoiceProcessing</event>
     <name>ОбработкаВыбора</name>
   </handlers>
@@ -3976,12 +3972,16 @@
     <name>ОбработкаОповещения</name>
   </handlers>
   <handlers>
-    <event>OnCreateAtServer</event>
-    <name>ПриСозданииНаСервере</name>
-  </handlers>
-  <handlers>
     <event>OnOpen</event>
     <name>ПриОткрытии</name>
+  </handlers>
+  <handlers>
+    <event>BeforeClose</event>
+    <name>ПередЗакрытием</name>
+  </handlers>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
   </handlers>
   <width>60</width>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
@@ -5004,6 +5004,19 @@
       <stringQualifiers>
         <length>100</length>
       </stringQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ИсключатьГородИзМуниципальногоАдреса</name>
+    <id>58</id>
+    <valueType>
+      <types>Boolean</types>
     </valueType>
     <view>
       <common>true</common>

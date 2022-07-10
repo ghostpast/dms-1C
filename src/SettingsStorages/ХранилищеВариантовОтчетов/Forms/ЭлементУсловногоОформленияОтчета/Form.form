@@ -4367,7 +4367,10 @@
       <value>Оформляемое поле</value>
     </title>
     <id>7</id>
-    <valueType/>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
     <view>
       <common>true</common>
     </view>
@@ -4493,6 +4496,31 @@
       <types>String</types>
       <stringQualifiers/>
     </valueType>
+  </parameters>
+  <parameters>
+    <name>КомпоновщикНастроек</name>
+    <valueType>
+      <types>DataCompositionSettingsComposer</types>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>НастройкиОтчета</name>
+    <valueType/>
+  </parameters>
+  <parameters>
+    <name>Наименование</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ИдентификаторЭлементаСтруктурыНастроек</name>
+    <valueType/>
+  </parameters>
+  <parameters>
+    <name>ИдентификаторКД</name>
+    <valueType/>
   </parameters>
   <commandInterface>
     <navigationPanel/>

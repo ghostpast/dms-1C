@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="8293204b-bfdd-46d7-a7d7-2e81c648fb50">
+  <name>МетаданныеПланыВидовХарактеристик</name>
+  <synonym>
+    <key>ru</key>
+    <value>Метаданные планы видов характеристик</value>
+  </synonym>
+</mdclass:CommonPicture>

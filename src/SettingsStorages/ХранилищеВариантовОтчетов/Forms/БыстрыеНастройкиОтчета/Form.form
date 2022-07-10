@@ -987,56 +987,56 @@
     <searchStringLocation>CommandBar</searchStringLocation>
     <rowFilter xsi:type="core:UndefinedValue"/>
   </items>
+  <items xsi:type="form:FormField">
+    <name>ВыводитьЗаголовкиНастроек</name>
+    <id>106</id>
+    <visible>true</visible>
+    <enabled>true</enabled>
+    <userVisible>
+      <common>true</common>
+    </userVisible>
+    <dataPath xsi:type="form:DataPath">
+      <segments>ВыводитьЗаголовкиНастроек</segments>
+    </dataPath>
+    <titleLocation>Right</titleLocation>
+    <extendedTooltip>
+      <name>ВыводитьЗаголовкиНастроекРасширеннаяПодсказка</name>
+      <id>108</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <type>Label</type>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <extInfo xsi:type="form:LabelDecorationExtInfo">
+        <horizontalAlign>Left</horizontalAlign>
+      </extInfo>
+    </extendedTooltip>
+    <contextMenu>
+      <name>ВыводитьЗаголовкиНастроекКонтекстноеМеню</name>
+      <id>107</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <autoFill>true</autoFill>
+    </contextMenu>
+    <type>CheckBoxField</type>
+    <editMode>Enter</editMode>
+    <showInHeader>true</showInHeader>
+    <headerHorizontalAlign>Left</headerHorizontalAlign>
+    <showInFooter>true</showInFooter>
+    <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
+  </items>
   <items xsi:type="form:FormGroup">
     <name>КоманднаяПанель</name>
     <id>96</id>
     <items xsi:type="form:FormGroup">
       <name>ДополнительныеВозможности</name>
-      <id>106</id>
-      <items xsi:type="form:FormField">
-        <name>ВыводитьЗаголовкиНастроек</name>
-        <id>108</id>
-        <visible>true</visible>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <dataPath xsi:type="form:DataPath">
-          <segments>ВыводитьЗаголовкиНастроек</segments>
-        </dataPath>
-        <titleLocation>Right</titleLocation>
-        <extendedTooltip>
-          <name>ВыводитьЗаголовкиНастроекРасширеннаяПодсказка</name>
-          <id>110</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <contextMenu>
-          <name>ВыводитьЗаголовкиНастроекКонтекстноеМеню</name>
-          <id>109</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <autoFill>true</autoFill>
-        </contextMenu>
-        <type>CheckBoxField</type>
-        <editMode>Enter</editMode>
-        <showInHeader>true</showInHeader>
-        <headerHorizontalAlign>Left</headerHorizontalAlign>
-        <showInFooter>true</showInFooter>
-        <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
-      </items>
+      <id>109</id>
       <items xsi:type="form:Button">
         <name>ПерейтиКРасширеннымНастройкам</name>
         <id>104</id>
@@ -1078,9 +1078,10 @@
         <key>ru</key>
         <value>Дополнительные возможности</value>
       </title>
+      <verticalStretch>true</verticalStretch>
       <extendedTooltip>
         <name>ДополнительныеВозможностиРасширеннаяПодсказка</name>
-        <id>107</id>
+        <id>110</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -1096,6 +1097,7 @@
       <type>UsualGroup</type>
       <extInfo xsi:type="form:UsualGroupExtInfo">
         <group>Vertical</group>
+        <verticalAlign>Center</verticalAlign>
         <showLeftMargin>true</showLeftMargin>
         <united>true</united>
         <throughAlign>Auto</throughAlign>
@@ -1225,6 +1227,7 @@
     <type>UsualGroup</type>
     <extInfo xsi:type="form:UsualGroupExtInfo">
       <group>AlwaysHorizontal</group>
+      <representation>NormalSeparation</representation>
       <showLeftMargin>true</showLeftMargin>
       <united>true</united>
       <throughAlign>Auto</throughAlign>

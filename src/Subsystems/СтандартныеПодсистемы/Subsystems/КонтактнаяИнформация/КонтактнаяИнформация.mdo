@@ -17,7 +17,6 @@
   <content>CommonModule.КонтактнаяИнформацияСерверПовтИсп</content>
   <content>CommonModule.КонтактнаяИнформацияКлиентСервер</content>
   <content>XDTOPackage.КонтактнаяИнформация</content>
-  <content>XDTOPackage.Адрес</content>
   <content>CommonModule.КонтактнаяИнформацияВызовСервера</content>
   <content>CommonPicture.ЯндексКарты</content>
   <content>CommonPicture.GoogleMaps</content>
@@ -30,5 +29,6 @@
   <content>CommonPicture.Позвонить</content>
   <content>CommonPicture.Skype</content>
   <content>SessionParameter.ИнтерактивнаяПроверкаЗаполненияКонтактнойИнформации</content>
+  <content>XDTOPackage.Адрес</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

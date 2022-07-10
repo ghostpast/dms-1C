@@ -73,6 +73,7 @@
   <commonPictures>CommonPicture.ВидСравнения</commonPictures>
   <commonPictures>CommonPicture.ВидыКонтактнойИнформации</commonPictures>
   <commonPictures>CommonPicture.Вопрос32</commonPictures>
+  <commonPictures>CommonPicture.ВосклицательныйЗнакКрасный</commonPictures>
   <commonPictures>CommonPicture.ВосклицательныйЗнакСерый</commonPictures>
   <commonPictures>CommonPicture.ВставитьГруппировкуВыше</commonPictures>
   <commonPictures>CommonPicture.ВставитьГруппировкуНиже</commonPictures>
@@ -88,7 +89,6 @@
   <commonPictures>CommonPicture.Закрепить</commonPictures>
   <commonPictures>CommonPicture.ЗаполнитьФорму</commonPictures>
   <commonPictures>CommonPicture.ЗнакСтоп</commonPictures>
-  <commonPictures>CommonPicture.Информация1</commonPictures>
   <commonPictures>CommonPicture.Информация32</commonPictures>
   <commonPictures>CommonPicture.ИсторияИзменений</commonPictures>
   <commonPictures>CommonPicture.КоллекцияВидыСобытийЖурналаРегистрации</commonPictures>
@@ -96,9 +96,81 @@
   <commonPictures>CommonPicture.Комментарий</commonPictures>
   <commonPictures>CommonPicture.КонтактнаяИнформацияПерейтиПоСсылке</commonPictures>
   <commonPictures>CommonPicture.МенюДополнительныеФункции</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеHTTPСервисы</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеHTTPСервисыШаблоныURL</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеHTTPСервисыШаблоныURLМетоды</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеWebСервисы</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеWebСервисыОперации</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеWebСервисыОперацииПараметры</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеWSСсылки</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеБизнесПроцессы</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеБоты</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеВнешниеИсточникиДанных</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеВнешниеИсточникиКубы</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеВнешниеИсточникиТаблицы</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеВнешниеИсточникиТаблицыИзмерений</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеВнешниеИсточникиФункции</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеГрафы</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеГруппыКоманд</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеДокументы</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеЖурналыДокументов</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеЗадачи</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеЗначениеПеречисления</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеИзмерения</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеКоманды</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеКонстанты</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеКонфигурация</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеКритерииОтбора</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеМакеты</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеОбработки</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеОбщие</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеОбщиеКартинки</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеОбщиеКоманды</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеОбщиеМакеты</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеОбщиеМодули</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеОбщиеРеквизиты</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеОбщиеФормы</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеОпределяемыеТипы</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеОпределяемыйТип</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеОтчеты</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеПакетыXDTO</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеПараметрыСеанса</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеПараметрыФункциональныхОпций</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеПерерасчеты</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеПеречисления</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеПланыВидовРасчета</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеПланыВидовХарактеристик</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеПланыОбмена</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеПланыСчетов</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеПодпискиНаСобытия</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеПодсистемы</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеПоследовательности</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеПризнакиУчета</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеПризнакиУчетаСубконто</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеРегистрыБухгалтерии</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеРегистрыНакопления</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеРегистрыРасчета</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеРегистрыСведений</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеРегламентныеЗадания</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеРеквизиты</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеРеквизитыАдресации</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеРесурсы</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеРоли</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеСправочники</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеСтандартныеРеквизиты</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеСтандартныеТабличныеЧасти</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеСтили</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеТабличныеЧасти</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеФормы</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеФункциональныеОпции</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеХранилищаНастроек</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеЭлементыСтиля</commonPictures>
+  <commonPictures>CommonPicture.МетаданныеЯзыки</commonPictures>
   <commonPictures>CommonPicture.ОбновитьФайлИзФайлаНаДиске</commonPictures>
   <commonPictures>CommonPicture.ОбычныйДоступСФлажком</commonPictures>
+  <commonPictures>CommonPicture.ОжидаемаяДлительнаяОперация48</commonPictures>
   <commonPictures>CommonPicture.Отборы</commonPictures>
+  <commonPictures>CommonPicture.ОтменитьДействие</commonPictures>
   <commonPictures>CommonPicture.ОтправитьЭлектронноеПисьмо</commonPictures>
   <commonPictures>CommonPicture.Отчеты</commonPictures>
   <commonPictures>CommonPicture.Оформление</commonPictures>
@@ -114,6 +186,7 @@
   <commonPictures>CommonPicture.ПиктограммыНастроекОтчета</commonPictures>
   <commonPictures>CommonPicture.ПиктограммыТиповДанных</commonPictures>
   <commonPictures>CommonPicture.ПиктограммыЭлементов</commonPictures>
+  <commonPictures>CommonPicture.ПовторитьДействие</commonPictures>
   <commonPictures>CommonPicture.Подсистема</commonPictures>
   <commonPictures>CommonPicture.Позвонить</commonPictures>
   <commonPictures>CommonPicture.ПозвонитьИлиОтправитьSMS</commonPictures>
@@ -158,10 +231,11 @@
   <sessionParameters>SessionParameter.БуферОбмена</sessionParameters>
   <sessionParameters>SessionParameter.ВерсияРасширений</sessionParameters>
   <sessionParameters>SessionParameter.ВыполняетсяОбновлениеИБ</sessionParameters>
+  <sessionParameters>SessionParameter.ДлительныеОперации</sessionParameters>
   <sessionParameters>SessionParameter.ИнтерактивнаяПроверкаЗаполненияКонтактнойИнформации</sessionParameters>
   <sessionParameters>SessionParameter.КлючДанныхПовторногоИспользования</sessionParameters>
+  <sessionParameters>SessionParameter.ОбновлениеСправочниковИдентификаторов</sessionParameters>
   <sessionParameters>SessionParameter.ОсновнойЯзык</sessionParameters>
-  <sessionParameters>SessionParameter.ОтмененныеДлительныеОперации</sessionParameters>
   <sessionParameters>SessionParameter.ПараметрыКлиентаНаСервере</sessionParameters>
   <sessionParameters>SessionParameter.ПараметрыОбработчикаОбновления</sessionParameters>
   <sessionParameters>SessionParameter.ПодключенныеРасширения</sessionParameters>
@@ -233,18 +307,25 @@
   <commonModules>CommonModule.ПользователиСерверПовтИсп</commonModules>
   <commonModules>CommonModule.РегламентныеЗаданияКлиент</commonModules>
   <commonModules>CommonModule.РегламентныеЗаданияСервер</commonModules>
+  <commonModules>CommonModule.СерверныеОповещенияВызовСервера</commonModules>
+  <commonModules>CommonModule.СерверныеОповещенияКлиент</commonModules>
+  <commonModules>CommonModule.СерверныеОповещенияКлиентГлобальный</commonModules>
+  <commonModules>CommonModule.СерверныеОповещенияСервер</commonModules>
+  <commonModules>CommonModule.СерверныеОповещенияСерверПовтИсп</commonModules>
   <commonModules>CommonModule.УправлениеАвтоцентромСервер</commonModules>
   <exchangePlans>ExchangePlan.ОбновлениеИнформационнойБазы</exchangePlans>
   <xDTOPackages>XDTOPackage.Адрес</xDTOPackages>
   <xDTOPackages>XDTOPackage.КонтактнаяИнформация</xDTOPackages>
+  <scheduledJobs>ScheduledJob.ЗаполнениеПараметровРаботыРасширений</scheduledJobs>
   <scheduledJobs>ScheduledJob.ИсправлениеУстаревшихАдресов</scheduledJobs>
-  <scheduledJobs>ScheduledJob.КонтрольАктивностиПользователей</scheduledJobs>
   <scheduledJobs>ScheduledJob.ОбновлениеПредопределенныхВариантовОтчетов</scheduledJobs>
   <scheduledJobs>ScheduledJob.ОбработкаСервисовИнтеграции</scheduledJobs>
   <scheduledJobs>ScheduledJob.ОтложенноеОбновлениеИБ</scheduledJobs>
+  <scheduledJobs>ScheduledJob.ОтправкаСерверныхОповещенийКлиентам</scheduledJobs>
   <scheduledJobs>ScheduledJob.УдалениеУстаревшихПараметровРаботыВерсийРасширений</scheduledJobs>
   <settingsStorages>SettingsStorage.ХранилищеВариантовОтчетов</settingsStorages>
   <functionalOptions>FunctionalOption.ИспользоватьВнешнихПользователей</functionalOptions>
+  <functionalOptions>FunctionalOption.ИспользоватьГруппыВнешнихПользователей</functionalOptions>
   <functionalOptions>FunctionalOption.ИспользоватьГруппыПользователей</functionalOptions>
   <functionalOptions>FunctionalOption.ОтложенноеОбновлениеВГлавномУзлеЗавершеноУспешно</functionalOptions>
   <functionalOptions>FunctionalOption.ОтложенноеОбновлениеЗавершеноУспешно</functionalOptions>
@@ -261,7 +342,9 @@
   <constants>Constant.ЗаголовокСистемы</constants>
   <constants>Constant.ИдентификаторИнформационнойБазы</constants>
   <constants>Constant.ИспользоватьВнешнихПользователей</constants>
+  <constants>Constant.ИспользоватьГруппыВнешнихПользователей</constants>
   <constants>Constant.ИспользоватьГруппыПользователей</constants>
+  <constants>Constant.КоличествоПотоковДлительныхОпераций</constants>
   <constants>Constant.КоличествоПотоковОбновленияИнформационнойБазы</constants>
   <constants>Constant.НастройкиВходаПользователей</constants>
   <constants>Constant.НастройкиКолонтитулов</constants>
@@ -275,6 +358,9 @@
   <constants>Constant.РаботаВМоделиСервиса</constants>
   <constants>Constant.СведенияОБлокируемыхОбъектах</constants>
   <constants>Constant.СведенияОбОбновленииИБ</constants>
+  <constants>Constant.СостояниеОтправкиСерверныхОповещений</constants>
+  <constants>Constant.СтандартныеПодсистемыВАвтономномРежиме</constants>
+  <constants>Constant.УдалитьНастройкиВходаПользователей</constants>
   <commonForms>CommonForm.БлокировкаРаботыСВнешнимиРесурсами</commonForms>
   <commonForms>CommonForm.ВводЗначенийСпискомСФлажками</commonForms>
   <commonForms>CommonForm.Вопрос</commonForms>
@@ -334,15 +420,19 @@
   <informationRegisters>InformationRegister.БезопасноеХранилищеДанных</informationRegisters>
   <informationRegisters>InformationRegister.ВерсииПодсистем</informationRegisters>
   <informationRegisters>InformationRegister.ДанныеОбработанныеВЦентральномУзлеРИБ</informationRegisters>
+  <informationRegisters>InformationRegister.ДлительныеОперации</informationRegisters>
   <informationRegisters>InformationRegister.ИдентификаторыОбъектовВерсийРасширений</informationRegisters>
   <informationRegisters>InformationRegister.КэшПрограммныхИнтерфейсов</informationRegisters>
   <informationRegisters>InformationRegister.НастройкиВариантовОтчетов</informationRegisters>
   <informationRegisters>InformationRegister.ОбработчикиОбновления</informationRegisters>
   <informationRegisters>InformationRegister.ОбработчикиОбновленияОбщихДанных</informationRegisters>
+  <informationRegisters>InformationRegister.ОтправленныеСерверныеОповещения</informationRegisters>
   <informationRegisters>InformationRegister.ПараметрыРаботыВерсийРасширений</informationRegisters>
   <informationRegisters>InformationRegister.ПараметрыРаботыПрограммы</informationRegisters>
+  <informationRegisters>InformationRegister.ПериодическиеСерверныеОповещения</informationRegisters>
   <informationRegisters>InformationRegister.ПотокиОбновления</informationRegisters>
   <informationRegisters>InformationRegister.ПредопределенныеВариантыОтчетовВерсийРасширений</informationRegisters>
+  <informationRegisters>InformationRegister.ПрогрессОбновления</informationRegisters>
   <informationRegisters>InformationRegister.СведенияОПользователях</informationRegisters>
   <informationRegisters>InformationRegister.СоставыГруппПользователей</informationRegisters>
 </mdclass:Configuration>

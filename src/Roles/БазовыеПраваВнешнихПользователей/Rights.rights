@@ -721,4 +721,26 @@
 			<value>true</value>
 		</right>
 	</object>
+	<object>
+		<name>Constant.ИспользоватьГруппыВнешнихПользователей</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
+	<object>
+		<name>Constant.СтандартныеПодсистемыВАвтономномРежиме</name>
+		<right>
+			<name>View</name>
+			<value>true</value>
+		</right>
+		<right>
+			<name>Read</name>
+			<value>true</value>
+		</right>
+	</object>
 </Rights>

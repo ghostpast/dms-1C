@@ -814,6 +814,20 @@
       <common>true</common>
     </edit>
   </attributes>
+  <attributes>
+    <name>ИмяДляВхода</name>
+    <id>4</id>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
   <formCommands>
     <name>УстановитьПароль</name>
     <title>
@@ -891,6 +905,13 @@
   <parameters>
     <name>СтарыйПароль</name>
     <valueType/>
+  </parameters>
+  <parameters>
+    <name>ИмяДляВхода</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
   </parameters>
   <commandInterface>
     <navigationPanel/>

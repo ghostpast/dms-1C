@@ -584,10 +584,6 @@
       </extInfo>
     </items>
     <items xsi:type="form:Addition">
-      <title>
-        <key>ru</key>
-        <value>Список поиск управление</value>
-      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>

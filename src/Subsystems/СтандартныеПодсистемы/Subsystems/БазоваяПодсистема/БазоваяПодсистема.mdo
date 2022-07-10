@@ -62,7 +62,6 @@
   <content>Role.БазовыеПрава</content>
   <content>Role.БазовыеПраваВнешнихПользователей</content>
   <content>CommonPicture.Предупреждение</content>
-  <content>CommonPicture.Информация1</content>
   <content>StyleItem.ПоясняющийТекст</content>
   <content>CommonForm.ОписаниеИзмененийПрограммы</content>
   <content>StyleItem.ТекстЗапрещеннойЯчейкиЦвет</content>
@@ -71,7 +70,7 @@
   <content>CommonPicture.Информация32</content>
   <content>InformationRegister.ПараметрыРаботыВерсийРасширений</content>
   <content>DataProcessor.ЖурналРегистрации</content>
-  <content>SessionParameter.ОтмененныеДлительныеОперации</content>
+  <content>SessionParameter.ДлительныеОперации</content>
   <content>CommonForm.ДлительнаяОперация</content>
   <content>Catalog.ИдентификаторыОбъектовРасширений</content>
   <content>InformationRegister.ИдентификаторыОбъектовВерсийРасширений</content>
@@ -120,5 +119,90 @@
   <content>StyleItem.ЗаголовокУдаленногоРеквизитаШрифт</content>
   <content>CommonPicture.Комментарий</content>
   <content>CommonPicture.ОтправитьЭлектронноеПисьмо</content>
+  <content>ScheduledJob.ЗаполнениеПараметровРаботыРасширений</content>
+  <content>ScheduledJob.ОтправкаСерверныхОповещенийКлиентам</content>
+  <content>Constant.СтандартныеПодсистемыВАвтономномРежиме</content>
+  <content>CommonPicture.МетаданныеHTTPСервисы</content>
+  <content>CommonPicture.МетаданныеHTTPСервисыШаблоныURL</content>
+  <content>CommonPicture.МетаданныеHTTPСервисыШаблоныURLМетоды</content>
+  <content>CommonPicture.МетаданныеWebСервисы</content>
+  <content>CommonPicture.МетаданныеWebСервисыОперации</content>
+  <content>CommonPicture.МетаданныеWSСсылки</content>
+  <content>CommonPicture.МетаданныеWebСервисыОперацииПараметры</content>
+  <content>CommonPicture.МетаданныеБизнесПроцессы</content>
+  <content>CommonPicture.МетаданныеБоты</content>
+  <content>CommonPicture.МетаданныеВнешниеИсточникиДанных</content>
+  <content>CommonPicture.МетаданныеВнешниеИсточникиКубы</content>
+  <content>CommonPicture.МетаданныеВнешниеИсточникиТаблицы</content>
+  <content>CommonPicture.МетаданныеВнешниеИсточникиТаблицыИзмерений</content>
+  <content>CommonPicture.МетаданныеВнешниеИсточникиФункции</content>
+  <content>CommonPicture.МетаданныеГрафы</content>
+  <content>CommonPicture.МетаданныеДокументы</content>
+  <content>CommonPicture.МетаданныеГруппыКоманд</content>
+  <content>CommonPicture.МетаданныеЖурналыДокументов</content>
+  <content>CommonPicture.МетаданныеЗадачи</content>
+  <content>CommonPicture.МетаданныеЗначениеПеречисления</content>
+  <content>CommonPicture.МетаданныеИзмерения</content>
+  <content>CommonPicture.МетаданныеКоманды</content>
+  <content>CommonPicture.МетаданныеКонстанты</content>
+  <content>CommonPicture.МетаданныеКонфигурация</content>
+  <content>CommonPicture.МетаданныеКритерииОтбора</content>
+  <content>CommonPicture.МетаданныеОбработки</content>
+  <content>CommonPicture.МетаданныеМакеты</content>
+  <content>CommonPicture.МетаданныеОбщие</content>
+  <content>CommonPicture.МетаданныеОбщиеКартинки</content>
+  <content>CommonPicture.МетаданныеОбщиеКоманды</content>
+  <content>CommonPicture.МетаданныеОбщиеМакеты</content>
+  <content>CommonPicture.МетаданныеОбщиеМодули</content>
+  <content>CommonPicture.МетаданныеОбщиеРеквизиты</content>
+  <content>CommonPicture.МетаданныеОбщиеФормы</content>
+  <content>CommonPicture.МетаданныеОпределяемыеТипы</content>
+  <content>CommonPicture.МетаданныеОпределяемыйТип</content>
+  <content>CommonPicture.МетаданныеОтчеты</content>
+  <content>CommonPicture.МетаданныеПакетыXDTO</content>
+  <content>CommonPicture.МетаданныеПараметрыСеанса</content>
+  <content>CommonPicture.МетаданныеПараметрыФункциональныхОпций</content>
+  <content>CommonPicture.МетаданныеПеречисления</content>
+  <content>CommonPicture.МетаданныеПерерасчеты</content>
+  <content>CommonPicture.МетаданныеПланыВидовРасчета</content>
+  <content>CommonPicture.МетаданныеПланыВидовХарактеристик</content>
+  <content>CommonPicture.МетаданныеПланыОбмена</content>
+  <content>CommonPicture.МетаданныеПланыСчетов</content>
+  <content>CommonPicture.МетаданныеПодпискиНаСобытия</content>
+  <content>CommonPicture.МетаданныеПодсистемы</content>
+  <content>CommonPicture.МетаданныеПризнакиУчета</content>
+  <content>CommonPicture.МетаданныеПоследовательности</content>
+  <content>CommonPicture.МетаданныеПризнакиУчетаСубконто</content>
+  <content>CommonPicture.МетаданныеРегистрыНакопления</content>
+  <content>CommonPicture.МетаданныеРегистрыБухгалтерии</content>
+  <content>CommonPicture.МетаданныеРегистрыРасчета</content>
+  <content>CommonPicture.МетаданныеРегистрыСведений</content>
+  <content>CommonPicture.МетаданныеРегламентныеЗадания</content>
+  <content>CommonPicture.МетаданныеРеквизиты</content>
+  <content>CommonPicture.МетаданныеРеквизитыАдресации</content>
+  <content>CommonPicture.МетаданныеРоли</content>
+  <content>CommonPicture.МетаданныеРесурсы</content>
+  <content>CommonPicture.МетаданныеСправочники</content>
+  <content>CommonPicture.МетаданныеСтандартныеРеквизиты</content>
+  <content>CommonPicture.МетаданныеСтандартныеТабличныеЧасти</content>
+  <content>CommonPicture.МетаданныеСтили</content>
+  <content>CommonPicture.МетаданныеФормы</content>
+  <content>CommonPicture.МетаданныеТабличныеЧасти</content>
+  <content>CommonPicture.МетаданныеФункциональныеОпции</content>
+  <content>CommonPicture.МетаданныеХранилищаНастроек</content>
+  <content>CommonPicture.МетаданныеЭлементыСтиля</content>
+  <content>CommonPicture.МетаданныеЯзыки</content>
+  <content>InformationRegister.ДлительныеОперации</content>
+  <content>InformationRegister.ОтправленныеСерверныеОповещения</content>
+  <content>InformationRegister.ПериодическиеСерверныеОповещения</content>
+  <content>Constant.СостояниеОтправкиСерверныхОповещений</content>
+  <content>Constant.КоличествоПотоковДлительныхОпераций</content>
+  <content>SessionParameter.ОбновлениеСправочниковИдентификаторов</content>
+  <content>CommonModule.СерверныеОповещенияКлиент</content>
+  <content>CommonModule.СерверныеОповещенияСервер</content>
+  <content>CommonModule.СерверныеОповещенияВызовСервера</content>
+  <content>CommonModule.СерверныеОповещенияКлиентГлобальный</content>
+  <content>CommonModule.СерверныеОповещенияСерверПовтИсп</content>
+  <content>CommonPicture.ВосклицательныйЗнакКрасный</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

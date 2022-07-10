@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9c4965d3-0558-4657-99ff-050fffa05643">
+<mdclass:FunctionalOption xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="1456f317-360c-4190-b2d1-1be7484369a5">
   <name>ИспользоватьГруппыПользователей</name>
   <synonym>
     <key>ru</key>
@@ -8,5 +8,4 @@
   <location>Constant.ИспользоватьГруппыПользователей</location>
   <privilegedGetMode>true</privilegedGetMode>
   <content>Catalog.ГруппыПользователей</content>
-  <content>Catalog.ГруппыВнешнихПользователей</content>
 </mdclass:FunctionalOption>

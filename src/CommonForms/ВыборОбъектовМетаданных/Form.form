@@ -549,8 +549,13 @@
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
   </handlers>
+  <handlers>
+    <event>BeforeLoadDataFromSettingsAtServer</event>
+    <name>ПередЗагрузкойДанныхИзНастроекНаСервере</name>
+  </handlers>
   <excludedCommands>CustomizeForm</excludedCommands>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
+  <autoSaveDataInSettings>Use</autoSaveDataInSettings>
   <autoTitle>true</autoTitle>
   <autoUrl>true</autoUrl>
   <group>Vertical</group>
@@ -699,6 +704,19 @@
         <common>true</common>
       </edit>
     </columns>
+    <columns>
+      <name>ЭтоКоллекцияОбъектов</name>
+      <id>9</id>
+      <valueType>
+        <types>Boolean</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
   </attributes>
   <attributes>
     <name>ВыбранныеОбъектыМетаданных</name>
@@ -832,6 +850,9 @@
     <edit>
       <common>true</common>
     </edit>
+    <settingsSavedData xsi:type="form:DataPath">
+      <segments>СпособГруппировкиОбъектов</segments>
+    </settingsSavedData>
   </attributes>
   <attributes>
     <name>АдресаВыбранныхОбъектов</name>
@@ -848,6 +869,122 @@
     <extInfo xsi:type="form:ValueListExtInfo">
       <itemValueType/>
     </extInfo>
+  </attributes>
+  <attributes>
+    <name>ВыбиратьКоллекцииКогдаВыбраныВсеОбъекты</name>
+    <id>12</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ЗапоминатьРазделыВыбранныхОбъектов</name>
+    <id>13</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>КоллекцииВыбираемыхОбъектовМетаданных</name>
+    <id>14</id>
+    <valueType>
+      <types>ValueList</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <extInfo xsi:type="form:ValueListExtInfo">
+      <itemValueType/>
+    </extInfo>
+  </attributes>
+  <attributes>
+    <name>РодительскиеПодсистемы</name>
+    <id>15</id>
+    <valueType>
+      <types>ValueList</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <extInfo xsi:type="form:ValueListExtInfo">
+      <itemValueType/>
+    </extInfo>
+  </attributes>
+  <attributes>
+    <name>ФильтрПоОбъектамМетаданных</name>
+    <id>16</id>
+    <valueType>
+      <types>ValueList</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+    <extInfo xsi:type="form:ValueListExtInfo">
+      <itemValueType/>
+    </extInfo>
+  </attributes>
+  <attributes>
+    <name>УникальныйИдентификаторИсточник</name>
+    <id>17</id>
+    <valueType>
+      <types>UUID</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ИдентификаторСтрокиПервогоВыбранногоОбъекта</name>
+    <id>18</id>
+    <valueType>
+      <types>Number</types>
+      <numberQualifiers>
+        <precision>10</precision>
+      </numberQualifiers>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ПометкаВыполнялась</name>
+    <id>20</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
   </attributes>
   <formCommands>
     <name>Выбрать</name>
@@ -902,28 +1039,24 @@
     <valueType>
       <types>UUID</types>
     </valueType>
-    <keyParameter>true</keyParameter>
   </parameters>
   <parameters>
     <name>КоллекцииВыбираемыхОбъектовМетаданных</name>
     <valueType>
       <types>ValueList</types>
     </valueType>
-    <keyParameter>true</keyParameter>
   </parameters>
   <parameters>
     <name>ФильтрПоОбъектамМетаданных</name>
     <valueType>
       <types>ValueList</types>
     </valueType>
-    <keyParameter>true</keyParameter>
   </parameters>
   <parameters>
     <name>РодительскиеПодсистемы</name>
     <valueType>
       <types>ValueList</types>
     </valueType>
-    <keyParameter>true</keyParameter>
   </parameters>
   <parameters>
     <name>Заголовок</name>
@@ -944,7 +1077,12 @@
     <valueType>
       <types>Boolean</types>
     </valueType>
-    <keyParameter>true</keyParameter>
+  </parameters>
+  <parameters>
+    <name>ВыбиратьКоллекцииКогдаВыбраныВсеОбъекты</name>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
   </parameters>
   <commandInterface>
     <navigationPanel/>

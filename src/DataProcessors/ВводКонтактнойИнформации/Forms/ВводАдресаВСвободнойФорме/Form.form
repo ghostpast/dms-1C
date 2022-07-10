@@ -711,16 +711,16 @@
                     <name>СтранаАвтоПодбор</name>
                   </handlers>
                   <handlers>
-                    <event>ChoiceProcessing</event>
-                    <name>СтранаОбработкаВыбора</name>
-                  </handlers>
-                  <handlers>
                     <event>Clearing</event>
                     <name>СтранаОчистка</name>
                   </handlers>
                   <handlers>
                     <event>TextEditEnd</event>
                     <name>СтранаОкончаниеВводаТекста</name>
+                  </handlers>
+                  <handlers>
+                    <event>ChoiceProcessing</event>
+                    <name>СтранаОбработкаВыбора</name>
                   </handlers>
                   <width>60</width>
                   <autoMaxWidth>true</autoMaxWidth>
@@ -1112,7 +1112,7 @@
           <key>ru</key>
           <value>Адреса могут быть введены в следующих форматах:
   • в историческом формате – по административно-территориальному делению;
-  • по муниципальному делению с учетом требований Федерального закона от 06.10.1999 № 131-ФЗ «Об общих принципах организации местного самоуправления в Российской Федерации».
+  • по муниципальному делению с учетом требований Федерального закона от 06.10.1999 № 131-ФЗ &quot;Об общих принципах организации местного самоуправления в Российской Федерации&quot;.
 </value>
         </title>
         <visible>true</visible>
@@ -1292,16 +1292,16 @@
     <horizontalAlign>Right</horizontalAlign>
   </autoCommandBar>
   <handlers>
+    <event>OnOpen</event>
+    <name>ПриОткрытии</name>
+  </handlers>
+  <handlers>
     <event>BeforeClose</event>
     <name>ПередЗакрытием</name>
   </handlers>
   <handlers>
     <event>OnCreateAtServer</event>
     <name>ПриСозданииНаСервере</name>
-  </handlers>
-  <handlers>
-    <event>OnOpen</event>
-    <name>ПриОткрытии</name>
   </handlers>
   <width>60</width>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>

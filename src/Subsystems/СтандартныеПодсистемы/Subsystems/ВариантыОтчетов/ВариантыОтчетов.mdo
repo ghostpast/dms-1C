@@ -73,5 +73,7 @@
   <content>CommonPicture.СкрытаяНастройкаОтчета</content>
   <content>CommonPicture.БыстрыйДоступСФлажком</content>
   <content>CommonPicture.ОбычныйДоступСФлажком</content>
+  <content>CommonPicture.ОтменитьДействие</content>
+  <content>CommonPicture.ПовторитьДействие</content>
   <parentSubsystem>Subsystem.СтандартныеПодсистемы</parentSubsystem>
 </mdclass:Subsystem>

@@ -864,10 +864,6 @@
       </extInfo>
     </items>
     <items xsi:type="form:Addition">
-      <title>
-        <key>ru</key>
-        <value>Пользователи поиск управление</value>
-      </title>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
@@ -1072,7 +1068,7 @@
         <editTextUpdate>DontUse</editTextUpdate>
         <inputHint>
           <key>ru</key>
-          <value>Введите имя пользователя</value>
+          <value>Введите имя, адрес, телефон...</value>
         </inputHint>
       </extInfo>
     </items>
@@ -3358,9 +3354,6 @@
           <segments>ВыбранныеПользователиИГруппы</segments>
         </dataPath>
         <titleLocation>Top</titleLocation>
-        <excludedCommands>Add</excludedCommands>
-        <excludedCommands>Change</excludedCommands>
-        <excludedCommands>Copy</excludedCommands>
         <excludedCommands>EndEdit</excludedCommands>
         <excludedCommands>MoveDown</excludedCommands>
         <excludedCommands>MoveUp</excludedCommands>
@@ -3377,6 +3370,7 @@
           <dataPath xsi:type="form:DataPath">
             <segments>ВыбранныеПользователиИГруппы.Пользователь</segments>
           </dataPath>
+          <defaultItem>true</defaultItem>
           <extendedTooltip>
             <name>ПользователиИГруппыExtendedTooltip</name>
             <id>129</id>
@@ -3403,8 +3397,7 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>InputField</type>
-          <readOnly>true</readOnly>
-          <editMode>EnterOnInput</editMode>
+          <editMode>Enter</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
@@ -3413,7 +3406,9 @@
             <autoMaxHeight>true</autoMaxHeight>
             <wrap>true</wrap>
             <choiceListButton>false</choiceListButton>
-            <chooseType>true</chooseType>
+            <choiceButton>false</choiceButton>
+            <openButton>false</openButton>
+            <quickChoice>true</quickChoice>
             <typeDomainEnabled>true</typeDomainEnabled>
             <textEdit>true</textEdit>
           </extInfo>
@@ -3429,12 +3424,20 @@
           <horizontalAlign>Left</horizontalAlign>
         </autoCommandBar>
         <handlers>
+          <event>OnEditEnd</event>
+          <name>СписокВыбранныхПользователейИГруппПриОкончанииРедактирования</name>
+        </handlers>
+        <handlers>
           <event>Selection</event>
           <name>СписокВыбранныхПользователейИГруппВыбор</name>
         </handlers>
         <handlers>
-          <event>BeforeAddRow</event>
-          <name>СписокВыбранныхПользователейИГруппПередНачаломДобавления</name>
+          <event>OnActivateRow</event>
+          <name>СписокВыбранныхПользователейИГруппПриАктивизацииСтроки</name>
+        </handlers>
+        <handlers>
+          <event>OnStartEdit</event>
+          <name>СписокВыбранныхПользователейИГруппПриНачалеРедактирования</name>
         </handlers>
         <searchStringAddition>
           <visible>true</visible>
@@ -4454,8 +4457,6 @@
       </title>
       <id>1</id>
       <valueType>
-        <types>CatalogRef.ВнешниеПользователи</types>
-        <types>CatalogRef.ГруппыВнешнихПользователей</types>
         <types>CatalogRef.ГруппыПользователей</types>
         <types>CatalogRef.Пользователи</types>
       </valueType>

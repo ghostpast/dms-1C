@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="a6617cac-2693-41af-8a03-9c266196b277">
+<mdclass:Constant xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ae039438-89af-4217-910d-476115f51ab2">
   <producedTypes>
-    <managerType typeId="3fc1794c-7c32-4fc5-b097-b2f8be3baf0d" valueTypeId="1fe483c2-5091-43d3-8b67-62a563f23a47"/>
-    <valueManagerType typeId="11488419-0cc8-4a33-bcb1-62667b3bb402" valueTypeId="10ac26a9-4086-4367-9394-7af1072839d5"/>
-    <valueKeyType typeId="1b9c897b-7a54-4260-b8b4-5eed3ac2de3a" valueTypeId="61c7f6d9-3adf-47be-8daa-10a8e261cb1e"/>
+    <managerType typeId="b4b73017-0460-47f4-9f8e-75fb41de4b6b" valueTypeId="23f537c1-5429-4e2e-8d30-e8e7337c1766"/>
+    <valueManagerType typeId="3150f1e9-15ca-4111-bd54-7bbe6a1c3c8f" valueTypeId="d46916b8-5446-4df1-b43c-3f4229a948ac"/>
+    <valueKeyType typeId="93c2c5af-7bb3-4b0b-96de-fae40a4b7855" valueTypeId="731618b2-b245-4d62-8a0f-63739f5b7146"/>
   </producedTypes>
   <name>НастройкиВходаПользователей</name>
   <synonym>

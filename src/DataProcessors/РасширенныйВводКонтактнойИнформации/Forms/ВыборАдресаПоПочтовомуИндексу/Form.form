@@ -863,12 +863,12 @@
     <autoFill>true</autoFill>
   </autoCommandBar>
   <handlers>
-    <event>OnCreateAtServer</event>
-    <name>ПриСозданииНаСервере</name>
-  </handlers>
-  <handlers>
     <event>OnOpen</event>
     <name>ПриОткрытии</name>
+  </handlers>
+  <handlers>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoUrl>true</autoUrl>
@@ -1037,6 +1037,10 @@
   </attributes>
   <formCommands>
     <name>Обновить</name>
+    <title>
+      <key>ru</key>
+      <value>Обновить</value>
+    </title>
     <id>2</id>
     <toolTip>
       <key>ru</key>

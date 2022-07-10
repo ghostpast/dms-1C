@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="f53bf176-0a18-40da-9690-025ab608b206">
+  <name>МетаданныеРоли</name>
+  <synonym>
+    <key>ru</key>
+    <value>Метаданные роли</value>
+  </synonym>
+</mdclass:CommonPicture>

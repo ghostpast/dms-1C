@@ -552,6 +552,10 @@
         <segments>АдресФотографии</segments>
       </dataPath>
       <titleLocation>None</titleLocation>
+      <toolTip>
+        <key>ru</key>
+        <value>Выбрать фото</value>
+      </toolTip>
       <extendedTooltip>
         <name>ФотографияРасширеннаяПодсказка</name>
         <id>355</id>
@@ -570,6 +574,68 @@
       <contextMenu>
         <name>ФотографияКонтекстноеМеню</name>
         <id>354</id>
+        <items xsi:type="form:Button">
+          <name>ФотографияКонтекстноеМенюВыбратьФотографию</name>
+          <id>371</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ФотографияКонтекстноеМенюВыбратьФотографиюРасширеннаяПодсказка</name>
+            <id>372</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <commandName>Form.Command.ВыбратьФотографию</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>Auto</toolTipRepresentation>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
+        <items xsi:type="form:Button">
+          <name>ФотографияКонтекстноеМенюОчиститьФотографию</name>
+          <id>369</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ФотографияКонтекстноеМенюОчиститьФотографиюРасширеннаяПодсказка</name>
+            <id>370</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <commandName>Form.Command.ОчиститьФотографию</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>Auto</toolTipRepresentation>
+          <representationInContextMenu>Auto</representationInContextMenu>
+        </items>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -3076,16 +3142,16 @@
       </extInfo>
     </items>
     <items xsi:type="form:Button">
-      <name>ФормаСправка</name>
-      <id>349</id>
+      <name>ФормаВыбратьФотографию</name>
+      <id>373</id>
       <visible>true</visible>
       <enabled>true</enabled>
       <userVisible>
         <common>true</common>
       </userVisible>
       <extendedTooltip>
-        <name>ФормаСправкаРасширеннаяПодсказка</name>
-        <id>350</id>
+        <name>ФормаВыбратьФотографиюРасширеннаяПодсказка</name>
+        <id>374</id>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
@@ -3098,7 +3164,7 @@
           <horizontalAlign>Left</horizontalAlign>
         </extInfo>
       </extendedTooltip>
-      <commandName>Form.StandardCommand.Help</commandName>
+      <commandName>Form.Command.ВыбратьФотографию</commandName>
       <representation>Auto</representation>
       <autoMaxWidth>true</autoMaxWidth>
       <autoMaxHeight>true</autoMaxHeight>
@@ -3267,6 +3333,37 @@
         </picture>
         <representation>PictureAndText</representation>
       </extInfo>
+    </items>
+    <items xsi:type="form:Button">
+      <name>ФормаСправка</name>
+      <id>349</id>
+      <visible>true</visible>
+      <enabled>true</enabled>
+      <userVisible>
+        <common>true</common>
+      </userVisible>
+      <extendedTooltip>
+        <name>ФормаСправкаРасширеннаяПодсказка</name>
+        <id>350</id>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <type>Label</type>
+        <autoMaxWidth>true</autoMaxWidth>
+        <autoMaxHeight>true</autoMaxHeight>
+        <extInfo xsi:type="form:LabelDecorationExtInfo">
+          <horizontalAlign>Left</horizontalAlign>
+        </extInfo>
+      </extendedTooltip>
+      <commandName>Form.StandardCommand.Help</commandName>
+      <representation>Auto</representation>
+      <autoMaxWidth>true</autoMaxWidth>
+      <autoMaxHeight>true</autoMaxHeight>
+      <placementArea>UserCmds</placementArea>
+      <toolTipRepresentation>Auto</toolTipRepresentation>
+      <representationInContextMenu>Auto</representationInContextMenu>
     </items>
     <visible>true</visible>
     <enabled>true</enabled>
@@ -4298,6 +4395,23 @@
     <modifiesStoredData>true</modifiesStoredData>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
+  <formCommands>
+    <name>ВыбратьФотографию</name>
+    <title>
+      <key>ru</key>
+      <value>Выбрать фотографию...</value>
+    </title>
+    <id>10</id>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>ВыбратьФотографию</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
   <parameters>
     <name>ГруппаНовогоПользователя</name>
     <valueType>
@@ -4311,7 +4425,12 @@
     </valueType>
   </parameters>
   <commandInterface>
-    <navigationPanel/>
+    <navigationPanel>
+      <cmiFragmentRecord>
+        <command>0</command>
+        <userVisible/>
+      </cmiFragmentRecord>
+    </navigationPanel>
     <commandBar/>
   </commandInterface>
   <extInfo xsi:type="form:CatalogFormExtInfo">

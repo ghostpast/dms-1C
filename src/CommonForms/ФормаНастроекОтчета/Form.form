@@ -401,6 +401,7 @@
               <autoFill>true</autoFill>
             </contextMenu>
             <type>InputField</type>
+            <readOnly>true</readOnly>
             <editMode>EnterOnInput</editMode>
             <showInHeader>true</showInHeader>
             <headerHorizontalAlign>Left</headerHorizontalAlign>
@@ -409,6 +410,7 @@
               <autoMaxWidth>true</autoMaxWidth>
               <autoMaxHeight>true</autoMaxHeight>
               <wrap>true</wrap>
+              <dropListButton>false</dropListButton>
               <chooseType>true</chooseType>
               <typeDomainEnabled>true</typeDomainEnabled>
               <textEdit>true</textEdit>
@@ -1367,6 +1369,73 @@
             <extInfo xsi:type="form:CheckBoxFieldExtInfo"/>
           </items>
           <items xsi:type="form:FormField">
+            <name>ОтборыПоле</name>
+            <id>1408</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <dataPath xsi:type="form:DataPath">
+              <segments>Отборы.Поле</segments>
+            </dataPath>
+            <titleLocation>None</titleLocation>
+            <extendedTooltip>
+              <name>ОтборыПолеРасширеннаяПодсказка</name>
+              <id>1410</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <type>Label</type>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <extInfo xsi:type="form:LabelDecorationExtInfo">
+                <horizontalAlign>Left</horizontalAlign>
+              </extInfo>
+            </extendedTooltip>
+            <contextMenu>
+              <name>ОтборыПолеКонтекстноеМеню</name>
+              <id>1409</id>
+              <visible>true</visible>
+              <enabled>true</enabled>
+              <userVisible>
+                <common>true</common>
+              </userVisible>
+              <autoFill>true</autoFill>
+            </contextMenu>
+            <type>InputField</type>
+            <editMode>EnterOnInput</editMode>
+            <showInHeader>true</showInHeader>
+            <headerHorizontalAlign>Left</headerHorizontalAlign>
+            <showInFooter>true</showInFooter>
+            <extInfo xsi:type="form:InputFieldExtInfo">
+              <handlers>
+                <event>AutoComplete</event>
+                <name>ОтборыПолеАвтоПодбор</name>
+              </handlers>
+              <handlers>
+                <event>StartChoice</event>
+                <name>ОтборыПолеНачалоВыбора</name>
+              </handlers>
+              <handlers>
+                <event>ChoiceProcessing</event>
+                <name>ОтборыПолеОбработкаВыбора</name>
+              </handlers>
+              <autoMaxWidth>true</autoMaxWidth>
+              <autoMaxHeight>true</autoMaxHeight>
+              <wrap>true</wrap>
+              <dropListButton>false</dropListButton>
+              <choiceButton>true</choiceButton>
+              <listChoiceMode>true</listChoiceMode>
+              <chooseType>true</chooseType>
+              <incompleteChoiceMode>OnActivate</incompleteChoiceMode>
+              <typeDomainEnabled>true</typeDomainEnabled>
+              <textEdit>true</textEdit>
+            </extInfo>
+          </items>
+          <items xsi:type="form:FormField">
             <name>ОтборыПараметр</name>
             <id>1212</id>
             <visible>true</visible>
@@ -1447,58 +1516,6 @@
             <contextMenu>
               <name>ОтборыТипГруппыКонтекстноеМеню</name>
               <id>1210</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <autoFill>true</autoFill>
-            </contextMenu>
-            <type>InputField</type>
-            <editMode>EnterOnInput</editMode>
-            <showInHeader>true</showInHeader>
-            <headerHorizontalAlign>Left</headerHorizontalAlign>
-            <showInFooter>true</showInFooter>
-            <extInfo xsi:type="form:InputFieldExtInfo">
-              <width>1</width>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <wrap>true</wrap>
-              <chooseType>true</chooseType>
-              <typeDomainEnabled>true</typeDomainEnabled>
-              <textEdit>true</textEdit>
-            </extInfo>
-          </items>
-          <items xsi:type="form:FormField">
-            <name>ОтборыЛевоеЗначение</name>
-            <id>1215</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <dataPath xsi:type="form:DataPath">
-              <segments>Отборы.ЛевоеЗначение</segments>
-            </dataPath>
-            <titleLocation>None</titleLocation>
-            <extendedTooltip>
-              <name>ОтборыЛевоеЗначениеРасширеннаяПодсказка</name>
-              <id>1217</id>
-              <visible>true</visible>
-              <enabled>true</enabled>
-              <userVisible>
-                <common>true</common>
-              </userVisible>
-              <type>Label</type>
-              <autoMaxWidth>true</autoMaxWidth>
-              <autoMaxHeight>true</autoMaxHeight>
-              <extInfo xsi:type="form:LabelDecorationExtInfo">
-                <horizontalAlign>Left</horizontalAlign>
-              </extInfo>
-            </extendedTooltip>
-            <contextMenu>
-              <name>ОтборыЛевоеЗначениеКонтекстноеМеню</name>
-              <id>1216</id>
               <visible>true</visible>
               <enabled>true</enabled>
               <userVisible>
@@ -3299,7 +3316,7 @@
           <autoMaxHeight>true</autoMaxHeight>
           <extInfo xsi:type="form:PictureDecorationExtInfo">
             <picture xsi:type="core:PictureRef">
-              <picture>CommonPicture.Информация1</picture>
+              <picture>StdPicture.Information</picture>
             </picture>
           </extInfo>
         </items>
@@ -6056,7 +6073,7 @@
           <autoMaxHeight>true</autoMaxHeight>
           <extInfo xsi:type="form:PictureDecorationExtInfo">
             <picture xsi:type="core:PictureRef">
-              <picture>CommonPicture.Информация1</picture>
+              <picture>StdPicture.Information</picture>
             </picture>
           </extInfo>
         </items>
@@ -7012,7 +7029,7 @@
           <autoMaxHeight>true</autoMaxHeight>
           <extInfo xsi:type="form:PictureDecorationExtInfo">
             <picture xsi:type="core:PictureRef">
-              <picture>CommonPicture.Информация1</picture>
+              <picture>StdPicture.Information</picture>
             </picture>
           </extInfo>
         </items>
@@ -9191,7 +9208,7 @@
         <autoMaxHeight>true</autoMaxHeight>
         <extInfo xsi:type="form:PictureDecorationExtInfo">
           <picture xsi:type="core:PictureRef">
-            <picture>CommonPicture.Информация1</picture>
+            <picture>StdPicture.Information</picture>
           </picture>
         </extInfo>
       </items>
@@ -9349,7 +9366,7 @@
       <autoMaxHeight>true</autoMaxHeight>
       <extInfo xsi:type="form:PictureDecorationExtInfo">
         <picture xsi:type="core:PictureRef">
-          <picture>CommonPicture.Информация1</picture>
+          <picture>StdPicture.Information</picture>
         </picture>
       </extInfo>
     </items>
@@ -9687,69 +9704,6 @@
     <items xsi:type="form:FormGroup">
       <name>КомандыФормы_Правая</name>
       <id>80</id>
-      <items xsi:type="form:FormGroup">
-        <name>Группа1</name>
-        <id>1033</id>
-        <items xsi:type="form:Button">
-          <name>ИзменитьФорму</name>
-          <id>318</id>
-          <title>
-            <key>ru</key>
-            <value>Изменить форму...</value>
-          </title>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <extendedTooltip>
-            <name>ИзменитьФормуРасширеннаяПодсказка</name>
-            <id>319</id>
-            <visible>true</visible>
-            <enabled>true</enabled>
-            <userVisible>
-              <common>true</common>
-            </userVisible>
-            <type>Label</type>
-            <autoMaxWidth>true</autoMaxWidth>
-            <autoMaxHeight>true</autoMaxHeight>
-            <extInfo xsi:type="form:LabelDecorationExtInfo">
-              <horizontalAlign>Left</horizontalAlign>
-            </extInfo>
-          </extendedTooltip>
-          <commandName>Form.StandardCommand.CustomizeForm</commandName>
-          <representation>Picture</representation>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <placementArea>UserCmds</placementArea>
-          <toolTipRepresentation>Auto</toolTipRepresentation>
-          <representationInContextMenu>Auto</representationInContextMenu>
-        </items>
-        <enabled>true</enabled>
-        <userVisible>
-          <common>true</common>
-        </userVisible>
-        <title>
-          <key>ru</key>
-          <value>1</value>
-        </title>
-        <extendedTooltip>
-          <name>Группа1РасширеннаяПодсказка</name>
-          <id>1034</id>
-          <visible>true</visible>
-          <enabled>true</enabled>
-          <userVisible>
-            <common>true</common>
-          </userVisible>
-          <type>Label</type>
-          <autoMaxWidth>true</autoMaxWidth>
-          <autoMaxHeight>true</autoMaxHeight>
-          <extInfo xsi:type="form:LabelDecorationExtInfo">
-            <horizontalAlign>Left</horizontalAlign>
-          </extInfo>
-        </extendedTooltip>
-        <extInfo xsi:type="form:ButtonGroupExtInfo"/>
-      </items>
       <items xsi:type="form:Button">
         <name>ЗакрытьИСформировать</name>
         <id>21</id>
@@ -9810,18 +9764,83 @@
         <placementArea>UserCmds</placementArea>
         <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
-      <items xsi:type="form:Button">
-        <name>ИзменитьУсловияОтборов</name>
-        <id>1000</id>
+      <items xsi:type="form:FormGroup">
+        <name>ГруппаНастройка</name>
+        <id>1413</id>
+        <items xsi:type="form:Button">
+          <name>ИзменитьУсловияОтборов</name>
+          <id>1000</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ИзменитьУсловияОтборовРасширеннаяПодсказка</name>
+            <id>1001</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <commandName>Form.Command.ИзменитьУсловияОтборов</commandName>
+          <representation>Picture</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>Auto</toolTipRepresentation>
+          <representationInContextMenu>Auto</representationInContextMenu>
+          <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
+        </items>
+        <items xsi:type="form:Button">
+          <name>ПерейтиКНастройкамДляТехническогоСпециалиста</name>
+          <id>1411</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <extendedTooltip>
+            <name>ПерейтиКНастройкамДляТехническогоСпециалистаРасширеннаяПодсказка</name>
+            <id>1412</id>
+            <visible>true</visible>
+            <enabled>true</enabled>
+            <userVisible>
+              <common>true</common>
+            </userVisible>
+            <type>Label</type>
+            <autoMaxWidth>true</autoMaxWidth>
+            <autoMaxHeight>true</autoMaxHeight>
+            <extInfo xsi:type="form:LabelDecorationExtInfo">
+              <horizontalAlign>Left</horizontalAlign>
+            </extInfo>
+          </extendedTooltip>
+          <commandName>Form.Command.ПерейтиКНастройкамДляТехническогоСпециалиста</commandName>
+          <representation>Auto</representation>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <placementArea>UserCmds</placementArea>
+          <toolTipRepresentation>Auto</toolTipRepresentation>
+          <representationInContextMenu>Auto</representationInContextMenu>
+          <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
+        </items>
         <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ИзменитьУсловияОтборовРасширеннаяПодсказка</name>
-          <id>1001</id>
+          <name>ГруппаНастройкаРасширеннаяПодсказка</name>
+          <id>1414</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -9834,13 +9853,43 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
-        <commandName>Form.Command.ИзменитьУсловияОтборов</commandName>
+        <extInfo xsi:type="form:ButtonGroupExtInfo"/>
+      </items>
+      <items xsi:type="form:Button">
+        <name>ИзменитьФорму</name>
+        <id>318</id>
+        <title>
+          <key>ru</key>
+          <value>Изменить форму...</value>
+        </title>
+        <visible>true</visible>
+        <enabled>true</enabled>
+        <userVisible>
+          <common>true</common>
+        </userVisible>
+        <extendedTooltip>
+          <name>ИзменитьФормуРасширеннаяПодсказка</name>
+          <id>319</id>
+          <visible>true</visible>
+          <enabled>true</enabled>
+          <userVisible>
+            <common>true</common>
+          </userVisible>
+          <type>Label</type>
+          <autoMaxWidth>true</autoMaxWidth>
+          <autoMaxHeight>true</autoMaxHeight>
+          <extInfo xsi:type="form:LabelDecorationExtInfo">
+            <horizontalAlign>Left</horizontalAlign>
+          </extInfo>
+        </extendedTooltip>
+        <commandName>Form.StandardCommand.CustomizeForm</commandName>
         <representation>Picture</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
         <placementArea>UserCmds</placementArea>
         <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
       <items xsi:type="form:Button">
         <name>Справка</name>
@@ -9872,6 +9921,7 @@
         <placementArea>UserCmds</placementArea>
         <toolTipRepresentation>Auto</toolTipRepresentation>
         <representationInContextMenu>Auto</representationInContextMenu>
+        <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
       <visible>true</visible>
       <enabled>true</enabled>
@@ -10763,6 +10813,10 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Список1.Check</segments>
           </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>Подключаемый_ПометкаЭлементаСписка_ПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>Список1ПометкаРасширеннаяПодсказка</name>
             <id>1278</id>
@@ -10789,7 +10843,6 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>CheckBoxField</type>
-          <editMode>EnterOnInput</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
@@ -10900,8 +10953,16 @@
         <autoFill>true</autoFill>
       </autoCommandBar>
       <handlers>
+        <event>BeforeAddRow</event>
+        <name>Подключаемый_Список_ПередНачаломДобавления</name>
+      </handlers>
+      <handlers>
         <event>ChoiceProcessing</event>
         <name>Подключаемый_Список_ОбработкаВыбора</name>
+      </handlers>
+      <handlers>
+        <event>BeforeRowChange</event>
+        <name>Подключаемый_Список_ПередНачаломИзменения</name>
       </handlers>
       <handlers>
         <event>OnChange</event>
@@ -11100,6 +11161,10 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Список2.Check</segments>
           </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>Подключаемый_ПометкаЭлементаСписка_ПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>Список2ПометкаРасширеннаяПодсказка</name>
             <id>1299</id>
@@ -11126,7 +11191,6 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>CheckBoxField</type>
-          <editMode>EnterOnInput</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
@@ -11237,8 +11301,16 @@
         <autoFill>true</autoFill>
       </autoCommandBar>
       <handlers>
+        <event>BeforeAddRow</event>
+        <name>Подключаемый_Список_ПередНачаломДобавления</name>
+      </handlers>
+      <handlers>
         <event>ChoiceProcessing</event>
         <name>Подключаемый_Список_ОбработкаВыбора</name>
+      </handlers>
+      <handlers>
+        <event>BeforeRowChange</event>
+        <name>Подключаемый_Список_ПередНачаломИзменения</name>
       </handlers>
       <handlers>
         <event>OnChange</event>
@@ -11437,6 +11509,10 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Список3.Check</segments>
           </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>Подключаемый_ПометкаЭлементаСписка_ПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>Список3ПометкаРасширеннаяПодсказка</name>
             <id>1320</id>
@@ -11463,7 +11539,6 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>CheckBoxField</type>
-          <editMode>EnterOnInput</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
@@ -11574,8 +11649,16 @@
         <autoFill>true</autoFill>
       </autoCommandBar>
       <handlers>
+        <event>BeforeAddRow</event>
+        <name>Подключаемый_Список_ПередНачаломДобавления</name>
+      </handlers>
+      <handlers>
         <event>ChoiceProcessing</event>
         <name>Подключаемый_Список_ОбработкаВыбора</name>
+      </handlers>
+      <handlers>
+        <event>BeforeRowChange</event>
+        <name>Подключаемый_Список_ПередНачаломИзменения</name>
       </handlers>
       <handlers>
         <event>OnChange</event>
@@ -11774,6 +11857,10 @@
           <dataPath xsi:type="form:DataPath">
             <segments>Список4.Check</segments>
           </dataPath>
+          <handlers>
+            <event>OnChange</event>
+            <name>Подключаемый_ПометкаЭлементаСписка_ПриИзменении</name>
+          </handlers>
           <extendedTooltip>
             <name>Список4ПометкаРасширеннаяПодсказка</name>
             <id>1341</id>
@@ -11800,7 +11887,6 @@
             <autoFill>true</autoFill>
           </contextMenu>
           <type>CheckBoxField</type>
-          <editMode>EnterOnInput</editMode>
           <showInHeader>true</showInHeader>
           <headerHorizontalAlign>Left</headerHorizontalAlign>
           <showInFooter>true</showInFooter>
@@ -11911,8 +11997,16 @@
         <autoFill>true</autoFill>
       </autoCommandBar>
       <handlers>
+        <event>BeforeAddRow</event>
+        <name>Подключаемый_Список_ПередНачаломДобавления</name>
+      </handlers>
+      <handlers>
         <event>ChoiceProcessing</event>
         <name>Подключаемый_Список_ОбработкаВыбора</name>
+      </handlers>
+      <handlers>
+        <event>BeforeRowChange</event>
+        <name>Подключаемый_Список_ПередНачаломИзменения</name>
       </handlers>
       <handlers>
         <event>OnChange</event>
@@ -13799,10 +13893,6 @@
     </columns>
     <columns>
       <name>ЛевоеЗначение</name>
-      <title>
-        <key>ru</key>
-        <value>Поле</value>
-      </title>
       <id>25</id>
       <valueType>
         <types>DataCompositionField</types>
@@ -13863,6 +13953,24 @@
       <id>22</id>
       <valueType>
         <types>Boolean</types>
+      </valueType>
+      <view>
+        <common>true</common>
+      </view>
+      <edit>
+        <common>true</common>
+      </edit>
+    </columns>
+    <columns>
+      <name>Поле</name>
+      <title>
+        <key>ru</key>
+        <value>Поле</value>
+      </title>
+      <id>28</id>
+      <valueType>
+        <types>String</types>
+        <stringQualifiers/>
       </valueType>
       <view>
         <common>true</common>
@@ -15716,6 +15824,46 @@
     <representation>Picture</representation>
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
+  <parameters>
+    <name>НастройкиОтчета</name>
+    <valueType/>
+  </parameters>
+  <parameters>
+    <name>ВариантНаименование</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>Заголовок</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ТипЭлементаСтруктурыНастроек</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
+  <parameters>
+    <name>ИдентификаторЭлементаСтруктурыНастроек</name>
+    <valueType/>
+  </parameters>
+  <parameters>
+    <name>Вариант</name>
+    <valueType/>
+  </parameters>
+  <parameters>
+    <name>ИмяСтраницы</name>
+    <valueType>
+      <types>String</types>
+      <stringQualifiers/>
+    </valueType>
+  </parameters>
   <commandInterface>
     <navigationPanel/>
     <commandBar/>

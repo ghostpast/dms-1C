@@ -3118,15 +3118,16 @@
         <locationInCommandBar>InAdditionalSubmenu</locationInCommandBar>
       </items>
       <items xsi:type="form:Button">
-        <name>ПроверитьЦиклВПорядкеОбработчиков</name>
-        <id>194</id>
+        <name>УстановитьАвтоПорядок</name>
+        <id>257</id>
+        <visible>true</visible>
         <enabled>true</enabled>
         <userVisible>
           <common>true</common>
         </userVisible>
         <extendedTooltip>
-          <name>ПроверитьЦиклВПорядкеОбработчиковРасширеннаяПодсказка</name>
-          <id>195</id>
+          <name>УстановитьАвтоПорядокРасширеннаяПодсказка</name>
+          <id>258</id>
           <visible>true</visible>
           <enabled>true</enabled>
           <userVisible>
@@ -3139,7 +3140,7 @@
             <horizontalAlign>Left</horizontalAlign>
           </extInfo>
         </extendedTooltip>
-        <commandName>Form.Command.ПроверитьЦиклВПорядкеОбработчиков</commandName>
+        <commandName>Form.Command.УстановитьАвтоПорядок</commandName>
         <representation>Auto</representation>
         <autoMaxWidth>true</autoMaxWidth>
         <autoMaxHeight>true</autoMaxHeight>
@@ -3819,27 +3820,6 @@
     <currentRowUse>Auto</currentRowUse>
   </formCommands>
   <formCommands>
-    <name>ПроверитьЦиклВПорядкеОбработчиков</name>
-    <title>
-      <key>ru</key>
-      <value>Есть цикл в порядке обработчиков</value>
-    </title>
-    <id>10</id>
-    <toolTip>
-      <key>ru</key>
-      <value>Проверить цикл в порядке обработчиков</value>
-    </toolTip>
-    <use>
-      <common>true</common>
-    </use>
-    <action xsi:type="form:FormCommandHandlerContainer">
-      <handler>
-        <name>ПроверитьЦиклВПорядкеОбработчиков</name>
-      </handler>
-    </action>
-    <currentRowUse>Auto</currentRowUse>
-  </formCommands>
-  <formCommands>
     <name>РассчитатьОчередь</name>
     <title>
       <key>ru</key>
@@ -4120,6 +4100,27 @@
     <action xsi:type="form:FormCommandHandlerContainer">
       <handler>
         <name>ЗагрузитьИзФайла</name>
+      </handler>
+    </action>
+    <currentRowUse>Auto</currentRowUse>
+  </formCommands>
+  <formCommands>
+    <name>УстановитьАвтоПорядок</name>
+    <title>
+      <key>ru</key>
+      <value>Установить автопорядок</value>
+    </title>
+    <id>24</id>
+    <toolTip>
+      <key>ru</key>
+      <value>Установить авто порядок</value>
+    </toolTip>
+    <use>
+      <common>true</common>
+    </use>
+    <action xsi:type="form:FormCommandHandlerContainer">
+      <handler>
+        <name>УстановитьАвтоПорядок</name>
       </handler>
     </action>
     <currentRowUse>Auto</currentRowUse>

@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<mdclass:CommonPicture xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="ca275061-7de3-4a5e-b23b-20ad7ffef20e">
+  <name>МетаданныеРегламентныеЗадания</name>
+  <synonym>
+    <key>ru</key>
+    <value>Метаданные регламентные задания</value>
+  </synonym>
+</mdclass:CommonPicture>

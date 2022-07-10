@@ -16,6 +16,8 @@
   </synonym>
   <useStandardCommands>true</useStandardCommands>
   <editType>InDialog</editType>
+  <defaultRecordForm>InformationRegister.ОбработчикиОбновления.Form.ФормаЗаписи</defaultRecordForm>
+  <defaultListForm>InformationRegister.ОбработчикиОбновления.Form.ФормаСписка</defaultListForm>
   <standardAttributes>
     <dataHistory>Use</dataHistory>
     <name>Active</name>
@@ -513,4 +515,40 @@
     </fillValue>
     <mainFilter>true</mainFilter>
   </dimensions>
+  <forms uuid="d6d20d2e-ac18-4bed-aa98-2466871996ac">
+    <name>ФормаВыбора</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма выбора</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="53617fbd-4c88-4b13-b3f5-acc78064fdea">
+    <name>ПерезапускОтложенногоОбновления</name>
+    <synonym>
+      <key>ru</key>
+      <value>Перезапуск отложенного обновления</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="fae5d2ca-4a2d-4ba3-945c-d6545a6b57f1">
+    <name>ФормаСписка</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма списка</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
+  <forms uuid="7a043029-1b09-4c11-adfd-9f0588e323e8">
+    <name>ФормаЗаписи</name>
+    <synonym>
+      <key>ru</key>
+      <value>Форма записи</value>
+    </synonym>
+    <usePurposes>PersonalComputer</usePurposes>
+    <usePurposes>MobileDevice</usePurposes>
+  </forms>
 </mdclass:InformationRegister>

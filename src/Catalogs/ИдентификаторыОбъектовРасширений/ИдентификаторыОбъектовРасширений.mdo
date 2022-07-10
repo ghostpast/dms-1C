@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="9f8ce4d5-42cb-4760-8454-50ab9c7c5b51">
+<mdclass:Catalog xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="aa509aa3-dd45-41f3-82c7-59662c2e2c47">
   <producedTypes>
-    <objectType typeId="b59d9ea0-238f-43fc-8f02-23aa83dea230" valueTypeId="acb6cf26-1657-4bcd-ba1c-4886b54f4c1c"/>
-    <refType typeId="4b978704-8a46-4f6e-bdf4-975ada79661b" valueTypeId="c6bbfaee-8e8c-450e-bea5-05b947bbed8f"/>
-    <selectionType typeId="23f6f070-7500-4a94-a1cb-007b5860fcbf" valueTypeId="ff78c080-0365-42ce-bff4-6cb36a70cb3c"/>
-    <listType typeId="15229775-171d-4ddb-b116-abf9d88b14a2" valueTypeId="e976d0cf-3ff1-45d4-905d-f449a5d6c4f5"/>
-    <managerType typeId="d4bd50df-8a0c-4b23-be14-d4de6d950696" valueTypeId="7b4c4bb7-12df-4ba7-bfbc-ac30a9120a76"/>
+    <objectType typeId="48667aa7-1fec-4d7b-b697-2bfe84bbb82b" valueTypeId="ecf58fa9-368c-4018-9007-20a4f3011cdb"/>
+    <refType typeId="65865313-18b1-4bed-be25-40a846eff381" valueTypeId="9de9b40a-aab0-4e65-b2b2-7f30a5611969"/>
+    <selectionType typeId="f50839d7-dacf-415c-abe3-c227faee0cef" valueTypeId="d582da94-823a-4f32-a6cd-f12e38508fe3"/>
+    <listType typeId="22cb44f5-b3cb-4b70-ba63-624c6e2c7526" valueTypeId="92165bd0-01f7-4c59-8d05-b7120957c2b7"/>
+    <managerType typeId="4f5260dc-39f5-4a64-87d7-9d8af5a88594" valueTypeId="c3a2fbdf-fa61-4598-86ae-431bb0dfdd47"/>
   </producedTypes>
   <name>ИдентификаторыОбъектовРасширений</name>
   <synonym>
@@ -137,7 +137,7 @@
   <defaultObjectForm>Catalog.ИдентификаторыОбъектовРасширений.Form.ФормаЭлемента</defaultObjectForm>
   <defaultListForm>Catalog.ИдентификаторыОбъектовРасширений.Form.ФормаСписка</defaultListForm>
   <defaultChoiceForm>Catalog.ИдентификаторыОбъектовРасширений.Form.ФормаСписка</defaultChoiceForm>
-  <attributes uuid="d3ad2516-c732-4f82-ac3c-6a364a3255cd">
+  <attributes uuid="c4552529-e69e-4c5c-bd66-04b2f7dac281">
     <name>ПорядокКоллекции</name>
     <synonym>
       <key>ru</key>
@@ -163,7 +163,7 @@
     <indexing>IndexWithAdditionalOrder</indexing>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="4106e60e-aca7-4c3d-be6e-fbee5671208a">
+  <attributes uuid="381b49ba-793a-4418-9fd4-598844fb72a6">
     <name>Имя</name>
     <synonym>
       <key>ru</key>
@@ -188,7 +188,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="5f4a4c07-2831-469f-af11-235f4d0ba3dc">
+  <attributes uuid="1aee302d-df31-49ea-b542-436dc1d79ae1">
     <name>Синоним</name>
     <synonym>
       <key>ru</key>
@@ -213,7 +213,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="b712a56a-1da2-48c8-9a13-3f09036fdb86">
+  <attributes uuid="593509da-d33c-49ff-a62c-a28cbc4651c1">
     <name>ПолноеИмя</name>
     <synonym>
       <key>ru</key>
@@ -239,7 +239,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="19d6e100-9a53-42eb-8087-fc7daee91798">
+  <attributes uuid="5e346a0b-a322-4565-adb9-70131fb05fa3">
     <name>ПолныйСиноним</name>
     <synonym>
       <key>ru</key>
@@ -264,7 +264,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="e97fc138-e592-4abc-85ec-e563bfd81456">
+  <attributes uuid="9a69c559-194b-4f74-9879-82740260f5f6">
     <name>БезДанных</name>
     <synonym>
       <key>ru</key>
@@ -282,7 +282,7 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="b5beb691-5a56-4ff7-9f00-282c268fd5fe">
+  <attributes uuid="93bf1dcf-670d-4c8b-bdbf-e43c2edf8056">
     <name>ЗначениеПустойСсылки</name>
     <synonym>
       <key>ru</key>
@@ -313,7 +313,7 @@
     <indexing>Index</indexing>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="ded4f52d-d1ef-4866-9d0e-1bdb52ed8a97">
+  <attributes uuid="8a06f980-78f3-42f4-9d96-da2e0f0f36a7">
     <name>КлючОбъектаМетаданных</name>
     <synonym>
       <key>ru</key>
@@ -331,7 +331,7 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="4ff75c80-03b1-4d38-88b6-13c473b0b1ba">
+  <attributes uuid="fee2aa74-7a81-4ab2-a457-2edf8ac1aa2d">
     <name>НоваяСсылка</name>
     <synonym>
       <key>ru</key>
@@ -349,7 +349,7 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="0012d998-ebd9-4949-bc99-04873f6750df">
+  <attributes uuid="2e19fb7b-270f-4181-b4a1-640280bbbc5c">
     <name>ИмяРасширения</name>
     <synonym>
       <key>ru</key>
@@ -363,7 +363,7 @@
     </type>
     <toolTip>
       <key>ru</key>
-      <value>Имя расширения, которому принадлежит объект метаданных, соответствующий идентификатору</value>
+      <value>Имя расширения, которому принадлежит объект метаданных, соответствующий идентификатору объекта метаданных расширения</value>
     </toolTip>
     <minValue xsi:type="core:UndefinedValue"/>
     <maxValue xsi:type="core:UndefinedValue"/>
@@ -373,7 +373,28 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <attributes uuid="118df861-797a-448e-b156-b40b0242b59f">
+  <attributes uuid="3981b13c-f8e1-44cc-a8e8-59ee9635d029">
+    <name>ИдентификаторРасширения</name>
+    <synonym>
+      <key>ru</key>
+      <value>Идентификатор расширения</value>
+    </synonym>
+    <type>
+      <types>String</types>
+      <stringQualifiers>
+        <length>38</length>
+      </stringQualifiers>
+    </type>
+    <toolTip>
+      <key>ru</key>
+      <value>Идентификатор расширения, которому принадлежит объект метаданных, соответствующий идентификатору объекта метаданных расширения</value>
+    </toolTip>
+    <minValue xsi:type="core:UndefinedValue"/>
+    <maxValue xsi:type="core:UndefinedValue"/>
+    <fillValue xsi:type="core:UndefinedValue"/>
+    <dataHistory>Use</dataHistory>
+  </attributes>
+  <attributes uuid="cf69b045-665d-4f6c-827f-5044beacd125">
     <name>ХешСуммаРасширения</name>
     <synonym>
       <key>ru</key>
@@ -393,7 +414,7 @@
     <fullTextSearch>Use</fullTextSearch>
     <dataHistory>Use</dataHistory>
   </attributes>
-  <forms uuid="30638ec4-b636-4835-a8f0-0c753526fe32">
+  <forms uuid="aa773eef-0c4a-49be-9f5e-9131bc041415">
     <name>ФормаСписка</name>
     <synonym>
       <key>ru</key>
@@ -403,7 +424,7 @@
     <usePurposes>PersonalComputer</usePurposes>
     <usePurposes>MobileDevice</usePurposes>
   </forms>
-  <forms uuid="37cf957e-23de-414e-a2ca-c016e67cb9f8">
+  <forms uuid="9b31e474-01d4-4c3b-a633-3a2ff3917d62">
     <name>ФормаЭлемента</name>
     <synonym>
       <key>ru</key>

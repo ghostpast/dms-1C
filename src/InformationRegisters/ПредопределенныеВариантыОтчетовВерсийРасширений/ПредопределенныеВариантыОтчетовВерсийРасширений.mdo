@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="bfe9b382-4828-43ec-818e-cb380f9fe867">
+<mdclass:InformationRegister xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:core="http://g5.1c.ru/v8/dt/mcore" xmlns:mdclass="http://g5.1c.ru/v8/dt/metadata/mdclass" uuid="2a77eb39-0487-4fb0-8d5b-d4a27592ea60">
   <producedTypes>
-    <selectionType typeId="acb0b515-c278-47f4-9ade-325442f22855" valueTypeId="6ad627fb-b1b0-45e0-83f0-684e8065e8e7"/>
-    <listType typeId="c19a8bda-20d5-4a89-94a4-4e2aef48684f" valueTypeId="b4931bc3-4935-4a05-933b-ecbf14a963c4"/>
-    <managerType typeId="49654e10-0997-489c-808a-79c12babaf08" valueTypeId="afee4f61-4ef5-42fd-9f42-ebbf53642bb8"/>
-    <recordSetType typeId="1a6a4c7e-1197-457e-ba1e-3353f937efcb" valueTypeId="535da2bb-d2d4-4896-b19a-f184e012e78d"/>
-    <recordKeyType typeId="125ad1e4-9f16-425c-a6b0-2a187671d875" valueTypeId="aa81545b-8fd1-4018-9ddd-4f7ee264a9fe"/>
-    <recordType typeId="db975493-f524-4757-8fb5-964ab655763d" valueTypeId="5c57f477-7451-4d72-9723-6a068db2b7f9"/>
-    <recordManagerType typeId="789c978c-22ed-420c-bba7-457d76359b34" valueTypeId="8d05ad19-c20d-4b38-88fb-37c8e2fd514b"/>
+    <selectionType typeId="a8e0ed91-51a6-4499-95f7-3b89d9e75b5b" valueTypeId="0ef1f33e-5504-4c3c-bb7e-165c8fbb42ef"/>
+    <listType typeId="b5274f48-6f4e-4f89-b932-eb80da5cb858" valueTypeId="6cc71dbf-d57d-4745-ae80-e554edcb17c7"/>
+    <managerType typeId="f6ce55c6-73ee-4fc6-9695-f63086426b15" valueTypeId="b2dcd7e7-5483-4adb-bfbe-eb2029fe168e"/>
+    <recordSetType typeId="0d6ec72c-124c-47e0-a55e-aed847e8eaad" valueTypeId="933a0e04-0615-41b4-b6c0-2744120abc12"/>
+    <recordKeyType typeId="9a1a6c2c-d3d3-4d51-9547-de7eb4ad3c0b" valueTypeId="88798264-58d3-4af9-ba63-357379722624"/>
+    <recordType typeId="eb275038-cce6-410f-b912-8a2fbb39e43b" valueTypeId="a2ad58d7-b739-4adf-a7f0-2fa1fbac0001"/>
+    <recordManagerType typeId="b3d91532-f9bd-4a60-9365-381e83228d2b" valueTypeId="86ca3ae9-5daa-45d4-9de0-3ab64fa0436b"/>
   </producedTypes>
   <name>ПредопределенныеВариантыОтчетовВерсийРасширений</name>
   <synonym>
@@ -49,7 +49,7 @@
     <maxValue xsi:type="core:UndefinedValue"/>
   </standardAttributes>
   <dataLockControlMode>Managed</dataLockControlMode>
-  <dimensions uuid="9f472efe-d254-4ea5-bd76-8c8b63d15cb5">
+  <dimensions uuid="19a18193-c5d3-4e56-86c5-5a81c525e9ad">
     <name>Отчет</name>
     <synonym>
       <key>ru</key>
@@ -67,7 +67,7 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <dimensions uuid="c5357d90-4285-4d26-ad9a-f8d4d9e85f78">
+  <dimensions uuid="c208fcc0-d7b2-435b-963a-e18c97727f8f">
     <name>Вариант</name>
     <synonym>
       <key>ru</key>
@@ -85,7 +85,7 @@
     <fillValue xsi:type="core:UndefinedValue"/>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <dimensions uuid="ac6c750e-4c74-4a7b-9027-8fdd0a72c59d">
+  <dimensions uuid="ac5db038-8bc3-45ff-9e8d-04ea9fef6d43">
     <name>ВерсияРасширений</name>
     <synonym>
       <key>ru</key>
@@ -108,7 +108,7 @@
     <master>true</master>
     <mainFilter>true</mainFilter>
   </dimensions>
-  <dimensions uuid="c665b8b2-e2bb-4a2d-83ea-5530bc625dc8">
+  <dimensions uuid="bf11f7b1-6332-4499-ba48-b94bc10ef869">
     <name>КлючВарианта</name>
     <synonym>
       <key>ru</key>

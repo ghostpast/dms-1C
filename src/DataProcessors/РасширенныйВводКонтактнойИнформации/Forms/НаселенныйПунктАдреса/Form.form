@@ -126,12 +126,12 @@
           <name>СубъектРФАвтоПодбор</name>
         </handlers>
         <handlers>
-          <event>ChoiceProcessing</event>
-          <name>СубъектРФОбработкаВыбора</name>
-        </handlers>
-        <handlers>
           <event>StartChoice</event>
           <name>СубъектРФНачалоВыбора</name>
+        </handlers>
+        <handlers>
+          <event>ChoiceProcessing</event>
+          <name>СубъектРФОбработкаВыбора</name>
         </handlers>
         <width>30</width>
         <autoMaxWidth>true</autoMaxWidth>
@@ -195,12 +195,12 @@
           <name>РайонАвтоПодбор</name>
         </handlers>
         <handlers>
-          <event>ChoiceProcessing</event>
-          <name>РайонОбработкаВыбора</name>
-        </handlers>
-        <handlers>
           <event>StartChoice</event>
           <name>РайонНачалоВыбора</name>
+        </handlers>
+        <handlers>
+          <event>ChoiceProcessing</event>
+          <name>РайонОбработкаВыбора</name>
         </handlers>
         <width>30</width>
         <autoMaxWidth>true</autoMaxWidth>
@@ -265,12 +265,12 @@
           <name>МуниципальныйРайонАвтоПодбор</name>
         </handlers>
         <handlers>
-          <event>ChoiceProcessing</event>
-          <name>МуниципальныйРайонОбработкаВыбора</name>
-        </handlers>
-        <handlers>
           <event>StartChoice</event>
           <name>МуниципальныйРайонНачалоВыбора</name>
+        </handlers>
+        <handlers>
+          <event>ChoiceProcessing</event>
+          <name>МуниципальныйРайонОбработкаВыбора</name>
         </handlers>
         <width>30</width>
         <autoMaxWidth>true</autoMaxWidth>
@@ -334,12 +334,12 @@
           <name>ПоселениеАвтоПодбор</name>
         </handlers>
         <handlers>
-          <event>ChoiceProcessing</event>
-          <name>ПоселениеОбработкаВыбора</name>
-        </handlers>
-        <handlers>
           <event>StartChoice</event>
           <name>ПоселениеНачалоВыбора</name>
+        </handlers>
+        <handlers>
+          <event>ChoiceProcessing</event>
+          <name>ПоселениеОбработкаВыбора</name>
         </handlers>
         <width>30</width>
         <autoMaxWidth>true</autoMaxWidth>
@@ -403,12 +403,12 @@
           <name>ГородАвтоПодбор</name>
         </handlers>
         <handlers>
-          <event>ChoiceProcessing</event>
-          <name>ГородОбработкаВыбора</name>
-        </handlers>
-        <handlers>
           <event>StartChoice</event>
           <name>ГородНачалоВыбора</name>
+        </handlers>
+        <handlers>
+          <event>ChoiceProcessing</event>
+          <name>ГородОбработкаВыбора</name>
         </handlers>
         <width>30</width>
         <autoMaxWidth>true</autoMaxWidth>
@@ -472,12 +472,12 @@
           <name>ВнутригородскойРайонАвтоПодбор</name>
         </handlers>
         <handlers>
-          <event>ChoiceProcessing</event>
-          <name>ВнутригородскойРайонОбработкаВыбора</name>
-        </handlers>
-        <handlers>
           <event>StartChoice</event>
           <name>ВнутригородскойРайонНачалоВыбора</name>
+        </handlers>
+        <handlers>
+          <event>ChoiceProcessing</event>
+          <name>ВнутригородскойРайонОбработкаВыбора</name>
         </handlers>
         <width>30</width>
         <autoMaxWidth>true</autoMaxWidth>
@@ -541,12 +541,12 @@
           <name>НаселенныйПунктАвтоПодбор</name>
         </handlers>
         <handlers>
-          <event>ChoiceProcessing</event>
-          <name>НаселенныйПунктОбработкаВыбора</name>
-        </handlers>
-        <handlers>
           <event>StartChoice</event>
           <name>НаселенныйПунктНачалоВыбора</name>
+        </handlers>
+        <handlers>
+          <event>ChoiceProcessing</event>
+          <name>НаселенныйПунктОбработкаВыбора</name>
         </handlers>
         <width>30</width>
         <autoMaxWidth>true</autoMaxWidth>
@@ -610,12 +610,12 @@
           <name>ТерриторияАвтоПодбор</name>
         </handlers>
         <handlers>
-          <event>ChoiceProcessing</event>
-          <name>ТерриторияОбработкаВыбора</name>
-        </handlers>
-        <handlers>
           <event>StartChoice</event>
           <name>ТерриторияНачалоВыбора</name>
+        </handlers>
+        <handlers>
+          <event>ChoiceProcessing</event>
+          <name>ТерриторияОбработкаВыбора</name>
         </handlers>
         <width>30</width>
         <autoMaxWidth>true</autoMaxWidth>
@@ -769,16 +769,16 @@
     <horizontalAlign>Right</horizontalAlign>
   </autoCommandBar>
   <handlers>
-    <event>OnCreateAtServer</event>
-    <name>ПриСозданииНаСервере</name>
+    <event>ChoiceProcessing</event>
+    <name>ОбработкаВыбора</name>
   </handlers>
   <handlers>
     <event>OnOpen</event>
     <name>ПриОткрытии</name>
   </handlers>
   <handlers>
-    <event>ChoiceProcessing</event>
-    <name>ОбработкаВыбора</name>
+    <event>OnCreateAtServer</event>
+    <name>ПриСозданииНаСервере</name>
   </handlers>
   <windowOpeningMode>LockOwnerWindow</windowOpeningMode>
   <autoUrl>true</autoUrl>
@@ -1022,6 +1022,19 @@
   <attributes>
     <name>КлассификаторДоступен</name>
     <id>20</id>
+    <valueType>
+      <types>Boolean</types>
+    </valueType>
+    <view>
+      <common>true</common>
+    </view>
+    <edit>
+      <common>true</common>
+    </edit>
+  </attributes>
+  <attributes>
+    <name>ИсключатьГородИзМуниципальногоАдреса</name>
+    <id>21</id>
     <valueType>
       <types>Boolean</types>
     </valueType>
